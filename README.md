@@ -24,6 +24,6 @@ bottom-right corner of any cigarpage.com listing. Drag it, resize the panel
 font, and toggle filters to taste.  
 
     
-## Buy Me A ~~Coffee~~ *Cigar* *<sup>(if you feel like it)</sup>*
+## Buy Me A ~~Coffee~~ **Cigar** *<sup>(if you feel like it)</sup>*
 [![Donate](https://img.shields.io/badge/Donate-PayPal-00457C?logo=paypal&logoColor=white&style=for-the-badge)](https://www.paypal.me/shmshka)  
 <sub>*[paypal.me/shmshka](https://www.paypal.me/shmshka)*</sub>
