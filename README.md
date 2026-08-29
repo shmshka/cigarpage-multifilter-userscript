@@ -25,6 +25,6 @@ font, and toggle filters to taste.
 
     
 ## Buy Me A ~~Coffee~~ *Cigar* (if you feel like it)
-[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/shmshka)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-00457C?logo=paypal&logoColor=white&style=for-the-badge)](https://www.paypal.me/shmshka)
 
 *[paypal.me/shmshka](https://www.paypal.me/shmshka)*
