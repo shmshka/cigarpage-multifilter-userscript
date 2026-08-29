@@ -19,6 +19,5 @@ A userscript that adds a floating filter panel to [cigarpage.com](https://www.ci
 
 ## Usage
 
-Click **Install** on the userscript manager. A floating panel appears in the
-bottom-right corner of any cigarpage.com listing. Drag it, resize the panel
+A floating panel now appears in the bottom-right corner of any cigarpage.com listing. Drag it, resize the panel
 font, and toggle filters to taste.
