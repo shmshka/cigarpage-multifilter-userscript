@@ -14,7 +14,7 @@ A userscript that adds a floating filter panel to [cigarpage.com](https://www.ci
 
 ## Install
 
-1. Install [Violentmonkey](https://violentmonkey.github.io/).=, [Tampermonkey](https://www.tampermonkey.net/), or other userscript manager of your preference.
+1. Install [Violentmonkey](https://violentmonkey.github.io/), [Tampermonkey](https://www.tampermonkey.net/), or other userscript manager of your preference.
 2. Open the [raw userscript](https://github.com/shmshka/cigarpage-multifilter-userscript/raw/main/cigarpage-filter.user.js) and click **Install**.
 
 ## Usage
