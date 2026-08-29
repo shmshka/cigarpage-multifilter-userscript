@@ -28,5 +28,4 @@ font, and toggle filters to taste.
 If this userscript lights your fire, buy me a ~~coffee~~ **cigar**:
 
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/shmshka)
-
 *[paypal.me/shmshka](https://www.paypal.me/shmshka)*
