@@ -23,6 +23,7 @@ Click **Install** on the userscript manager. A floating panel appears in the
 bottom-right corner of any cigarpage.com listing. Drag it, resize the panel
 font, and toggle filters to taste.
 
+
 ## Buy Me A ~~Coffee~~ *Cigar* (if you feel like it)
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/shmshka)
 
