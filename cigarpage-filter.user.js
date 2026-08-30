@@ -3,7 +3,7 @@
 // @namespace    cigarpage-filter
 // @version      1.7.0
 // @description  Floating filter panel for cigarpage.com (grid tables + grouped deal items) — filter by price, gauge, length, Brand, and Pack; brands fold to their parent house so each product belongs to exactly one brand (title first, description as fallback); right-click a brand to preview or permanently purge it
-// @author       You
+// @author       Shmshka
 // @match        https://www.cigarpage.com/*
 // @grant        none
 // @run-at       document-idle
@@ -960,7 +960,8 @@
 #cp-filter-panel.cp-collapsed .cp-tab-bar,
 #cp-filter-panel.cp-collapsed .cp-actions,
 #cp-filter-panel.cp-collapsed .cp-controls,
-#cp-filter-panel.cp-collapsed .cp-tab-content {
+#cp-filter-panel.cp-collapsed .cp-tab-content,
+#cp-filter-panel.cp-collapsed .cp-footer {
   display: none;
 }
 #cp-filter-panel .cp-drag-handle {
@@ -1085,6 +1086,28 @@
   overflow-y: auto;
   max-height: 300px;
   flex: 1;
+}
+#cp-filter-panel .cp-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 5px 8px;
+  border-top: 1px solid #ddd;
+  background: #f5f5f5;
+  flex-shrink: 0;
+  font-size: 10px;
+  line-height: 1;
+}
+#cp-filter-panel .cp-footer a {
+  color: #777;
+  text-decoration: none;
+  font-weight: 600;
+  white-space: nowrap;
+}
+#cp-filter-panel .cp-footer a:hover {
+  color: #1976D2;
+  text-decoration: underline;
 }
 #cp-filter-panel .cp-checkbox-item {
   display: flex;
@@ -1309,6 +1332,24 @@ table.cigar-grid .cigar-details-spacer {
     document.head.appendChild(style);
   }
 
+  function buildFooterLinks() {
+    const footer = document.createElement('div');
+    footer.className = 'cp-footer';
+    const share = document.createElement('a');
+    share.href = 'https://github.com/shmshka/cigarpage-multifilter-userscript';
+    share.target = '_blank';
+    share.rel = 'noopener noreferrer';
+    share.textContent = '\u{1F4E2} Share this script';
+    const buy = document.createElement('a');
+    buy.href = 'https://www.paypal.me/shmshka';
+    buy.target = '_blank';
+    buy.rel = 'noopener noreferrer';
+    buy.textContent = '\u{1F4B8} Buy me a smoke.';
+    footer.appendChild(share);
+    footer.appendChild(buy);
+    return footer;
+  }
+
   function buildPanel() {
     const existing = document.getElementById('cp-filter-panel');
     if (existing) existing.remove();
@@ -1451,6 +1492,7 @@ table.cigar-grid .cigar-details-spacer {
     for (const cfg of TAB_CONFIG) {
       container.appendChild(tabContents[cfg.id]);
     }
+    container.appendChild(buildFooterLinks());
 
     if (state.pos.x !== null && state.pos.y !== null) {
       container.style.left = state.pos.x + 'px';
