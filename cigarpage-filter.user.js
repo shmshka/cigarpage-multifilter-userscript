@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         CigarPage Multi-Filter
 // @namespace    cigarpage-filter
-// @version      1.7.0
-// @description  Floating filter panel for cigarpage.com (grid tables + grouped deal items) — filter by price, gauge, length, Brand, and Pack; brands fold to their parent house so each product belongs to exactly one brand (title first, description as fallback); right-click a brand to preview or permanently purge it
+// @version      1.8.0
+// @description  Floating filter panel for cigarpage.com (grid tables + grouped deal items) — filter by price, gauge, length, Brand, and Pack; brands fold to their parent house so each product belongs to exactly one brand (title first, description as fallback); right-click a brand to preview or permanently purge it; swap secret-sale prices for verified cart-discounted prices from the decoded/ folder on GitHub
 // @author       Shmshka
 // @match        https://www.cigarpage.com/*
 // @grant        none
@@ -929,6 +929,293 @@
     }
   }
 
+  // =========================================================================
+  // Decoded secret-sale prices
+  // -------------------------------------------------------------------------
+  // CigarPage's "secret sales" only reveal the real discount in the cart. The
+  // decoded/ folder in the userscript's GitHub repo holds per-page files with
+  // manually verified cart prices (see the decode-cigarpage-sale skill). This
+  // module fetches the manifest, finds the file matching the current page, and
+  // swaps listed prices for the real ones on demand: the original price is
+  // struck through and the cart price is shown bold purple.
+  // =========================================================================
+
+  const DECODED_BASE_KEY = 'cigarpage-decoded-base';
+  // Production source: decoded/ on the repo's main branch. For local testing
+  // run `node tests/dev/serve-decoded.cjs` and set localStorage key
+  // 'cigarpage-decoded-base' to e.g. 'http://127.0.0.1:8123/decoded'.
+  const DECODED_BASE = 'https://raw.githubusercontent.com/shmshka/cigarpage-multifilter-userscript/main/decoded';
+
+  const decodedState = {
+    status: 'idle', // idle | loading | none | ready | error
+    entries: [],
+    captured: null,
+    active: false,
+    matched: 0,
+    stale: 0,
+    total: 0,
+    error: null,
+  };
+  let decodedButtonEl = null;
+  let decodedStatusEl = null;
+
+  function getDecodedBase() {
+    try {
+      const override = localStorage.getItem(DECODED_BASE_KEY);
+      if (override) return override.replace(/\/+$/, '');
+    } catch (_) {}
+    return DECODED_BASE;
+  }
+
+  // The manifest key is the page URL's last path segment, e.g.
+  // "redux-on-fiver-saleacious.html".
+  function currentPageSlug() {
+    const parts = location.pathname.split('/').filter(Boolean);
+    if (parts.length === 0) return '';
+    try {
+      return decodeURIComponent(parts[parts.length - 1]);
+    } catch (_) {
+      return parts[parts.length - 1];
+    }
+  }
+
+  function requestText(url) {
+    return fetch(url, { cache: 'no-store' }).then(response => {
+      if (!response.ok) throw new Error('HTTP ' + response.status);
+      return response.text();
+    });
+  }
+
+  function decodedEntryMatches(entry, slugLower) {
+    if (String(entry.page || '').toLowerCase() === slugLower) return true;
+    if (String(entry.file || '').toLowerCase() === slugLower + '.txt') return true;
+    if (entry.url) {
+      try {
+        const parts = new URL(entry.url).pathname.split('/').filter(Boolean);
+        const last = parts.length ? decodeURIComponent(parts[parts.length - 1]) : '';
+        return last.toLowerCase() === slugLower;
+      } catch (_) {}
+    }
+    return false;
+  }
+
+  function parseMoneyCell(value) {
+    const match = String(value == null ? '' : value).replace(/,/g, '').match(/-?\d+(\.\d+)?/);
+    return match ? parseFloat(match[0]) : NaN;
+  }
+
+  // The decoded file is tab-delimited: name, pack, page price, discount %,
+  // cart price. The writer pads cells with spaces before each tab, so cells
+  // are trimmed after splitting.
+  function parseDecodedFile(text) {
+    const entries = [];
+    let captured = null;
+    for (const rawLine of text.split('\n')) {
+      const line = rawLine.trim();
+      if (!line) continue;
+      if (line.startsWith('#')) {
+        const capturedMatch = /^#\s*captured:\s*(\S+)/i.exec(line);
+        if (capturedMatch) captured = capturedMatch[1];
+        continue;
+      }
+      const cells = line.split('\t').map(cell => cell.trim());
+      if (cells.length < 5) continue;
+      const name = cells[0];
+      const cartPrice = parseMoneyCell(cells[4]);
+      if (!name || !Number.isFinite(cartPrice)) continue;
+      entries.push({
+        name,
+        pack: cells[1] === '-' ? '' : cells[1],
+        pagePrice: parseMoneyCell(cells[2]),
+        discount: parseMoneyCell(cells[3]),
+        cartPrice,
+      });
+    }
+    return { entries, captured };
+  }
+
+  async function loadDecodedPrices() {
+    const slug = currentPageSlug();
+    if (!slug) return;
+    decodedState.status = 'loading';
+    decodedState.error = null;
+    renderDecodedUi();
+    try {
+      const base = getDecodedBase();
+      const manifestText = await requestText(base + '/index.json?v=' + Date.now());
+      const manifest = JSON.parse(manifestText);
+      const files = Array.isArray(manifest.files) ? manifest.files : [];
+      const slugLower = slug.toLowerCase();
+      const entry = files.find(item => decodedEntryMatches(item, slugLower));
+      if (!entry) {
+        decodedState.status = 'none';
+        renderDecodedUi();
+        return;
+      }
+      const fileText = await requestText(base + '/' + entry.file + '?v=' + Date.now());
+      const parsed = parseDecodedFile(fileText);
+      decodedState.entries = parsed.entries;
+      decodedState.captured = entry.captured || parsed.captured || null;
+      decodedState.status = parsed.entries.length ? 'ready' : 'none';
+    } catch (error) {
+      decodedState.status = 'error';
+      decodedState.error = String((error && error.message) || error);
+      console.log('[CigarPage Filter] decoded prices unavailable:', decodedState.error);
+    }
+    renderDecodedUi();
+    if (decodedState.active) applyDecodedPrices();
+  }
+
+  // Loose comparison key: case, punctuation, and curly quotes/dashes folded
+  // away so page titles and file names match despite typographic differences.
+  function normalizeMatchText(value) {
+    return String(value == null ? '' : value)
+      .toLowerCase()
+      .replace(/[\u2018\u2019\u201A\u201B]/g, "'")
+      .replace(/[\u201C\u201D]/g, '"')
+      .replace(/[\u2010-\u2015]/g, '-')
+      .replace(/[^a-z0-9 ]+/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  // The page side stores packs through normalizePack() already, so the file
+  // side goes through it too before comparing.
+  function decodedPackKey(rawPack) {
+    const normalized = normalizePack(rawPack);
+    return normalized == null ? '' : normalized;
+  }
+
+  function buildDecodedMap() {
+    const map = new Map();
+    for (const entry of decodedState.entries) {
+      const key = normalizeMatchText(entry.name);
+      if (!key) continue;
+      if (!map.has(key)) map.set(key, []);
+      map.get(key).push(entry);
+    }
+    return map;
+  }
+
+  // Returns the decoded entry for a page row, or null. Name is required; pack
+  // must match when both sides have one, so the same cigar in two pack sizes
+  // cannot be confused.
+  function findDecodedEntry(map, data) {
+    const key = normalizeMatchText(data.name);
+    if (!key) return null;
+    const candidates = map.get(key);
+    if (!candidates || candidates.length === 0) return null;
+    const pagePack = data.pack == null ? '' : String(data.pack);
+    for (const candidate of candidates) {
+      const filePack = decodedPackKey(candidate.pack);
+      if (!filePack || !pagePack || filePack === pagePack) return candidate;
+    }
+    return null;
+  }
+
+  function removeDecodedPrices() {
+    for (const node of document.querySelectorAll('.cp-decoded-price')) node.remove();
+    for (const node of document.querySelectorAll('.cp-price-original')) {
+      node.classList.remove('cp-price-original');
+    }
+    decodedState.matched = 0;
+    decodedState.stale = 0;
+  }
+
+  function applyDecodedPrices() {
+    removeDecodedPrices();
+    if (!decodedState.entries.length || rowData.size === 0) {
+      renderDecodedUi();
+      return;
+    }
+    const map = buildDecodedMap();
+    let matched = 0;
+    let stale = 0;
+    for (const [el, entry] of rowData) {
+      const found = findDecodedEntry(map, entry.data);
+      if (!found) continue;
+      const livePrice = entry.data.price;
+      // A decoded row whose recorded page price no longer matches the live
+      // page is stale (the sale changed); leave that row alone and report it.
+      if (Number.isFinite(livePrice) && Number.isFinite(found.pagePrice) &&
+          Math.abs(livePrice - found.pagePrice) > 0.01) {
+        stale++;
+        continue;
+      }
+      let applied = false;
+      for (const priceNode of el.querySelectorAll('span.price')) {
+        if (!priceNode.parentNode) continue;
+        priceNode.classList.add('cp-price-original');
+        const decodedPrice = document.createElement('span');
+        decodedPrice.className = 'cp-decoded-price';
+        decodedPrice.textContent = '$' + found.cartPrice.toFixed(2);
+        decodedPrice.title = (Number.isFinite(found.discount) ? found.discount.toFixed(1) + '% off' : '') ||
+          'cart price';
+        priceNode.parentNode.insertBefore(decodedPrice, priceNode.nextSibling);
+        applied = true;
+      }
+      if (applied) matched++;
+    }
+    decodedState.matched = matched;
+    decodedState.stale = stale;
+    decodedState.total = rowData.size;
+    renderDecodedUi();
+  }
+
+  function toggleDecodedPrices() {
+    if (decodedState.status !== 'ready') return;
+    decodedState.active = !decodedState.active;
+    if (decodedState.active) {
+      applyDecodedPrices();
+    } else {
+      removeDecodedPrices();
+      renderDecodedUi();
+    }
+  }
+
+  function renderDecodedUi() {
+    if (!decodedButtonEl) return;
+    const show = decodedState.status === 'ready';
+    decodedButtonEl.style.display = show ? '' : 'none';
+    decodedButtonEl.classList.toggle('cp-active', decodedState.active);
+    if (!decodedStatusEl) return;
+    if (!show) {
+      decodedStatusEl.style.display = 'none';
+      return;
+    }
+    let text;
+    if (decodedState.active) {
+      const parts = ['Decoded ' + decodedState.matched + '/' + decodedState.total + ' items'];
+      if (decodedState.stale > 0) parts.push(decodedState.stale + ' changed (not replaced)');
+      if (decodedState.captured) parts.push('captured ' + decodedState.captured);
+      text = parts.join(' \u00B7 ');
+    } else {
+      text = 'Ready: ' + decodedState.entries.length + ' decoded prices' +
+        (decodedState.captured ? ' \u00B7 captured ' + decodedState.captured : '');
+    }
+    decodedStatusEl.textContent = text;
+    decodedStatusEl.style.display = '';
+  }
+
+  function buildDecodedUi(container, afterNode) {
+    decodedButtonEl = document.createElement('button');
+    decodedButtonEl.className = 'cp-decoded-btn';
+    decodedButtonEl.textContent = 'Replace prices with cart-discounted prices.';
+    decodedButtonEl.title = 'Swap listed prices for the verified cart prices in the decoded/ folder (click again to restore)';
+    decodedButtonEl.style.display = 'none';
+    decodedButtonEl.addEventListener('click', toggleDecodedPrices);
+    decodedStatusEl = document.createElement('div');
+    decodedStatusEl.className = 'cp-decoded-status';
+    decodedStatusEl.style.display = 'none';
+    if (afterNode.nextSibling) {
+      container.insertBefore(decodedButtonEl, afterNode.nextSibling);
+      container.insertBefore(decodedStatusEl, decodedButtonEl.nextSibling);
+    } else {
+      container.appendChild(decodedButtonEl);
+      container.appendChild(decodedStatusEl);
+    }
+  }
+
   function injectStyles() {
     const style = document.createElement('style');
     style.id = 'cigarpage-filter-styles';
@@ -1328,6 +1615,49 @@ table.cigar-grid .cigar-details.injected_by_userscript {
 table.cigar-grid .cigar-details-spacer {
   height: 0;
 }
+/* Decoded secret-sale prices: the listed price stays, struck through, next to
+   the real cart price. These are applied outside the panel, so they are not
+   nested under #cp-filter-panel. */
+span.cp-price-original {
+  text-decoration: line-through;
+  opacity: 0.65;
+}
+span.cp-decoded-price {
+  font-weight: 700;
+  color: #7B1FA2;
+  margin-left: 4px;
+  white-space: nowrap;
+}
+#cp-filter-panel .cp-decoded-btn {
+  display: block;
+  width: 100%;
+  padding: 6px 8px;
+  cursor: pointer;
+  background: #f3e5f5;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  color: #6a1b9a;
+  font-size: 11px;
+  font-weight: 700;
+  text-align: left;
+}
+#cp-filter-panel .cp-decoded-btn:hover {
+  background: #ede7f6;
+}
+#cp-filter-panel .cp-decoded-btn.cp-active {
+  background: #7B1FA2;
+  color: #fff;
+}
+#cp-filter-panel .cp-decoded-btn.cp-active:hover {
+  background: #6a1b9a;
+}
+#cp-filter-panel .cp-decoded-status {
+  padding: 3px 8px;
+  font-size: 10px;
+  color: #666;
+  background: #faf5ff;
+  border-bottom: 1px solid #eee;
+}
 `;
     document.head.appendChild(style);
   }
@@ -1487,6 +1817,7 @@ table.cigar-grid .cigar-details-spacer {
 
     container.appendChild(dragHandle);
     container.appendChild(tabBar);
+    buildDecodedUi(container, tabBar);
     container.appendChild(actions);
     container.appendChild(controls);
     for (const cfg of TAB_CONFIG) {
@@ -1555,6 +1886,7 @@ table.cigar-grid .cigar-details-spacer {
     updateEnabledToggleUi();
     updateTabCounts();
     applyFontSize();
+    renderDecodedUi();
 
     return container;
   }
@@ -2253,6 +2585,7 @@ table.cigar-grid .cigar-details-spacer {
         applyFilters();
         updateAllCheckboxCounts();
         updateBadgeText();
+        if (decodedState.active) applyDecodedPrices();
       }
     });
     observer.observe(document.body, { childList: true, subtree: true });
@@ -2299,6 +2632,7 @@ table.cigar-grid .cigar-details-spacer {
       updateAllCheckboxCounts();
       updateBadgeText();
       setupObserver();
+      loadDecodedPrices();
       window.addEventListener('resize', () => relayoutInjectedDetails());
     });
   }
