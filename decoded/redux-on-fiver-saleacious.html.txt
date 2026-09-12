@@ -1,0 +1,924 @@
+# CigarPage decoded cart prices
+# page:     https://www.cigarpage.com/redux-on-fiver-saleacious.html
+# captured: 2026-09-12
+# columns:  Name | Pack | Page $ | Discount % | Cart $ (tab-separated)
+Aganorsa Leaf Anniversario Connecticut Box-Pressed Toro              	5-PACK  	$75.61 	30.0%   	$52.93
+Asylum Insidious Maduro 652 Toro                                     	5-PACK  	$41.67 	25.0%   	$31.25
+Asylum Insidious Maduro 748 Churchill                                	5-PACK  	$42.57 	25.0%   	$31.93
+Asylum Nyctophilia Robusto                                           	5-PACK  	$47.97 	25.0%   	$35.98
+Asylum Nyctophilia Toro                                              	5-PACK  	$53.37 	25.0%   	$40.03
+Asylum Nyctophilia Gordo                                             	5-PACK  	$53.37 	25.0%   	$40.03
+Asylum Nyctophilia Super Gordo                                       	5-PACK  	$57.87 	25.0%   	$43.40
+Asylum 13 Pandemonium 8.5x52                                         	5 CIGARS	$61.02 	25.0%   	$45.76
+Asylum 13 Pandemonium 8.5x60                                         	5 CIGARS	$66.42 	25.0%   	$49.81
+Asylum 13 Pandemonium 8.5x70                                         	5 CIGARS	$70.92 	25.0%   	$53.19
+Asylum Serenity Now 654 CT                                           	5 CIGARS	$49.95 	25.0%   	$37.46
+Asylum Serenity Now 660 CT                                           	5 CIGARS	$54.45 	25.0%   	$40.84
+Asylum 867 Zero Robusto                                              	5-PACK  	$51.30 	25.0%   	$38.47
+Asylum 867 Zero Toro                                                 	5-PACK  	$53.55 	25.0%   	$40.16
+Asylum 867 Zero Churchill                                            	5-PACK  	$55.80 	25.0%   	$41.85
+Asylum Arabian Nights 50x5                                           	5-PACK  	$64.88 	25.0%   	$48.66
+Asylum Arabian Nights 54x6 Belicoso                                  	5-PACK  	$69.20 	25.0%   	$51.90
+Asylum Arabian Nights 60x6                                           	5-PACK  	$73.53 	25.0%   	$55.15
+Asylum Arabian Nights 70x7                                           	5-PACK  	$77.85 	25.0%   	$58.39
+Avo Classic Maduro #3 Churchill                                      	5-PACK  	$59.30 	25.0%   	$44.47
+Avo Classic No. 9 Corona Extra                                       	5-PACK  	$48.23 	25.0%   	$36.17
+Avo Classic Robusto                                                  	5 CIGARS	$50.89 	25.0%   	$38.17
+Avo Classic Robusto Tubo                                             	5-PACK  	$53.99 	25.0%   	$40.49
+Avo Classic No. 2 Toro                                               	5-PACK  	$57.08 	40.0%   	$34.25
+Avo Classic No. 2 Toro Tubo                                          	5-PACK  	$59.30 	30.0%   	$41.51
+Avo Classic No. 6 Gordo                                              	5-PACK  	$59.30 	40.0%   	$35.58
+Avo Classic No. 3 Double Corona                                      	5-PACK  	$59.30 	40.0%   	$35.58
+Avo Expresivo Robusto                                                	5-PACK  	$70.80 	30.0%   	$49.56
+Avo Expresivo Churchill                                              	5-PACK  	$76.55 	30.0%   	$53.58
+Avo Expresivo Toro                                                   	5-PACK  	$78.76 	30.0%   	$55.13
+Avo Heritage Robusto                                                 	5-PACK  	$50.89 	40.0%   	$30.53
+Avo Heritage Toro                                                    	5-PACK  	$55.31 	25.0%   	$41.48
+Avo Heritage Special Toro                                            	5-PACK  	$59.74 	25.0%   	$44.80
+Avo Syncro Caribe Robusto                                            	5-PACK  	$59.74 	40.0%   	$35.84
+Avo Syncro Caribe Toro                                               	5-PACK  	$65.05 	25.0%   	$48.79
+Avo Syncro Caribe Special Toro                                       	5-PACK  	$70.36 	25.0%   	$52.77
+Avo Syncro Nicaragua Fogata Robusto                                  	5-PACK  	$53.99 	25.0%   	$40.49
+Avo Syncro Nicaragua Fogata Special Toro                             	5-PACK  	$65.05 	25.0%   	$48.79
+Avo Syncro Nicaragua Robusto                                         	5-PACK  	$53.99 	40.0%   	$32.39
+Avo Syncro Nicaragua Toro                                            	5-PACK  	$59.74 	40.0%   	$35.84
+Avo Syncro Nicaragua Toro Tubo                                       	5-PACK  	$65.05 	25.0%   	$48.79
+Avo Syncro Nicaragua Special Toro                                    	5-PACK  	$65.05 	40.0%   	$39.03
+Avo Syncro South America Ritmo Robusto                               	5-PACK  	$59.74 	25.0%   	$44.80
+Avo Syncro South America Ritmo Special Toro                          	5-PACK  	$70.36 	25.0%   	$52.77
+Avo Syncro South America Ritmo Torpedo Largo                         	5-PACK  	$75.67 	25.0%   	$56.75
+Avo XO Intermezzo                                                    	5-PACK  	$59.30 	40.0%   	$35.58
+Avo XO Intermezzo Tubo                                               	5-PACK  	$61.95 	25.0%   	$46.46
+Avo XO Legato                                                        	5-PACK  	$62.84 	40.0%   	$37.70
+Avo XO Maestoso                                                      	5-PACK  	$65.93 	25.0%   	$49.45
+Caldwell 22 Minutes to Midnight Connecticut Radiante Robusto         	5-PACK  	$93.98 	35.0%   	$61.09
+Caldwell 22 Minutes to Midnight RC Edition Connecticut Corona Gorda  	5-PACK  	$71.60 	35.0%   	$46.54
+Caldwell 22 Minutes to Midnight RC Edition Habano Corona Gorda       	5-PACK  	$71.60 	35.0%   	$46.54
+Caldwell 22 Minutes to Midnight TB Edition Criollo Classico Robusto  	5-PACK  	$87.26 	35.0%   	$56.72
+Caldwell 22 Minutes to Midnight San Andres Robusto                   	5-PACK  	$87.26 	35.0%   	$56.72
+Caldwell 22 Minutes to Midnight TB Edition Criollo Classico Toro     	5-PACK  	$82.79 	35.0%   	$53.81
+Caldwell 22 Minutes to Midnight Maduro Toro                          	5-PACK  	$82.79 	35.0%   	$53.81
+Caldwell Anastasia 2022 Kartel                                       	5-PACK  	$105.16	35.0%   	$68.35
+Caldwell Blind Man's Bluff Connecticut Robusto                       	5-PACK  	$49.36 	35.0%   	$32.08
+Caldwell Blind Man's Bluff Connecticut Toro                          	5-PACK  	$55.22 	35.0%   	$35.89
+Caldwell Blind Man's Bluff Connecticut Magnum                        	5-PACK  	$61.08 	35.0%   	$39.70
+Caldwell Blind Man's Bluff Maduro Robusto                            	5-PACK  	$49.36 	35.0%   	$32.08
+Caldwell Blind Man's Bluff Maduro Toro                               	5-PACK  	$55.22 	45.0%   	$30.37
+Caldwell Blind Man's Bluff Nicaragua Robusto                         	5-PACK  	$49.36 	35.0%   	$32.08
+Caldwell Blind Man's Bluff Nicaragua Magnum                          	5-PACK  	$61.08 	35.0%   	$39.70
+Caldwell Blind Man's Bluff Robusto                                   	5-PACK  	$49.36 	35.0%   	$32.08
+Caldwell Blind Man's Bluff Toro                                      	5-PACK  	$55.22 	35.0%   	$35.89
+Caldwell Blind Man's Bluff Magnum                                    	5-PACK  	$61.08 	35.0%   	$39.70
+Caldwell Eastern Standard Corretto                                   	5-PACK  	$63.63 	45.0%   	$35.00
+Caldwell Eastern Standard Euro Express                               	5-PACK  	$57.77 	35.0%   	$37.55
+Caldwell Eastern Standard Cypress Room Super Toro                    	5-PACK  	$78.31 	45.0%   	$43.07
+Caldwell King is Dead Premier                                        	5-PACK  	$57.77 	35.0%   	$37.55
+Caldwell Long Live The King Mad MoFo Magnum Maduro                   	5-PACK  	$76.61 	45.0%   	$42.14
+Caldwell Long Live The King Petit Double Wide Short Churchill        	5-PACK  	$68.51 	35.0%   	$44.53
+Caldwell Long Live the Queen Maduro Queen's Coronet                  	5-PACK  	$72.85 	45.0%   	$40.07
+Caldwell Long Live the Queen Maduro Queen's Crest                    	5-PACK  	$69.32 	35.0%   	$45.06
+Caldwell Long Live the Queen Maduro Queen's Chalice 5pk              	5-PACK  	$82.25 	35.0%   	$53.46
+Caldwell Long Live the Queen Maduro Queen's Charge                   	5-PACK  	$88.11 	35.0%   	$57.27
+Caldwell Long Live the Queen Queen's Court 5pk                       	5-PACK  	$77.06 	45.0%   	$42.38
+Caldwell Long Live the Queen Ace of Hearts Box-Pressed               	5-PACK  	$98.67 	35.0%   	$64.14
+Caldwell Long Live the Queen Queen's Club                            	5-PACK  	$86.95 	45.0%   	$47.82
+Caldwell Long Live the Queen Queen's Sword                           	5-PACK  	$79.88 	45.0%   	$43.93
+Camacho Broadleaf Robusto                                            	5-PACK  	$43.37 	25.0%   	$32.53
+Camacho Broadleaf Toro                                               	5-PACK  	$45.58 	40.0%   	$27.35
+Camacho Broadleaf Gordo                                              	5-PACK  	$49.12 	25.0%   	$36.84
+Camacho Connecticut Robusto                                          	5-PACK  	$43.37 	40.0%   	$26.02
+Camacho Connecticut Robusto Tubos                                    	5-PACK  	$45.58 	25.0%   	$34.18
+Camacho Connecticut Toro                                             	5-PACK  	$45.58 	40.0%   	$27.35
+Camacho Connecticut 60/6                                             	5-PACK  	$49.12 	25.0%   	$36.84
+Camacho Connecticut Churchill                                        	5-PACK  	$46.46 	40.0%   	$27.88
+Camacho Connecticut BXP Toro                                         	5-PACK  	$45.32 	25.0%   	$33.99
+Camacho Corojo Robusto                                               	5-PACK  	$43.37 	40.0%   	$26.02
+Camacho Corojo Robusto Tubos                                         	5-PACK  	$45.58 	25.0%   	$34.18
+Camacho Corojo Toro                                                  	5-PACK  	$45.58 	40.0%   	$27.35
+Camacho Corojo Gordo                                                 	5-PACK  	$49.12 	25.0%   	$36.84
+Camacho Corojo Churchill                                             	5-PACK  	$46.46 	40.0%   	$27.88
+Camacho Ecuador Robusto                                              	5-PACK  	$43.37 	40.0%   	$26.02
+Camacho Ecuador Toro                                                 	5-PACK  	$45.58 	40.0%   	$27.35
+Camacho Ecuador Gordo                                                	5-PACK  	$49.12 	25.0%   	$36.84
+Camacho Ecuador Churchill                                            	5-PACK  	$46.46 	25.0%   	$34.84
+Camacho Ecuador BXP Toro                                             	5-PACK  	$45.32 	25.0%   	$33.99
+Camacho Nicaragua Robusto                                            	5-PACK  	$43.37 	40.0%   	$26.02
+Camacho Nicaragua Toro                                               	5-PACK  	$45.58 	25.0%   	$34.18
+Camacho Nicaragua Churchill                                          	5-PACK  	$47.79 	25.0%   	$35.84
+Camacho Triple Maduro Robusto                                        	5-PACK  	$53.99 	40.0%   	$32.39
+Camacho Triple Maduro Toro                                           	5-PACK  	$57.97 	25.0%   	$43.48
+CLE 25th Anniversary Robusto                                         	5-PACK  	$83.07 	25.0%   	$62.30
+CLE 25th Anniversary 11/18                                           	5-PACK  	$92.97 	25.0%   	$69.73
+CLE 25th Anniversary Toro                                            	5-PACK  	$88.47 	25.0%   	$66.35
+CLE 25th Anniversary Gordo                                           	5-PACK  	$92.97 	25.0%   	$69.73
+CLE Connecticut Robusto                                              	5-PACK  	$49.77 	25.0%   	$37.33
+CLE Connecticut 11/18                                                	5-PACK  	$52.92 	25.0%   	$39.69
+CLE Connecticut Toro                                                 	5-PACK  	$53.82 	25.0%   	$40.36
+CLE Connecticut Gordo                                                	5-PACK  	$55.17 	25.0%   	$41.38
+CLE Corojo 550 Robusto                                               	5-PACK  	$49.77 	25.0%   	$37.33
+CLE Habano Robusto                                                   	5-PACK  	$49.77 	25.0%   	$37.33
+CLE Habano 11/18                                                     	5-PACK  	$52.92 	25.0%   	$39.69
+CLE Habano 654 Toro                                                  	5-PACK  	$53.82 	25.0%   	$40.36
+CLE Habano Gordo                                                     	5-PACK  	$55.17 	25.0%   	$41.38
+CLE Maduro 654 Toro                                                  	5-PACK  	$53.52 	25.0%   	$40.14
+Crowned Heads Broadway Robusto Extra                                 	5-PACK  	$49.29 	25.0%   	$36.97
+Crowned Heads Broadway Epicure                                       	5-PACK  	$52.59 	25.0%   	$39.44
+Crowned Heads Broadway Toro                                          	5-PACK  	$53.42 	25.0%   	$40.06
+Crowned Heads Jericho Hill OBS                                       	5-PACK  	$41.25 	30.0%   	$28.87
+Crowned Heads Jericho Hill Jack Brown                                	5-PACK  	$45.38 	25.0%   	$34.03
+Crowned Heads Juarez OBS                                             	5-PACK  	$28.67 	30.0%   	$20.07
+Crowned Heads Juarez Jack Brown                                      	5-PACK  	$32.79 	25.0%   	$24.59
+Crowned Heads Juarez Willy Lee                                       	5-PACK  	$36.92 	30.0%   	$25.84
+Crowned Heads La Imperiosa Magicos                                   	5-PACK  	$44.34 	30.0%   	$31.04
+Crowned Heads La Imperiosa Corona Gorda 5pk                          	5-PACK  	$42.28 	25.0%   	$31.71
+Crowned Heads La Imperiosa Double Robusto                            	5-PACK  	$46.41 	30.0%   	$32.49
+Crowned Heads Tennessee Waltz Corona Gorda                           	5-PACK  	$45.17 	20.0%   	$36.14
+Crowned Heads Tennessee Waltz Toro                                   	5-PACK  	$53.42 	20.0%   	$42.74
+Crowned Heads Mil Dias Topes Pigtail                                 	5-PACK  	$50.53 	25.0%   	$37.90
+Crowned Heads Mil Dias Edmundo 5pk                                   	5-PACK  	$45.17 	30.0%   	$31.62
+Crowned Heads Mil Dias Corona Gorda                                  	5-PACK  	$41.04 	25.0%   	$30.78
+Crowned Heads Mil Dias Sublime                                       	5-PACK  	$51.56 	25.0%   	$38.67
+Crowned Heads Mil Dias Double Robusto                                	5-PACK  	$48.47 	30.0%   	$33.93
+Crowned Heads Mil Dias MADURO Edmundo 5pk                            	5-PACK  	$45.17 	30.0%   	$31.62
+Crowned Heads Mil Dias MADURO Sublime 5pk                            	5-PACK  	$51.56 	30.0%   	$36.09
+Don Diego Robusto                                                    	5-PACK  	$30.56 	20.0%   	$24.45
+Don Diego Churchill                                                  	5-PACK  	$39.30 	15.0%   	$33.40
+E.P. Carrillo Ascend Saddle                                          	5-PACK  	$51.00 	30.0%   	$35.70
+E.P. Carrillo Ascend Peak                                            	5-PACK  	$59.80 	30.0%   	$41.86
+E.P. Carrillo Allegiance Sidekick                                    	5-PACK  	$53.60 	30.0%   	$37.52
+E.P. Carrillo Allegiance Confidant                                   	5-PACK  	$57.60 	30.0%   	$40.32
+E.P. Carrillo Allegiance Chaperone                                   	5-PACK  	$62.80 	30.0%   	$43.96
+E.P. Carrillo Allegiance Wingman                                     	5-PACK  	$60.80 	30.0%   	$42.56
+E.P. Carrillo Encore Majestic                                        	5-PACK  	$56.60 	35.0%   	$36.79
+E.P. Carrillo Encore Celestial                                       	5-PACK  	$57.60 	35.0%   	$37.44
+E.P. Carrillo Encore Valientes                                       	5-PACK  	$59.60 	25.0%   	$44.70
+E.P. Carrillo Encore El Primero                                      	5-PACK  	$59.00 	25.0%   	$44.25
+E.P. Carrillo Endure Robusto                                         	5-PACK  	$72.00 	15.0%   	$61.20
+E.P. Carrillo Endure Corona Gorda                                    	5-PACK  	$72.00 	15.0%   	$61.20
+E.P. Carrillo Endure Cameroon Toro                                   	5-PACK  	$80.00 	15.0%   	$68.00
+E.P. Carrillo Essence Connecticut Robusto                            	5-PACK  	$37.00 	15.0%   	$31.45
+E.P. Carrillo Essence Connecticut Corona                             	5-PACK  	$35.00 	15.0%   	$29.75
+E.P. Carrillo Essence Connecticut Toro                               	5-PACK  	$40.00 	35.0%   	$26.00
+E.P. Carrillo Essence Honduras Robusto                               	5-PACK  	$39.00 	35.0%   	$25.35
+E.P. Carrillo Essence Honduras Toro                                  	5-PACK  	$42.00 	35.0%   	$27.30
+E.P. Carrillo Essence Honduras Gordo                                 	5-PACK  	$45.00 	20.0%   	$36.00
+E.P. Carrillo Essence Maduro Robusto                                 	5-PACK  	$39.00 	35.0%   	$25.35
+E.P. Carrillo Essence Maduro Toro                                    	5-PACK  	$42.00 	35.0%   	$27.30
+E.P. Carrillo Essence Maduro Gordo                                   	5-PACK  	$45.00 	20.0%   	$36.00
+E.P. Carrillo Essence Sumatra Robusto                                	5-PACK  	$39.00 	35.0%   	$25.35
+E.P. Carrillo Essence Sumatra Toro                                   	5-PACK  	$42.00 	35.0%   	$27.30
+E.P. Carrillo Essence Sumatra Gordo                                  	5-PACK  	$45.00 	20.0%   	$36.00
+E.P. Carrillo Inch Maduro No. 62                                     	5-PACK  	$47.40 	35.0%   	$30.81
+E.P. Carrillo Inch Maduro No. 64 5pk                                 	5-PACK  	$57.60 	25.0%   	$43.20
+E.P. Carrillo Inch Maduro No. 70                                     	5-PACK  	$66.00 	25.0%   	$49.50
+E.P. Carrillo Inch Nicaragua No. 62                                  	5-PACK  	$47.40 	25.0%   	$35.55
+E.P. Carrillo Inch Nicaragua No. 70                                  	5-PACK  	$66.00 	25.0%   	$49.50
+E.P. Carrillo Inch No. 62                                            	5-PACK  	$44.40 	35.0%   	$28.86
+E.P. Carrillo Inch No. 60                                            	5-PACK  	$47.40 	35.0%   	$30.81
+E.P. Carrillo Inch No. 64                                            	5-PACK  	$54.60 	25.0%   	$40.95
+E.P. Carrillo Inch No. 70                                            	5-PACK  	$62.80 	25.0%   	$47.10
+E.P. Carrillo La Historia El Senador                                 	5-PACK  	$56.60 	35.0%   	$36.79
+E.P. Carrillo La Historia Regalias D'celia                           	5-PACK  	$59.60 	25.0%   	$44.70
+E.P. Carrillo La Historia Dona Elena                                 	5-PACK  	$57.60 	35.0%   	$37.44
+E.P. Carrillo La Historia E-III                                      	5-PACK  	$59.00 	25.0%   	$44.25
+E.P. Carrillo New Wave Connecticut Brillantes                        	5-PACK  	$34.00 	35.0%   	$22.10
+E.P. Carrillo New Wave Connecticut Stellas                           	5-PACK  	$28.80 	25.0%   	$21.60
+E.P. Carrillo New Wave Connecticut Divinos                           	5-PACK  	$38.00 	35.0%   	$24.70
+E.P. Carrillo New Wave Connecticut El Decano                         	5-PACK  	$44.00 	25.0%   	$33.00
+E.P. Carrillo Pledge Prequel Robusto                                 	5-PACK  	$53.60 	25.0%   	$40.20
+E.P. Carrillo Pledge Sojourn Toro                                    	5-PACK  	$57.60 	35.0%   	$37.44
+E.P. Carrillo Pledge Apogee Toro Grande                              	5-PACK  	$65.00 	25.0%   	$48.75
+Eiroa CBT 550                                                        	5-PACK  	$66.87 	25.0%   	$50.15
+Eiroa CBT 660                                                        	5-PACK  	$76.77 	25.0%   	$57.58
+Eiroa Classic 550                                                    	5-PACK  	$66.87 	25.0%   	$50.15
+Eiroa Classic 660                                                    	5-PACK  	$76.77 	25.0%   	$57.58
+Eiroa Classic Lancero                                                	5-PACK  	$71.37 	25.0%   	$53.53
+Eiroa The First 20 Years 550                                         	5-PACK  	$72.27 	25.0%   	$54.20
+Eiroa The First 20 Years 660                                         	5-PACK  	$82.17 	25.0%   	$61.63
+El Mago Disco Tubos                                                  	5-PACK  	$70.70 	25.0%   	$53.02
+El Mago El Cubano Tubos                                              	5-PACK  	$57.28 	25.0%   	$42.96
+El Mago Jaguar Tubos                                                 	5-PACK  	$82.78 	25.0%   	$62.08
+El Mago James Avenue Connecticut                                     	5-PACK  	$49.22 	25.0%   	$36.91
+El Mago James Avenue Habano                                          	5-PACK  	$49.22 	25.0%   	$36.91
+El Mago James Avenue Maduro                                          	5-PACK  	$49.22 	25.0%   	$36.91
+El Mago James Avenue Sumatra                                         	5-PACK  	$49.22 	25.0%   	$36.91
+El Mago Lotus Tubos Lancero                                          	5-PACK  	$60.86 	25.0%   	$45.64
+El Mago Miami Art Deco Edition Tubos                                 	5-PACK  	$60.86 	25.0%   	$45.64
+El Mago Mistico                                                      	5-PACK  	$46.54 	25.0%   	$34.90
+El Mago Pepe Maduro Tubos                                            	5-PACK  	$73.83 	25.0%   	$55.37
+El Mago Renegade Maduro Tubos                                        	5-PACK  	$78.31 	25.0%   	$58.73
+El Mago Triunfante Connecticut Tubos                                 	5-PACK  	$60.86 	25.0%   	$45.64
+Espinosa 601 Blue Label Maduro Torpedo 5pk                           	5-PACK  	$46.31 	20.0%   	$37.05
+601 Green Label Oscuro Corona                                        	5-PACK  	$34.31 	25.0%   	$25.73
+601 Green Label Oscuro Tronco                                        	5-PACK  	$41.81 	25.0%   	$31.36
+601 Green Label Oscuro La Fuerza                                     	5-PACK  	$45.34 	25.0%   	$34.00
+601 Green Label Oscuro La Punta                                      	5-PACK  	$45.34 	25.0%   	$34.00
+601 Green Label Oscuro Trabuco                                       	5-PACK  	$46.88 	25.0%   	$35.16
+601 La Bomba Napalm                                                  	5-PACK  	$40.69 	30.0%   	$28.48
+601 La Bomba F-BOMB                                                  	5-PACK  	$55.69 	20.0%   	$44.55
+601 Red Label Habano Toro                                            	5-PACK  	$39.34 	20.0%   	$31.47
+Espinosa 601 Red Label Habano Trabuco                                	5-PACK  	$43.13 	25.0%   	$32.35
+Espinosa Crema Rabito                                                	5-PACK  	$41.96 	25.0%   	$31.47
+Espinosa Crema Toro Grande No.5                                      	5-PACK  	$47.81 	25.0%   	$35.86
+Espinosa Habano No. 4 Robusto                                        	5-PACK  	$39.94 	30.0%   	$27.96
+Espinosa Habano Toro Box-Press                                       	5-PACK  	$44.21 	25.0%   	$33.16
+Espinosa Habano No. 8 Gordo                                          	5-PACK  	$43.46 	25.0%   	$32.59
+Espinosa Knuckle Sandwich CT Robusto J                               	5-PACK  	$59.40 	25.0%   	$44.55
+Espinosa Knuckle Sandwich (RED) HAB. Robusto J 5pk                   	5-PACK  	$59.40 	25.0%   	$44.55
+Espinosa Knuckle Sandwich Puro Nicaragua Habano Robusto              	5-PACK  	$57.20 	25.0%   	$42.90
+Espinosa Knuckle Sandwich (WHITE) CT Toro H 5pk                      	5-PACK  	$63.56 	25.0%   	$47.67
+Espinosa Knuckle Sandwich Habano Toro H                              	5-PACK  	$63.56 	25.0%   	$47.67
+Espinosa Knuckle Sandwich Maduro Toro H                              	5-PACK  	$65.80 	25.0%   	$49.35
+Espinosa Knuckle Sandwich (BROWN) Puro Nicaragua HAB. Toro 5pk       	5-PACK  	$61.56 	25.0%   	$46.17
+Espinosa Knuckle Sandwich Habano Gordo                               	5-PACK  	$65.60 	25.0%   	$49.20
+Espinosa Knuckle Sandwich CT Short Churchill G                       	5-PACK  	$61.00 	25.0%   	$45.75
+Espinosa Laranja Azulejo Corona Gorda                                	5-PACK  	$49.69 	25.0%   	$37.27
+Espinosa Laranja Azulejo Robusto Extra                               	5-PACK  	$53.81 	25.0%   	$40.36
+Espinosa Laranja Azulejo Toro 5pk                                    	5-PACK  	$55.69 	25.0%   	$41.77
+Espinosa Laranja Azulejo Gordo                                       	5-PACK  	$58.69 	25.0%   	$44.02
+Espinosa Laranja Reserva ESCURO Lancero 5pk                          	5-PACK  	$50.63 	25.0%   	$37.97
+Espinosa Laranja Reserva Escuro Gordo                                	5-PACK  	$58.69 	25.0%   	$44.02
+Espinosa Sumatra Robusto                                             	5-PACK  	$44.96 	25.0%   	$33.72
+Espinosa Sumatra Toro                                                	5-PACK  	$47.44 	25.0%   	$35.58
+Espinosa Sumatra Gordo                                               	5-PACK  	$49.31 	25.0%   	$36.98
+Esteban Carreras 10 Anos Maduro Robusto                              	5-PACK  	$38.67 	35.0%   	$25.14
+Esteban Carreras 10 Anos Maduro Toro                                 	5-PACK  	$40.46 	35.0%   	$26.30
+Esteban Carreras 10 Anos Maduro Torpedo                              	5-PACK  	$49.30 	35.0%   	$32.04
+Esteban Carreras Bloodline Habano Gordito                            	5-PACK  	$46.75 	35.0%   	$30.39
+Esteban Carreras Bloodline Habano Vestage                            	5-PACK  	$46.75 	25.0%   	$35.06
+Esteban Carreras Bloodline Maduro Brunette Big Toro                  	5-PACK  	$51.42 	35.0%   	$33.42
+Esteban Carreras Cashmere Churchill                                  	5-PACK  	$42.50 	35.0%   	$27.62
+Esteban Carreras Cashmere Torpedo                                    	5-PACK  	$42.50 	35.0%   	$27.62
+Esteban Carreras Cashmere Sixty                                      	5-PACK  	$44.62 	35.0%   	$29.00
+Esteban Carreras Chupacabra 10th Anniversary Toro                    	5-PACK  	$45.00 	20.0%   	$36.00
+Esteban Carreras Chupacabra Habano Toro                              	5-PACK  	$34.42 	35.0%   	$22.37
+Esteban Carreras Chupacabra Habano Sixty                             	5-PACK  	$40.80 	35.0%   	$26.52
+Esteban Carreras Chupacabra Habano Gorditos                          	5-PACK  	$42.07 	35.0%   	$27.35
+Esteban Carreras Chupacabra Hellcat Sesenta                          	5-PACK  	$45.47 	35.0%   	$29.56
+Esteban Carreras Covenant Maduro Torpedo                             	5-PACK  	$42.07 	35.0%   	$27.35
+Esteban Carreras Mr. Brownstone Maduro Sixty                         	5-PACK  	$45.47 	35.0%   	$29.56
+Esteban Carreras Mr. Brownstone Natural Churchill                    	5-PACK  	$42.50 	35.0%   	$27.62
+Esteban Carreras Mr. Brownstone Natural Sesenta                      	5-PACK  	$44.62 	35.0%   	$29.00
+Esteban Carreras Unforsaken Toro                                     	5-PACK  	$41.23 	35.0%   	$26.80
+Esteban Carreras Unforsaken Sixty                                    	5-PACK  	$45.47 	35.0%   	$29.56
+Ferio Tego Metropolitan Connecticut Union                            	5-PACK  	$38.72 	35.0%   	$25.17
+Ferio Tego Metropolitan Connecticut University                       	5-PACK  	$43.17 	30.0%   	$30.22
+Ferio Tego Metropolitan Connecticut Explorer                         	5-PACK  	$45.84 	35.0%   	$29.80
+Ferio Tego Metropolitan Connecticut Metropolitan                     	5-PACK  	$48.51 	30.0%   	$33.96
+Ferio Tego Metropolitan Connecticut Gordo                            	5-PACK  	$52.96 	30.0%   	$37.07
+Ferio Tego Metropolitan Habano Gordito                               	5-PACK  	$46.73 	30.0%   	$32.71
+Ferio Tego Metropolitan Habano Toro                                  	5-PACK  	$48.51 	30.0%   	$33.96
+Ferio Tego Metropolitan Habano Gordo                                 	5-PACK  	$52.96 	30.0%   	$37.07
+Ferio Tego Metropolitan Maduro Union                                 	5-PACK  	$38.72 	35.0%   	$25.17
+Ferio Tego Metropolitan Maduro University                            	5-PACK  	$43.17 	30.0%   	$30.22
+Ferio Tego Metropolitan Maduro Metropolitan                          	5-PACK  	$48.51 	30.0%   	$33.96
+Ferio Tego Metropolitan Maduro Gordo                                 	5-PACK  	$52.96 	30.0%   	$37.07
+Ferio Tego Metropolitan Selection Host Hobart                        	5-PACK  	$39.61 	35.0%   	$25.75
+Ferio Tego Metropolitan Selection Host Hamilton                      	5-PACK  	$36.05 	30.0%   	$25.23
+Ferio Tego Metropolitan Selection Host Harrington                    	5-PACK  	$45.84 	30.0%   	$32.09
+Ferio Tego Metropolitan Selection Host Hudson                        	5-PACK  	$46.72 	30.0%   	$32.70
+Ferio Tego Metropolitan Selection Host Hyde                          	5-PACK  	$52.96 	30.0%   	$37.07
+Ferio Tego Metropolitan Selection Host Hampton                       	5-PACK  	$48.51 	30.0%   	$33.96
+Ferio Tego Metropolitan Selection Host Hobart Maduro                 	5-PACK  	$39.61 	35.0%   	$25.75
+Ferio Tego Metropolitan Selection Host Hudson Maduro                 	5-PACK  	$53.17 	30.0%   	$37.22
+Ferio Tego Metropolitan Selection Host Hyde Maduro                   	5-PACK  	$52.96 	30.0%   	$37.07
+Ferio Tego Metropolitan Selection Host Hampton Maduro                	5-PACK  	$48.51 	30.0%   	$33.96
+Ferio Tego Summa Corona Gorda                                        	5-PACK  	$84.11 	30.0%   	$58.88
+Ferio Tego Summa Robusto                                             	5-PACK  	$89.00 	30.0%   	$62.30
+Ferio Tego Summa Toro                                                	5-PACK  	$91.23 	30.0%   	$63.86
+Ferio Tego Summa Gordo                                               	5-PACK  	$98.35 	30.0%   	$68.84
+Ferio Tego Timeless Panamericana Magnum                              	5-PACK  	$71.65 	30.0%   	$50.15
+Ferio Tego Timeless Panamericana Gordo                               	5-PACK  	$72.54 	30.0%   	$50.78
+Ferio Tego Timeless Prestige Hermoso                                 	5-PACK  	$54.29 	30.0%   	$38.00
+Ferio Tego Timeless Prestige Toro                                    	5-PACK  	$57.41 	30.0%   	$40.19
+Ferio Tego Timeless Prestige Gordo                                   	5-PACK  	$62.75 	30.0%   	$43.92
+Ferio Tego Timeless Sterling Delias                                  	5-PACK  	$66.75 	30.0%   	$46.72
+Ferio Tego Timeless Sterling Robusto                                 	5-PACK  	$68.09 	35.0%   	$44.26
+Ferio Tego Timeless Sterling Toro                                    	5-PACK  	$71.65 	30.0%   	$50.15
+Ferio Tego Timeless Supreme Toro                                     	5-PACK  	$57.41 	30.0%   	$40.19
+Ferio Tego Timeless Supreme 660                                      	5-PACK  	$62.75 	30.0%   	$43.92
+Aksum Claro Corona Gorda                                             	5-PACK  	$69.03 	25.0%   	$51.77
+Aksum Claro Robusto                                                  	5-PACK  	$73.62 	25.0%   	$55.21
+Foundation Cigar Co. Aksum Claro Toro 5pk                            	5-PACK  	$78.12 	25.0%   	$58.59
+Aksum Claro Double Corona                                            	5-PACK  	$84.96 	25.0%   	$63.72
+Foundation Cigar Co. Aksum Maduro Robusto 5pk                        	5-PACK  	$73.62 	25.0%   	$55.21
+Aksum Maduro Toro                                                    	5-PACK  	$78.12 	25.0%   	$58.59
+Aksum Maduro Double Corona                                           	5-PACK  	$84.96 	25.0%   	$63.72
+H. Upmann The Banker Currency                                        	5-PACK  	$47.84 	30.0%   	$33.49
+H. Upmann The Banker Arbitrage                                       	5-PACK  	$57.29 	30.0%   	$40.10
+H. Upmann by AJ Fernandez Robusto                                    	5-PACK  	$51.62 	30.0%   	$36.13
+H. Upmann by AJ Fernandez Toro                                       	5-PACK  	$53.96 	40.0%   	$32.38
+H. Upmann by AJ Fernandez Churchill                                  	5-PACK  	$56.21 	30.0%   	$39.35
+H. Upmann Nicaragua by AJ Fernandez Sunrise Churchill                	5-PACK  	$64.12 	30.0%   	$44.88
+H. Upmann Nicaragua by AJ Fernandez Sunrise Robusto                  	5-PACK  	$58.45 	30.0%   	$40.91
+H. Upmann Nicaragua by AJ Fernandez Sunrise Toro                     	5-PACK  	$61.87 	30.0%   	$43.31
+H. Upmann Nicaragua by AJ Fernandez Sunrise Magnum                   	5-PACK  	$65.25 	30.0%   	$45.67
+H. Upmann Nicaragua Heritage by AJ Fernandez Robusto                 	5-PACK  	$51.62 	30.0%   	$36.13
+H. Upmann by AJ Fernandez Heritage Finca Providencia LE Toro Grande  	5-PACK  	$90.00 	30.0%   	$63.00
+H. Upmann Nicaragua Heritage by AJ Fernandez Torpedo                 	5-PACK  	$54.72 	30.0%   	$38.30
+H. Upmann Nicaragua Heritage by AJ Fernandez Churchill               	5-PACK  	$56.21 	30.0%   	$39.35
+H. Upmann Special Edition Barbier Toro                               	5-PACK  	$33.83 	30.0%   	$23.68
+Henry Clay Toro                                                      	5-PACK  	$32.03 	30.0%   	$22.42
+Henry Clay War Hawk Rebellious Toro                                  	5-PACK  	$63.00 	30.0%   	$44.10
+Henry Clay War Hawk Corona                                           	5-PACK  	$39.42 	35.0%   	$25.62
+Henry Clay War Hawk Robusto                                          	5-PACK  	$42.21 	35.0%   	$27.44
+JFR 20th Anniversary Maduro Box Pressed 4.75'x70                     	5-PACK  	$47.84 	30.0%   	$33.49
+JFR 20th Anniversary Maduro Box Pressed Titan                        	5-PACK  	$48.95 	30.0%   	$34.26
+JFR 20th Anniversary Maduro Box Pressed Super Toro                   	5-PACK  	$42.28 	30.0%   	$29.60
+JFR 20th Anniversary Maduro Box Pressed 7x70                         	5-PACK  	$55.63 	30.0%   	$38.94
+JFR Lunatic Habano Short Titan                                       	5-PACK  	$35.56 	30.0%   	$24.89
+JFR Lunatic Habano El Chiquito                                       	5-PACK  	$42.28 	35.0%   	$27.48
+JFR Lunatic Habano Belicoso                                          	5-PACK  	$53.36 	30.0%   	$37.35
+JFR Lunatic Maduro Short Robusto                                     	5-PACK  	$33.38 	25.0%   	$25.03
+JFR Lunatic Maduro Short Titan                                       	5-PACK  	$35.56 	25.0%   	$26.67
+JFR Lunatic Maduro Lunatic El Chiquito 5pk                           	5-PACK  	$43.39 	25.0%   	$32.54
+JFR Lunatic Maduro Lunatic Hombre Libre                              	5-PACK  	$41.16 	25.0%   	$30.87
+JFR Lunatic Maduro Jackhammer                                        	5-PACK  	$50.07 	25.0%   	$37.55
+JFR Lunatic Maduro Lunatic Belicoso                                  	5-PACK  	$57.81 	25.0%   	$43.36
+Joya de Nicaragua Antano 1970 Consul                                 	5-PACK  	$43.56 	30.0%   	$30.49
+Joya de Nicaragua Antano 1970 Gran Consul                            	5-PACK  	$48.67 	25.0%   	$36.50
+Joya de Nicaragua Antano 1970 Robusto Grande                         	5-PACK  	$47.65 	30.0%   	$33.35
+Joya de Nicaragua Antano 1970 Alisado                                	5-PACK  	$51.74 	25.0%   	$38.80
+Joya de Nicaragua Antano 1970 Belicoso                               	5-PACK  	$52.76 	25.0%   	$39.57
+Joya de Nicaragua Antano 1970 Magnum                                 	5-PACK  	$54.85 	25.0%   	$41.14
+Joya de Nicaragua Antano 1970 Churchill                              	5-PACK  	$52.76 	25.0%   	$39.57
+Joya de Nicaragua Antano 1970 Big Bull 760                           	5-PACK  	$56.85 	25.0%   	$42.64
+Joya de Nicaragua Antano Connecticut Robusto                         	5-PACK  	$47.65 	30.0%   	$33.35
+Joya de Nicaragua Antano Connecticut Corona Gorda                    	5-PACK  	$42.54 	25.0%   	$31.90
+Joya de Nicaragua Antano Connecticut Toro                            	5-PACK  	$51.74 	30.0%   	$36.22
+Joya de Nicaragua Antano Dark Corojo Pesadilla Belicoso              	5-PACK  	$48.67 	25.0%   	$36.50
+Joya de Nicaragua Antano Dark Corojo El Martillo                     	5-PACK  	$47.65 	25.0%   	$35.74
+Joya de Nicaragua Antano Dark Corojo La Niveladora                   	5-PACK  	$51.74 	30.0%   	$36.22
+Joya de Nicaragua Antano Dark Corojo Poderoso Torpedo                	5-PACK  	$52.76 	25.0%   	$39.57
+Joya de Nicaragua Antano Gran Reserva Gran Consul                    	5-PACK  	$52.56 	25.0%   	$39.42
+Joya de Nicaragua Antano Gran Reserva Robusto Grande                 	5-PACK  	$50.72 	25.0%   	$38.04
+Joya de Nicaragua Cinco de Cinco Robusto Gordo                       	5-PACK  	$75.67 	25.0%   	$56.75
+Joya de Nicaragua Cinco de Cinco Toro                                	5-PACK  	$83.85 	30.0%   	$58.69
+Joya de Nicaragua Cinco de Cinco Corona Extra                        	5-PACK  	$67.49 	25.0%   	$50.62
+Joya de Nicaragua Cinco Decadas El Cumiche                           	5-PACK  	$87.94 	20.0%   	$70.35
+Joya de Nicaragua Cinco Decadas Diadema                              	5-PACK  	$104.30	20.0%   	$83.44
+Joya de Nicaragua Cinco Decadas Fundador                             	5-PACK  	$100.21	30.0%   	$70.15
+Joya de Nicaragua Clasico Robusto                                    	5-PACK  	$38.86 	30.0%   	$27.20
+Joya de Nicaragua Clasico Toro                                       	5-PACK  	$40.90 	30.0%   	$28.63
+Joya de Nicaragua Clasico Torpedo                                    	5-PACK  	$42.95 	25.0%   	$32.21
+Joya de Nicaragua Clasico Churchill                                  	5-PACK  	$41.72 	25.0%   	$31.29
+Joya de Nicaragua Clasico Green Room LE Diadema                      	5-PACK  	$55.22 	25.0%   	$41.41
+Joya de Nicaragua Clasico Medio Siglo Numero 6                       	5-PACK  	$36.81 	25.0%   	$27.61
+Joya de Nicaragua Clasico Medio Siglo Gordo                          	5-PACK  	$47.03 	25.0%   	$35.27
+Joya de Nicaragua Cuatro Cinco Petit Corona                          	5-PACK  	$46.63 	25.0%   	$34.97
+Joya de Nicaragua Cuatro Cinco Torpedo                               	5-PACK  	$69.94 	25.0%   	$52.45
+Joya de Nicaragua Cuatro Cinco Toro                                  	5-PACK  	$65.85 	30.0%   	$46.09
+Joya de Nicaragua Joya Black Robusto                                 	5-PACK  	$38.04 	25.0%   	$28.53
+Joya de Nicaragua Joya Black Toro                                    	5-PACK  	$40.49 	30.0%   	$28.34
+Joya de Nicaragua Joya Cabinetta Robusto                             	5-PACK  	$38.24 	25.0%   	$28.68
+Joya de Nicaragua Joya Cabinetta Toro                                	5-PACK  	$40.49 	30.0%   	$28.34
+Joya de Nicaragua Joya Red Robusto                                   	5-PACK  	$38.24 	30.0%   	$26.77
+Joya de Nicaragua Joya Red Toro                                      	5-PACK  	$40.49 	30.0%   	$28.34
+Joya de Nicaragua Rosalones Connecticut RC652 Toro                   	5-PACK  	$32.68 	25.0%   	$24.51
+Joya de Nicaragua Joya Silver Corona                                 	5-PACK  	$33.13 	25.0%   	$24.85
+Joya de Nicaragua Joya Silver Robusto                                	5-PACK  	$38.24 	30.0%   	$26.77
+Joya de Nicaragua Joya Silver Toro                                   	5-PACK  	$40.49 	30.0%   	$28.34
+Joya de Nicaragua Joya Red, White, and Blue LE Toro                  	5-PACK  	$60.75 	25.0%   	$45.56
+Kristoff 685 Woodlawn Perfecto                                       	5-PACK  	$72.25 	25.0%   	$54.19
+Kristoff Cameroon Figurado                                           	5-PACK  	$38.25 	25.0%   	$28.69
+Kristoff Connecticut Robusto                                         	5-PACK  	$44.63 	25.0%   	$33.47
+Kristoff Connecticut 660                                             	5-PACK  	$49.94 	20.0%   	$39.95
+Kristoff Connecticut Matador                                         	5-PACK  	$49.94 	35.0%   	$32.46
+Kristoff Connecticut Churchill                                       	5-PACK  	$48.88 	25.0%   	$36.66
+Kristoff Corojo Limitada Robusto                                     	5-PACK  	$44.63 	30.0%   	$31.24
+Kristoff Corojo Limitada Matador                                     	5-PACK  	$49.94 	35.0%   	$32.46
+Kristoff Corojo Limitada Churchill                                   	5-PACK  	$48.88 	25.0%   	$36.66
+Kristoff GC Signature Series Robusto                                 	5-PACK  	$44.63 	35.0%   	$29.01
+Kristoff GC Signature Series 660 5pk                                 	5-PACK  	$49.94 	40.0%   	$29.96
+Kristoff GC Signature Series Torpedo                                 	5-PACK  	$46.75 	35.0%   	$30.39
+Kristoff GC Signature Series Churchill                               	5-PACK  	$48.88 	25.0%   	$36.66
+Kristoff Guardrail Robusto                                           	5-PACK  	$44.63 	25.0%   	$33.47
+Kristoff Habano Robusto                                              	5-PACK  	$44.63 	35.0%   	$29.01
+Kristoff Habano Matador                                              	5-PACK  	$49.94 	35.0%   	$32.46
+Kristoff JT Signature Series BP Toro 5pk                             	5-PACK  	$51.00 	40.0%   	$30.60
+Kristoff Kristania Robusto                                           	5-PACK  	$34.00 	25.0%   	$25.50
+Kristoff Kristania 60                                                	5-PACK  	$38.25 	35.0%   	$24.86
+Kristoff Kristania Toro                                              	5-PACK  	$36.13 	35.0%   	$23.48
+Kristoff Kristania Maduro Robusto                                    	5-PACK  	$34.00 	35.0%   	$22.10
+Kristoff Kristania Maduro 60                                         	5-PACK  	$38.25 	35.0%   	$24.86
+Kristoff Kristania Maduro 70                                         	5-PACK  	$40.38 	25.0%   	$30.28
+Kristoff Ligero Maduro Robusto 5pk                                   	5-PACK  	$44.63 	25.0%   	$33.47
+Kristoff Ligero Maduro Torpedo                                       	5-PACK  	$46.75 	25.0%   	$35.06
+Kristoff Ligero Maduro Churchill                                     	5-PACK  	$48.88 	25.0%   	$36.66
+Kristoff Ligero Maduro Lancero                                       	5-PACK  	$46.75 	25.0%   	$35.06
+Kristoff Nicaragua Robusto                                           	5-PACK  	$44.63 	25.0%   	$33.47
+Kristoff Nicaragua 660                                               	5-PACK  	$49.94 	25.0%   	$37.45
+Kristoff Nicaragua Toro                                              	5-PACK  	$48.88 	35.0%   	$31.77
+Kristoff Original Criollo Robusto                                    	5-PACK  	$44.63 	30.0%   	$31.24
+Kristoff Original Criollo Torpedo                                    	5-PACK  	$46.75 	35.0%   	$30.39
+Kristoff Original Criollo Matador                                    	5-PACK  	$49.94 	35.0%   	$32.46
+Kristoff Original Criollo Churchill                                  	5-PACK  	$48.88 	25.0%   	$36.66
+Kristoff Original Maduro Robusto                                     	5-PACK  	$44.63 	25.0%   	$33.47
+Kristoff Original Maduro Matador 5pk                                 	5-PACK  	$49.94 	40.0%   	$29.96
+Kristoff Original Maduro Churchill                                   	5-PACK  	$48.88 	25.0%   	$36.66
+Kristoff Pistoff Kristoff Lil                                        	5-PACK  	$38.25 	25.0%   	$28.69
+Kristoff Pistoff Kristoff Robusto                                    	5-PACK  	$44.63 	35.0%   	$29.01
+Kristoff Pistoff 6x60 5pk                                            	5-PACK  	$49.94 	40.0%   	$29.96
+Kristoff Pistoff Kristoff Extremely                                  	5-PACK  	$55.25 	25.0%   	$41.44
+Kristoff San Andres Robusto                                          	5-PACK  	$44.63 	25.0%   	$33.47
+Kristoff San Andres 660                                              	5-PACK  	$49.94 	35.0%   	$32.46
+Kristoff Shade Grown Robusto                                         	5-PACK  	$44.63 	35.0%   	$29.01
+Kristoff Shade Grown Matador                                         	5-PACK  	$49.94 	35.0%   	$32.46
+Kristoff Sumatra Robusto                                             	5-PACK  	$44.63 	25.0%   	$33.47
+Kristoff Sumatra Torpedo                                             	5-PACK  	$46.75 	25.0%   	$35.06
+Kristoff Sumatra Matador                                             	5-PACK  	$49.94 	35.0%   	$32.46
+Kristoff Sumatra Churchill                                           	5-PACK  	$48.88 	25.0%   	$36.66
+Kristoff Sumatra Lancero                                             	5-PACK  	$46.75 	25.0%   	$35.06
+Kristoff Tres Compadres Robusto                                      	5-PACK  	$44.63 	35.0%   	$29.01
+Kristoff Tres Compadres 660                                          	5-PACK  	$49.94 	35.0%   	$32.46
+Kristoff Tres Compadres Toro                                         	5-PACK  	$48.88 	30.0%   	$34.22
+Kristoff Veinte 20th Anniversary 660                                 	5-PACK  	$63.75 	45.0%   	$35.06
+Kristoff Veinte 20th Anniversary Toro 5pk                            	5-PACK  	$61.63 	45.0%   	$33.90
+Kristoff Vengeance Robusto                                           	5-PACK  	$44.63 	30.0%   	$31.24
+Kristoff Vengeance 660                                               	5-PACK  	$49.94 	30.0%   	$34.96
+Kristoff Vengeance Toro                                              	5-PACK  	$48.88 	35.0%   	$31.77
+Kristoff Vengeance Perfecto                                          	5-PACK  	$51.00 	30.0%   	$35.70
+Kristoff Signature Series 2026 PCA Box-Pressed Toro                  	5-PACK  	$61.63 	30.0%   	$43.14
+La Aurora 100 Anos Corojo Churchill                                  	5-PACK  	$82.88 	35.0%   	$53.87
+La Aurora 100 Anos Corojo Belicoso                                   	5-PACK  	$87.13 	35.0%   	$56.63
+La Aurora 107 Ecuador Zeppelin                                       	5-PACK  	$44.63 	30.0%   	$31.24
+La Aurora 107 Ecuador Robusto                                        	5-PACK  	$40.38 	45.0%   	$22.21
+La Aurora 107 Ecuador Toro                                           	5-PACK  	$48.88 	45.0%   	$26.88
+La Aurora 107 Ecuador Toro Especial                                  	5-PACK  	$29.99 	30.0%   	$20.99
+La Aurora 107 Ecuador Gran Toro                                      	5-PACK  	$51.00 	35.0%   	$33.15
+La Aurora 107 USA Gran Toro                                          	5-PACK  	$51.00 	30.0%   	$35.70
+La Aurora 107 Nicaragua Robusto                                      	5-PACK  	$30.88 	40.0%   	$18.53
+La Aurora 107 NIcaragua Toro                                         	5-PACK  	$36.56 	40.0%   	$21.94
+La Aurora 107 Nicaragua Toro Especial                                	5-PACK  	$35.00 	40.0%   	$21.00
+La Aurora 107 USA Toro                                               	5-PACK  	$48.88 	30.0%   	$34.22
+La Aurora 115 Aniversario Robusto                                    	5-PACK  	$44.63 	45.0%   	$24.55
+La Aurora 115 Aniversario Toro                                       	5-PACK  	$46.75 	45.0%   	$25.71
+La Aurora 115 Aniversario Toro Especial                              	5-PACK  	$39.00 	45.0%   	$21.45
+La Aurora 115 Aniversario Gran Toro                                  	5-PACK  	$51.00 	30.0%   	$35.70
+La Aurora 120th Anniversary Robusto                                  	5-PACK  	$58.00 	45.0%   	$31.90
+La Aurora 120th Anniversary Toro                                     	5-PACK  	$67.00 	30.0%   	$46.90
+La Aurora 120th Anniversary Gran Toro                                	5-PACK  	$67.00 	30.0%   	$46.90
+La Aurora 120th Anniversary Lancero                                  	5-PACK  	$72.00 	30.0%   	$50.40
+La Aurora 120th Anniversary Churchill                                	5-PACK  	$67.00 	30.0%   	$46.90
+La Aurora ADN Dominicano DNA Robusto                                 	5-PACK  	$36.13 	30.0%   	$25.29
+La Aurora ADN Dominicano DNA Toro                                    	5-PACK  	$40.38 	30.0%   	$28.27
+La Aurora Barrel Aged by Karl Malone Robusto                         	5-PACK  	$44.63 	50.0%   	$22.31
+La Aurora Barrel Aged by Karl Malone Sumo Toro                       	5-PACK  	$53.13 	50.0%   	$26.56
+La Aurora Barrel Aged by Karl Malone Belicoso                        	5-PACK  	$53.13 	30.0%   	$37.19
+La Aurora Barrel Aged by Karl Malone Churchill                       	5-PACK  	$48.88 	30.0%   	$34.22
+La Aurora Cameroon 1903 Robusto                                      	5-PACK  	$31.88 	45.0%   	$17.53
+La Aurora Cameroon 1903 Toro                                         	5-PACK  	$34.00 	45.0%   	$18.70
+La Aurora Cameroon 1903 Gran Toro                                    	5-PACK  	$36.13 	30.0%   	$25.29
+La Aurora Connecticut 1987 Robusto                                   	5-PACK  	$31.88 	45.0%   	$17.53
+La Aurora Connecticut 1987 Gran Toro                                 	5-PACK  	$36.13 	30.0%   	$25.29
+La Aurora Corojo 1962 Robusto                                        	5-PACK  	$31.88 	45.0%   	$17.53
+La Aurora Corojo 1962 Toro                                           	5-PACK  	$34.00 	45.0%   	$18.70
+La Aurora Corojo 1962 Gran Toro                                      	5-PACK  	$36.13 	30.0%   	$25.29
+La Aurora Family Creed Fuerte Sol Box-Pressed Gran Toro              	5-PACK  	$74.00 	30.0%   	$51.80
+La Aurora Family Creed Perseverancia Robusto                         	5-PACK  	$68.00 	30.0%   	$47.60
+La Aurora Family Creed Perseverancia Toro                            	5-PACK  	$78.63 	30.0%   	$55.04
+La Aurora Family Creed Perseverancia Gran Toro                       	5-PACK  	$80.75 	30.0%   	$56.52
+La Aurora Maduro 1985 Robusto                                        	5-PACK  	$30.00 	40.0%   	$18.00
+La Aurora Maduro 1985 Toro                                           	5-PACK  	$34.00 	45.0%   	$18.70
+La Aurora Maduro 1985 Gran Toro                                      	5-PACK  	$36.13 	30.0%   	$25.29
+La Aurora Preferidos 1903 Broadleaf Maduro Robusto                   	5-PACK  	$52.00 	45.0%   	$28.60
+La Aurora Preferidos 1903 Broadleaf Toro                             	5-PACK  	$56.00 	45.0%   	$30.80
+La Aurora Preferidos 1903 Cameroon Robusto                           	5-PACK  	$50.00 	45.0%   	$27.50
+La Aurora Preferidos 1903 Cameroon Toro                              	5-PACK  	$56.00 	45.0%   	$30.80
+La Aurora Preferidos 1903 Connecticut Robusto                        	5-PACK  	$52.00 	45.0%   	$28.60
+La Aurora Preferidos 1903 Connecticut Toro                           	5-PACK  	$56.00 	45.0%   	$30.80
+La Aurora Preferidos 1903 Corojo Robusto                             	5-PACK  	$52.00 	45.0%   	$28.60
+La Aurora Preferidos 1903 Corojo Toro                                	5-PACK  	$56.00 	45.0%   	$30.80
+La Aurora Preferidos 1903 Ecuador Robusto                            	5-PACK  	$52.00 	45.0%   	$28.60
+La Aurora Preferidos 1903 Ecuador Toro                               	5-PACK  	$56.00 	45.0%   	$30.80
+La Aurora Preferidos 1903 Maduro Robusto                             	5-PACK  	$52.00 	45.0%   	$28.60
+La Aurora Preferidos 1903 Maduro Toro                                	5-PACK  	$56.00 	45.0%   	$30.80
+La Aurora Preferidos 1903 Ruby Doble Figurado Tubos (Maduro)         	5-PACK  	$115.81	30.0%   	$81.07
+Montecristo No. 3                                                    	5-PACK  	$55.82 	10.0%   	$50.24
+Montecristo Double Corona                                            	5-PACK  	$74.31 	50.0%   	$37.15
+Montecristo No. 1                                                    	5-PACK  	$64.01 	10.0%   	$57.61
+Montecristo Churchill                                                	5-PACK  	$78.25 	50.0%   	$39.12
+Montecristo 1935 Anniversary Nicaragua Robusto                       	5-PACK  	$80.15 	30.0%   	$56.10
+Montecristo 1935 Anniversary Nicaragua Espeso                        	5-PACK  	$89.78 	30.0%   	$62.85
+Montecristo 1935 Anniversary Nicaragua Toro                          	5-PACK  	$92.88 	50.0%   	$46.44
+Montecristo 1935 Anniversary Nicaragua No.2 Belicoso                 	5-PACK  	$92.88 	50.0%   	$46.44
+Montecristo 1935 Anniversary Nicaragua Churchill                     	5-PACK  	$101.97	30.0%   	$71.38
+Montecristo 1935 Anniversary Edicion Nicaragua Diamante Icon         	5-PACK  	$74.96 	30.0%   	$52.47
+Montecristo 1935 Anniversary Edicion Nicaragua Diamante Robusto      	5-PACK  	$104.94	30.0%   	$73.46
+Montecristo 1935 Anniversary Edicion Nicaragua Diamante Toro         	5-PACK  	$111.06	50.0%   	$55.53
+Montecristo 1935 Anniversary Edicion Nicaragua Diamante Grande       	5-PACK  	$115.47	30.0%   	$80.83
+Montecristo 1935 Anniversary Edicion Nicaragua Diamante No.2 Belicoso	5-PACK  	$113.76	30.0%   	$79.63
+Montecristo 1935 Anniversary Edicion Nicaragua Diamante Churchill    	5-PACK  	$119.70	30.0%   	$83.79
+Montecristo Classic Robusto                                          	5-PACK  	$77.40 	30.0%   	$54.18
+Montecristo Classic No. 3                                            	5-PACK  	$66.69 	30.0%   	$46.68
+Montecristo Classic Toro                                             	5-PACK  	$81.68 	50.0%   	$40.84
+Montecristo Classic No. 2 Torpedo                                    	5-PACK  	$103.77	30.0%   	$72.64
+Montecristo Classic No. 1                                            	5-PACK  	$69.75 	30.0%   	$48.82
+Montecristo Classic Churchill                                        	5-PACK  	$84.78 	50.0%   	$42.39
+Montecristo Epic Vintage 12 No.2                                     	5-PACK  	$92.52 	30.0%   	$64.76
+Montecristo Espada Conquistador Ricasso                              	5-PACK  	$89.77 	30.0%   	$62.84
+Montecristo Espada Conquistador Guard                                	5-PACK  	$94.27 	30.0%   	$65.99
+Montecristo Espada Conquistador Quillion                             	5-PACK  	$98.77 	30.0%   	$69.14
+Montecristo Espada Conquistador Magnum                               	5-PACK  	$101.03	30.0%   	$70.72
+Montecristo Espada Ricasso                                           	5-PACK  	$78.71 	30.0%   	$55.10
+Montecristo Espada Guard                                             	5-PACK  	$80.60 	50.0%   	$40.30
+Montecristo Espada Magnum Especial                                   	5-PACK  	$90.14 	30.0%   	$63.10
+Montecristo Espada Quillon                                           	5-PACK  	$85.73 	30.0%   	$60.01
+Montecristo Espada Oscuro Ricasso                                    	5-PACK  	$83.03 	30.0%   	$58.12
+Montecristo Espada Oscuro Magnum                                     	5-PACK  	$89.28 	50.0%   	$44.64
+Montecristo Espada Oscuro Quillon                                    	5-PACK  	$88.07 	30.0%   	$61.65
+Montecristo Nicaragua by AJ Fernandez Robusto                        	5-PACK  	$71.24 	30.0%   	$49.87
+Montecristo Nicaragua by AJ Fernandez No. 2                          	5-PACK  	$83.03 	30.0%   	$58.12
+Montecristo Nicaragua by AJ Fernandez Churchill                      	5-PACK  	$83.48 	30.0%   	$58.44
+Montecristo Platinum Robusto                                         	5-PACK  	$65.34 	50.0%   	$32.67
+Montecristo Platinum Toro                                            	5-PACK  	$68.31 	50.0%   	$34.15
+Montecristo Platinum No. 2 Belicoso                                  	5-PACK  	$85.91 	50.0%   	$42.95
+Montecristo White Rothschild                                         	5-PACK  	$71.64 	50.0%   	$35.82
+Montecristo White No. 3 Especial                                     	5-PACK  	$59.18 	30.0%   	$41.43
+Montecristo White Montecristo Court en Tubo                          	5-PACK  	$63.77 	30.0%   	$44.64
+Montecristo White Diadema                                            	5-PACK  	$100.69	30.0%   	$70.48
+Montecristo White Toro                                               	5-PACK  	$76.46 	50.0%   	$38.23
+Montecristo White Magnum Especial                                    	5-PACK  	$86.81 	30.0%   	$60.77
+Montecristo White No. 2 Belicoso                                     	5-PACK  	$96.17 	30.0%   	$67.32
+Montecristo White No. 1                                              	5-PACK  	$65.61 	30.0%   	$45.93
+Montecristo White Churchill                                          	5-PACK  	$83.34 	30.0%   	$58.34
+Onyx Reserve Toro                                                    	5-PACK  	$29.83 	20.0%   	$23.86
+OZ Family Cigars Aramas A52                                          	5-PACK  	$53.87 	25.0%   	$40.40
+OZ Family Cigars Aramas A55                                          	5-PACK  	$58.09 	30.0%   	$40.66
+OZ Family Cigars Armas A60                                           	5-PACK  	$66.54 	25.0%   	$49.90
+OZ Family Cigars Aramas A54 5pk                                      	5-PACK  	$63.38 	30.0%   	$44.37
+OZ Family Cigars Bosphorus B52                                       	5-PACK  	$53.87 	25.0%   	$40.40
+OZ Family Cigars Bosphorus B55                                       	5-PACK  	$57.04 	30.0%   	$39.93
+OZ Family Cigars Bosphorus B54                                       	5-PACK  	$60.21 	30.0%   	$42.15
+OZ Family Cigars Bosphorus LE Laguito No.6                           	5-PACK  	$67.39 	30.0%   	$47.17
+OZ Family Cigars Firsat F55                                          	5-PACK  	$55.98 	40.0%   	$33.59
+OZ Family Cigars Firsat F54                                          	5-PACK  	$59.15 	30.0%   	$41.40
+OZ Family Cigars Firsat F60                                          	5-PACK  	$61.26 	30.0%   	$42.88
+OZ Family Cigars Karatoba Toro                                       	5-PACK  	$51.76 	40.0%   	$31.06
+OZ Family Cigars Karatoba Robusto Extra                              	5-PACK  	$53.87 	25.0%   	$40.40
+Ozgener Family Cigar Maracana Robusto                                	5-PACK  	$52.59 	25.0%   	$39.44
+OZ Family Cigars Maracana Robusto Extra                              	5-PACK  	$55.69 	25.0%   	$41.77
+OZ Family Cigars Maracana Gordo                                      	5-PACK  	$56.72 	25.0%   	$42.54
+Perdomo 20th Anniversary Connecticut Robusto                         	5-PACK  	$48.00 	20.0%   	$38.40
+Perdomo 20th Anniversary Connecticut Epicure 5pk                     	5-PACK  	$48.00 	20.0%   	$38.40
+Perdomo 20th Anniversary Connecticut Torpedo                         	5-PACK  	$52.00 	20.0%   	$41.60
+Perdomo 20th Anniversary Connecticut Gordo                           	5-PACK  	$54.00 	20.0%   	$43.20
+Perdomo 20th Anniversary Connecticut Churchill                       	5-PACK  	$54.00 	20.0%   	$43.20
+Perdomo 20th Anniversary Maduro Robusto                              	5-PACK  	$48.00 	20.0%   	$38.40
+Perdomo 20th Anniversary Maduro Epicure                              	5-PACK  	$50.00 	20.0%   	$40.00
+Perdomo 20th Anniversary Maduro Gordo                                	5-PACK  	$54.00 	20.0%   	$43.20
+Perdomo 20th Anniversary Maduro Churchill                            	5-PACK  	$56.00 	20.0%   	$44.80
+Perdomo 20th Anniversary Sun Grown Robusto                           	5-PACK  	$48.00 	20.0%   	$38.40
+Perdomo 20th Anniversary Sungrown Gordo                              	5-PACK  	$54.00 	20.0%   	$43.20
+Perdomo 20th Anniversary Sun Grown Churchill                         	5-PACK  	$56.00 	20.0%   	$44.80
+Perdomo 30th Anniversary Connecticut Robusto                         	5-PACK  	$54.00 	20.0%   	$43.20
+Perdomo 30th Anniversary Connecticut Epicure                         	5-PACK  	$56.00 	20.0%   	$44.80
+Perdomo 30th Anniversary Connecticut Torpedo                         	5-PACK  	$60.00 	20.0%   	$48.00
+Perdomo 30th Anniversary Maduro Robusto                              	5-PACK  	$54.00 	20.0%   	$43.20
+Perdomo 30th Anniversary Maduro Gordo                                	5-PACK  	$60.00 	20.0%   	$48.00
+Perdomo 30th Anniversary Maduro Torpedo                              	5-PACK  	$62.00 	20.0%   	$49.60
+Perdomo 30th Anniversary Sun Grown Robusto                           	5-PACK  	$52.00 	20.0%   	$41.60
+Perdomo 30th Anniversary Sun Grown Epicure                           	5-PACK  	$54.00 	20.0%   	$43.20
+Perdomo 30th Anniversary Sun Grown Churchill                         	5-PACK  	$56.00 	20.0%   	$44.80
+Perdomo 30th Anniversary Sun Grown Torpedo                           	5-PACK  	$60.00 	20.0%   	$48.00
+Perdomo Habano Bourbon Barrel-Aged Connecticut Robusto               	5-PACK  	$45.00 	20.0%   	$36.00
+Perdomo Habano Bourbon Barrel-Aged Maduro Robusto                    	5-PACK  	$45.00 	20.0%   	$36.00
+Perdomo Habano Bourbon Barrel-Aged Sun Grown Robusto                 	5-PACK  	$45.00 	20.0%   	$36.00
+Perdomo Habano Bourbon Barrel-Aged Connecticut Epicure               	5-PACK  	$47.00 	20.0%   	$37.60
+Perdomo Habano Bourbon Barrel-Aged Maduro Epicure                    	5-PACK  	$47.00 	20.0%   	$37.60
+Perdomo Hab. Bourbon Barrel-Aged Gordo Conn. 5pk                     	5-PACK  	$49.00 	20.0%   	$39.20
+Perdomo Habano Bourbon Barrel-Aged Maduro Gordo                      	5-PACK  	$51.00 	20.0%   	$40.80
+Perdomo Habano Bourbon Barrel-Aged Sun Grown Gordo                   	5-PACK  	$51.00 	20.0%   	$40.80
+Perdomo Hab. Bourbon Barrel-Aged Torpedo Conn. 5pk                   	5-PACK  	$46.00 	20.0%   	$36.80
+Perdomo Habano Bourbon Barrel-Aged Torpedo Maduro                    	5-PACK  	$48.00 	20.0%   	$38.40
+Perdomo Habano Bourbon Barrel-Aged Sun Grown Torpedo                 	5-PACK  	$48.00 	20.0%   	$38.40
+Perdomo Habano Bourbon Barrel-Aged Churchill Maduro                  	5-PACK  	$49.00 	20.0%   	$39.20
+Perdomo Habano Bourbon Barrel-Aged Churchill Sungrown                	5-PACK  	$49.00 	20.0%   	$39.20
+Perdomo Legacy Connecticut Robusto                                   	5-PACK  	$56.00 	20.0%   	$44.80
+Perdomo Legacy Connecticut Churchill                                 	5-PACK  	$60.00 	20.0%   	$48.00
+Perdomo Legacy Connecticut Epicure                                   	5-PACK  	$58.00 	20.0%   	$46.40
+Perdomo Legacy Maduro Robusto                                        	5-PACK  	$56.00 	20.0%   	$44.80
+Perdomo Legacy Maduro Epicure                                        	5-PACK  	$58.00 	20.0%   	$46.40
+Perdomo Legacy Maduro Churchill                                      	5-PACK  	$60.00 	20.0%   	$48.00
+Perdomo Legacy Shade Grown Epicure                                   	5-PACK  	$58.00 	20.0%   	$46.40
+Perdomo Legacy Shade Grown Churchill                                 	5-PACK  	$60.00 	20.0%   	$48.00
+Perdomo Legacy Shade Grown Gordo                                     	5-PACK  	$62.00 	20.0%   	$49.60
+Perdomo Lot 23 Connecticut Gordito                                   	5-PACK  	$39.00 	20.0%   	$31.20
+Perdomo Lot 23 Connecticut Robusto                                   	5-PACK  	$38.00 	20.0%   	$30.40
+Perdomo Lot 23 Connecticut Toro                                      	5-PACK  	$40.00 	20.0%   	$32.00
+Perdomo Lot 23 Connecticut Churchill                                 	5-PACK  	$42.00 	20.0%   	$33.60
+Perdomo Lot 23 Natural Sun Grown Gordito                             	5-PACK  	$37.00 	20.0%   	$29.60
+Perdomo Lot 23 Natural Sun Grown Toro                                	5-PACK  	$40.00 	20.0%   	$32.00
+Perdomo Lot 23 Natural Sun Grown Churchill                           	5-PACK  	$40.00 	20.0%   	$32.00
+Perdomo Lot 23 Maduro Gordito                                        	5-PACK  	$39.00 	20.0%   	$31.20
+Perdomo Lot 23 Maduro Robusto                                        	5-PACK  	$38.00 	20.0%   	$30.40
+Perdomo Lot 23 Maduro Toro                                           	5-PACK  	$40.00 	20.0%   	$32.00
+Perdomo Lot 23 Maduro Churchill                                      	5-PACK  	$42.00 	20.0%   	$33.60
+Perdomo Reserve 10th Anniv. BP Epicure Maduro 5pk                    	5-PACK  	$45.00 	20.0%   	$36.00
+Perdomo Reserve 10th Anniversary Box-Pressed Super Toro Maduro       	5-PACK  	$51.00 	20.0%   	$40.80
+Perdomo Reserve 10th Anniversary Box-Pressed Churchill Maduro        	5-PACK  	$49.00 	20.0%   	$39.20
+Perdomo Reserve 10th Anniversary Box-Pressed Figurado Sun Grown      	5-PACK  	$39.00 	20.0%   	$31.20
+Perdomo Reserve 10th Anniversary Box-Pressed Robusto Sun Grown       	5-PACK  	$43.00 	20.0%   	$34.40
+Perdomo Reserve 10th Anniversary Box-Pressed Super Toro Sun Grown    	5-PACK  	$49.00 	20.0%   	$39.20
+Perdomo Reserve Champagne Robusto                                    	5-PACK  	$45.00 	20.0%   	$36.00
+Perdomo Reserve Champagne Magnum 50 Tubo                             	5-PACK  	$46.00 	20.0%   	$36.80
+Perdomo Reserve Champagne Epicure 5pk                                	5-PACK  	$45.00 	20.0%   	$36.00
+Perdomo Reserve Champagne Churchill                                  	5-PACK  	$49.00 	20.0%   	$39.20
+Perdomo Reserve Champagne Torpedo                                    	5-PACK  	$50.00 	20.0%   	$40.00
+Perdomo Reserve Champagne Super Toro                                 	5-PACK  	$51.00 	20.0%   	$40.80
+Plasencia Alma Del Campo Tribu                                       	5-PACK  	$82.74 	25.0%   	$62.05
+Plasencia Alma Del Campo Box-Pressed Guajiro                         	5-PACK  	$89.46 	25.0%   	$67.09
+Plasencia Alma Del Campo Sendero                                     	5-PACK  	$96.17 	25.0%   	$72.13
+Plasencia Alma Del Campo Box-Pressed Travesia                        	5-PACK  	$96.17 	25.0%   	$72.13
+Plasencia Alma Del Campo Madrono                                     	5-PACK  	$107.36	25.0%   	$80.52
+Plasencia Alma Del Cielo Celeste                                     	5-PACK  	$140.92	25.0%   	$105.69
+Plasencia Alma Del Cielo Boreal                                      	5-PACK  	$131.97	25.0%   	$98.98
+Plasencia Alma Del Fuego Candente                                    	5-PACK  	$82.74 	25.0%   	$62.05
+Plasencia Alma Del Fuego Flama                                       	5-PACK  	$87.62 	25.0%   	$65.71
+Plasencia Alma Del Fuego Concepcion                                  	5-PACK  	$93.93 	25.0%   	$70.45
+Plasencia Alma Fuerte Colorado Claro Rubustus Corto                  	5-PACK  	$67.08 	25.0%   	$50.31
+Plasencia Alma Fuerte Colorado Claro Robustus II                     	5-PACK  	$102.88	25.0%   	$77.16
+Plasencia Alma Fuerte Colorado Claro Eduardo I                       	5-PACK  	$114.07	25.0%   	$85.55
+Plasencia Alma Fuerte Colorado Claro Sixto I                         	5-PACK  	$120.78	25.0%   	$90.58
+Plasencia Alma Fuerte Robustus I                                     	5-PACK  	$102.88	25.0%   	$77.16
+Plasencia Alma Fuerte Nestor IV                                      	5-PACK  	$114.07	25.0%   	$85.55
+Plasencia Alma Fuerte Sixto II                                       	5-PACK  	$120.78	25.0%   	$90.58
+Plasencia Alma Fuerte Generacion V                                   	5-PACK  	$125.26	25.0%   	$93.94
+Plasencia Alma Fuerte Colorado Claro Sixto I Tubos                   	5-PACK  	$127.49	25.0%   	$95.62
+Plasencia Cosecha 149 Azacualpa                                      	5-PACK  	$81.71 	25.0%   	$61.28
+Plasencia Cosecha 151 San Diego                                      	5-PACK  	$63.99 	25.0%   	$47.99
+Plasencia Cosecha 151 La Musica                                      	5-PACK  	$64.98 	25.0%   	$48.73
+Plasencia Cosecha 151 La Tradicion                                   	5-PACK  	$77.28 	25.0%   	$57.96
+Plasencia Reserva Original Nestico                                   	5-PACK  	$26.21 	25.0%   	$19.66
+Plasencia Reserva Original Corona Corta                              	5-PACK  	$34.96 	25.0%   	$26.22
+Plasencia Reserva Original Robusto                                   	5-PACK  	$48.08 	25.0%   	$36.06
+Plasencia Reserva Original Toro                                      	5-PACK  	$56.83 	25.0%   	$42.62
+Plasencia Reserva Original Cortez                                    	5-PACK  	$59.02 	25.0%   	$44.26
+Romeo y Julieta 1875 Exhibicion No. 3                                	5-PACK  	$37.76 	35.0%   	$24.54
+Romeo y Julieta 1875 Belicoso                                        	5-PACK  	$45.56 	20.0%   	$36.45
+Romeo y Julieta 1875 Magnum                                          	5-PACK  	$44.03 	20.0%   	$35.22
+Romeo y Julieta 1875 Churchill                                       	5-PACK  	$40.16 	30.0%   	$28.11
+Romeo y Julieta 1875 Connecticut Nicaragua Bully                     	5-PACK  	$38.70 	20.0%   	$30.96
+Romeo y Julieta 1875 Connecticut Nicaragua Magnum                    	5-PACK  	$45.15 	20.0%   	$36.12
+Romeo y Julieta 1875 Connecticut Nicaragua Churchill                 	5-PACK  	$44.59 	20.0%   	$35.67
+Romeo y Julieta 1875 Nicaragua Bully                                 	5-PACK  	$37.54 	20.0%   	$30.03
+Romeo y Julieta 1875 Nicaragua Magnum                                	5-PACK  	$45.64 	20.0%   	$36.51
+Romeo y Julieta 1875 Nicaragua Churchill                             	5-PACK  	$41.81 	20.0%   	$33.45
+Romeo y Julieta Reserva Real Nicaragua Robusto                       	5-PACK  	$50.27 	35.0%   	$32.68
+Romeo y Julieta Reserva Real Nicaragua Toro                          	5-PACK  	$53.10 	35.0%   	$34.51
+Romeo y Julieta Reserva Real Nicaragua Magnum                        	5-PACK  	$58.68 	35.0%   	$38.14
+Romeo y Julieta Reserva Real Nicaragua Churchill                     	5-PACK  	$56.79 	35.0%   	$36.91
+Romeo y Julieta Reserva Real Robusto                                 	5-PACK  	$49.41 	35.0%   	$32.12
+Romeo y Julieta Reserva Real Rothchilde Tubos                        	5-PACK  	$43.74 	25.0%   	$32.80
+Romeo y Julieta Reserva Real Corona                                  	5-PACK  	$42.57 	25.0%   	$31.93
+Romeo y Julieta Reserva Real Verona's Court Tubos                    	5-PACK  	$52.02 	25.0%   	$39.01
+Romeo y Julieta Reserva Real Twisted Toro                            	5-PACK  	$48.20 	35.0%   	$31.33
+Romeo y Julieta Reserva Real Toro                                    	5-PACK  	$50.63 	35.0%   	$32.91
+Romeo y Julieta Reserva Real Gran Toro en Tubos                      	5-PACK  	$59.81 	25.0%   	$44.86
+Romeo y Julieta Reserva Real Magnum                                  	5-PACK  	$56.48 	35.0%   	$36.71
+Romeo y Julieta Reserva Real Belicoso No. 2 (box-pressed)            	5-PACK  	$53.42 	35.0%   	$34.72
+Romeo y Julieta Reserva Real Lonsdale                                	5-PACK  	$46.62 	35.0%   	$30.30
+Romeo y Julieta Reserva Real Churchill                               	5-PACK  	$51.53 	35.0%   	$33.49
+Romeo y Julieta Reserva Real Nicaragua Midnight Twist Love Story     	5-PACK  	$46.31 	35.0%   	$30.10
+Romeo y Julieta Reserva Real Nicaragua Profundo Robusto              	5-PACK  	$50.56 	25.0%   	$37.92
+Romeo y Julieta Reserva Real Nicaragua Profundo Toro                 	5-PACK  	$53.49 	25.0%   	$40.12
+Romeo y Julieta Reserva Real Nicaragua Profundo Magnum               	5-PACK  	$58.21 	25.0%   	$43.66
+Romeo y Julieta Reserve Corona en Tubos                              	5-PACK  	$39.99 	15.0%   	$33.99
+Romeo y Julieta Reserve Titan en Tubo                                	5-PACK  	$47.04 	15.0%   	$39.98
+Romeo y Julieta Reserve Toro                                         	5-PACK  	$36.34 	20.0%   	$29.07
+Romeo y Julieta Reserve Churchill                                    	5-PACK  	$41.03 	20.0%   	$32.82
+Saint Luis Rey Rothchilde                                            	5-PACK  	$25.58 	25.0%   	$19.18
+Saint Luis Rey Titan                                                 	5-PACK  	$31.82 	20.0%   	$25.46
+Saint Luis Rey Toro                                                  	5-PACK  	$28.47 	20.0%   	$22.78
+Trinidad Espiritu Series No.2 Robusto                                	5-PACK  	$53.42 	30.0%   	$37.39
+Trinidad Espiritu Series No. 2 Toro                                  	5-PACK  	$57.92 	45.0%   	$31.86
+Trinidad Espiritu Series No.2 Magnum                                 	5-PACK  	$60.84 	30.0%   	$42.59
+Trinidad Espiritu Series No.2 Belicoso                               	5-PACK  	$60.48 	30.0%   	$42.34
+Trinidad Espiritu Series No.2 Fundador                               	5-PACK  	$59.90 	30.0%   	$41.93
+Trinidad Espiritu Series No.3 Robusto                                	5-PACK  	$52.38 	30.0%   	$36.67
+Trinidad Espiritu Series No.3 Magnum                                 	5-PACK  	$59.63 	30.0%   	$41.74
+Trinidad Espiritu Series No.1 Robusto                                	5-PACK  	$57.47 	30.0%   	$40.23
+Trinidad Espiritu Series No.1 Toro                                   	5-PACK  	$58.23 	45.0%   	$32.03
+Trinidad Espiritu Series No.1 Magnum                                 	5-PACK  	$60.84 	30.0%   	$42.59
+Trinidad Espiritu Series No.1 Belicoso                               	5-PACK  	$62.28 	30.0%   	$43.60
+VegaFina 1998 VF54 Toro                                              	5-PACK  	$50.72 	30.0%   	$35.50
+West Tampa Tobacco Co. Black Robusto                                 	5-PACK  	$45.89 	30.0%   	$32.12
+West Tampa Tobacco Co. Black Toro                                    	5-PACK  	$50.27 	30.0%   	$35.19
+West Tampa Tobacco Co. Black Gigante                                 	5-PACK  	$54.64 	30.0%   	$38.25
+West Tampa Tobacco Co. Chef Rick Toro                                	5-PACK  	$56.83 	30.0%   	$39.78
+West Tampa Tobacco Co. Circle of Life Robusto                        	5-PACK  	$59.02 	30.0%   	$41.31
+West Tampa Tobacco Co. Circle of Life Toro                           	5-PACK  	$63.39 	30.0%   	$44.37
+West Tampa Tobacco Co. Circle of Life Gigante                        	5-PACK  	$67.77 	30.0%   	$47.44
+West Tampa Tobacco Co. Devil Crab                                    	5-PACK  	$56.83 	30.0%   	$39.78
+West Tampa Tobacco Co. Red Robusto                                   	5-PACK  	$45.89 	30.0%   	$32.12
+West Tampa Tobacco Co. Red Toro                                      	5-PACK  	$50.27 	30.0%   	$35.19
+West Tampa Tobacco Co. Red Gigante                                   	5-PACK  	$54.64 	30.0%   	$38.25
+West Tampa Tobacco Co. White Robusto                                 	5-PACK  	$45.89 	30.0%   	$32.12
+West Tampa Tobacco Co. White Toro                                    	5-PACK  	$50.27 	30.0%   	$35.19
+West Tampa Tobacco Co. White Gigante                                 	5-PACK  	$54.64 	30.0%   	$38.25
+Zino Honduras Half Corona                                            	5-PACK  	$29.64 	25.0%   	$22.23
+Zino Nicaragua Short Torpedo                                         	5-PACK  	$30.53 	35.0%   	$19.84
+Zino Nicaragua Toro                                                  	5-PACK  	$35.40 	35.0%   	$23.01
+Zino Nicaragua Gordo                                                 	5-PACK  	$38.50 	35.0%   	$25.02
+Zino Platinum Crown Chubby Especial                                  	5-PACK  	$285.86	35.0%   	$185.81
+Zino Platinum Crown Barrel Tubos                                     	5-PACK  	$224.35	35.0%   	$145.83
+Zino Platinum Crown Rocket Tubos                                     	5-PACK  	$238.07	35.0%   	$154.75
+Zino Platinum Scepter Series Chubby                                  	5-PACK  	$94.25 	35.0%   	$61.26
+Zino Platinum Scepter Series Chubby Tubos                            	5-PACK  	$96.47 	35.0%   	$62.71
+Zino Platinum Scepter Series Grand Master                            	5-PACK  	$92.48 	60.0%   	$36.99
+Zino Platinum Scepter Series Grand Master Tubos                      	5-PACK  	$95.58 	35.0%   	$62.13
+Drew Estate 20 Acre Farm Robusto                                     	5-PACK  	$61.58 	25.0%   	$46.18
+Drew Estate 20 Acre Farm Toro                                        	5-PACK  	$65.61 	25.0%   	$49.21
+Drew Estate 20 Acre Farm Gordito                                     	5-PACK  	$69.63 	25.0%   	$52.22
+ACID Blondie                                                         	5-PACK  	$27.77 	25.0%   	$20.83
+ACID Blondie Candela                                                 	5-PACK  	$27.77 	25.0%   	$20.83
+ACID Blondie Gold                                                    	5-PACK  	$27.77 	25.0%   	$20.83
+ACID Blondie Maduro                                                  	5-PACK  	$27.77 	25.0%   	$20.83
+ACID Liquid                                                          	5-PACK  	$29.99 	25.0%   	$22.49
+ACID 1400cc Tubos                                                    	5-PACK  	$55.14 	25.0%   	$41.35
+ACID Kuba Kuba Candela                                               	5-PACK  	$47.50 	25.0%   	$35.62
+ACID Kuba Kuba Maduro                                                	5-PACK  	$44.25 	35.0%   	$28.76
+ACID Kuba Kuba                                                       	5 CIGARS	$44.25 	35.0%   	$28.76
+ACID Blondie Belicoso                                                	5 CIGARS	$41.25 	35.0%   	$26.81
+ACID Deep Dish                                                       	5 CIGARS	$47.81 	35.0%   	$31.08
+ACID Toast                                                           	5-PACK  	$48.30 	25.0%   	$36.22
+ACID Kuba Kuba Deluxe Tubos                                          	5-PACK  	$59.17 	25.0%   	$44.38
+ACID Kuba Grande                                                     	5-PACK  	$60.38 	25.0%   	$45.28
+ACID Extra Ordinary Larry                                            	5-PACK  	$60.38 	25.0%   	$45.28
+ACID Cold Infusion                                                   	5-PACK  	$44.28 	25.0%   	$33.21
+ACID Twenty Connecticut                                              	5-PACK  	$49.31 	25.0%   	$36.98
+ACID Twenty Maduro Robusto                                           	5-PACK  	$48.30 	25.0%   	$36.22
+ACID Twenty Maduro Toro                                              	5-PACK  	$49.31 	25.0%   	$36.98
+Blackened by Drew Estate M81 Flying Pig                              	5-PACK  	$66.77 	20.0%   	$53.42
+Blackened by Drew Estate M81 Corona                                  	5-PACK  	$42.26 	15.0%   	$35.92
+Blackened by Drew Estate M81 Robusto                                 	5-PACK  	$43.27 	20.0%   	$34.62
+Blackened by Drew Estate M81 Toro                                    	5-PACK  	$42.19 	20.0%   	$33.75
+Blackened by Drew Estate M81 Corona Doble                            	5-PACK  	$47.29 	15.0%   	$40.20
+Blackened by Drew Estate S84 Corona                                  	5-PACK  	$42.26 	15.0%   	$35.92
+Blackened by Drew Estate S84 Robusto                                 	5-PACK  	$43.27 	15.0%   	$36.78
+Blackened by Drew Estate S84 Toro                                    	5-PACK  	$42.19 	20.0%   	$33.75
+Blackened by Drew Estate S84 Corona Doble                            	5-PACK  	$47.29 	20.0%   	$37.83
+Deadwood Crazy Alice Short Pyramid                                   	5-PACK  	$36.43 	20.0%   	$29.14
+Deadwood Sweet Jane Corona                                           	5-PACK  	$42.26 	20.0%   	$33.81
+Deadwood Fat Bottom Betty Robusto 5pk                                	5-PACK  	$47.90 	25.0%   	$35.92
+Deadwood Leather Rose Torpedo                                        	5-PACK  	$45.28 	20.0%   	$36.22
+Deadwood Fat Bottom Betty Toro                                       	5-PACK  	$47.44 	20.0%   	$37.95
+Deadwood Fat Bottom Betty Gordito                                    	5-PACK  	$54.94 	20.0%   	$43.95
+Deadwood Girl With No Name Lonsdale                                  	5-PACK  	$47.29 	20.0%   	$37.83
+Deadwood Dominicana Pequena                                          	5-PACK  	$26.36 	25.0%   	$19.77
+Deadwood Dominicana Robusto                                          	5-PACK  	$47.90 	25.0%   	$35.92
+Deadwood Dominicana Toro                                             	5-PACK  	$47.44 	30.0%   	$33.21
+Deadwood Dominicana Gordo                                            	5-PACK  	$54.94 	30.0%   	$38.46
+Deadwood Dominicana Buenas Noches Gordo                              	5-PACK  	$54.94 	30.0%   	$38.46
+Deadwood Dominicana Buenas Noches Robusto                            	5-PACK  	$47.90 	30.0%   	$33.53
+Deadwood Dominicana Buenas Noches Toro                               	5-PACK  	$50.92 	30.0%   	$35.64
+Herrera Esteli Brazilian Maduro Lonsdale Deluxe                      	5-PACK  	$47.09 	30.0%   	$32.96
+Herrera Esteli Brazilian Maduro Robusto Grande                       	5-PACK  	$45.08 	30.0%   	$31.56
+Herrera Esteli Robusto Grande                                        	5-PACK  	$45.08 	25.0%   	$33.81
+Herrera Esteli Lonsdale Deluxe                                       	5-PACK  	$47.09 	25.0%   	$35.32
+Java Latte Corona                                                    	5-PACK  	$50.12 	25.0%   	$37.59
+Java Latte The 58                                                    	5-PACK  	$62.65 	25.0%   	$46.99
+Java Latte Robusto                                                   	5-PACK  	$55.04 	25.0%   	$41.28
+Java Latte Toro                                                      	5-PACK  	$46.96 	20.0%   	$37.57
+Java Maduro Corona                                                   	5-PACK  	$50.12 	25.0%   	$37.59
+Java Maduro The 58                                                   	5-PACK  	$62.65 	25.0%   	$46.99
+Java Maduro Robusto                                                  	5-PACK  	$55.04 	25.0%   	$41.28
+Java Maduro Toro                                                     	5-PACK  	$46.96 	20.0%   	$37.57
+Java Mint Petite Corona                                              	5-PACK  	$42.96 	25.0%   	$32.22
+Java Mint Corona                                                     	5-PACK  	$50.12 	25.0%   	$37.59
+Java Mint Robusto                                                    	5-PACK  	$55.04 	25.0%   	$41.28
+Java Mint Toro                                                       	5-PACK  	$46.96 	25.0%   	$35.22
+Java Red Corona                                                      	5-PACK  	$50.12 	25.0%   	$37.59
+Java Red 58                                                          	5-PACK  	$62.65 	25.0%   	$46.99
+Java Red Robusto                                                     	5-PACK  	$55.04 	25.0%   	$41.28
+Java Red Toro                                                        	5-PACK  	$46.96 	20.0%   	$37.57
+Drew Estate MUWAT Kentucky Fire Cured "Chunky"                       	5-PACK  	$30.39 	20.0%   	$24.31
+Drew Estate MUWAT Kentucky Fire Cured "Fat Molly"                    	5-PACK  	$35.42 	20.0%   	$28.34
+Drew Estate MUWAT Kentucky Fire Cured "Just a Friend"                	5-PACK  	$41.46 	20.0%   	$33.17
+Drew Estate MUWAT Kentucky Fire Cured Flying Pig                     	5-PACK  	$56.15 	15.0%   	$47.73
+Nica Rustica by Drew Estate Adobe Robusto                            	5-PACK  	$31.01 	15.0%   	$26.36
+Nica Rustica by Drew Estate Adobe Toro                               	5-PACK  	$33.39 	15.0%   	$28.38
+Nica Rustica by Drew Estate Adobe Gordo                              	5-PACK  	$34.58 	15.0%   	$29.39
+Nica Rustica by Drew Estate Broadleaf Short Robusto                  	5-PACK  	$29.81 	15.0%   	$25.34
+Nica Rustica by Drew Estate Broadleaf Gordo                          	5-PACK  	$33.71 	15.0%   	$28.65
+Nica Rustica by Drew Estate Shade Short Robusto                      	5-PACK  	$29.81 	20.0%   	$23.85
+Nica Rustica by Drew Estate Shade Gordo                              	5-PACK  	$34.58 	20.0%   	$27.66
+Nica Rustica by Drew Estate Shade Toro                               	5-PACK  	$33.39 	20.0%   	$26.71
+Drew Estate Tabak Especial Robusto Dulce                             	5-PACK  	$47.09 	20.0%   	$37.67
+Tabak Especial Gordito Dulce                                         	5-PACK  	$51.12 	20.0%   	$40.90
+Tabak Especial Gordito Negra                                         	5-PACK  	$51.12 	20.0%   	$40.90
+Liga Undercrown 10 Corona Viva                                       	5-PACK  	$50.31 	25.0%   	$37.73
+Liga Undercrown 10 Robusto                                           	5-PACK  	$55.34 	25.0%   	$41.50
+Liga Undercrown 10 Toro                                              	5-PACK  	$52.50 	25.0%   	$39.37
+Liga Undercrown 10 Corona Doble                                      	5-PACK  	$62.39 	25.0%   	$46.79
+Undercrown El Tigre Dominicano Gordo                                 	5-PACK  	$58.36 	25.0%   	$43.77
+Undercrown El Tigre Dominicano Toro                                  	5-PACK  	$52.33 	25.0%   	$39.25
+Undercrown El Tigre Dominicano Viva                                  	5-PACK  	$46.29 	25.0%   	$34.72
+Undercrown Maduro Flying Pig                                         	5-PACK  	$64.20 	20.0%   	$51.36
+Liga Undercrown Maduro Robusto                                       	5-PACK  	$41.06 	25.0%   	$30.79
+Liga Undercrown Maduro Gran Toro                                     	5-PACK  	$41.25 	40.0%   	$24.75
+Liga Undercrown Maduro Gordito                                       	5-PACK  	$53.13 	25.0%   	$39.85
+Liga Undercrown Maduro Corona Doble                                  	5-PACK  	$50.31 	25.0%   	$37.73
+Undercrown Shade Flying Pig                                          	5-PACK  	$64.20 	20.0%   	$51.36
+Liga Undercrown Shade Robusto                                        	5-PACK  	$41.06 	25.0%   	$30.79
+Liga Undercrown Shade Corona                                         	5-PACK  	$39.04 	25.0%   	$29.28
+Liga Undercrown Shade Gordito                                        	5-PACK  	$53.13 	25.0%   	$39.85
+Liga Undercrown Shade Corona Doble                                   	5-PACK  	$50.31 	25.0%   	$37.73
+Kristoff Cameroon Matador 5pk                                        	5-PACK  	$49.94 	40.0%   	$29.96
+Kristoff Cameroon Churchill                                          	5-PACK  	$48.88 	25.0%   	$36.66
+Kristoff Guardrail Matador                                           	5-PACK  	$49.94 	35.0%   	$32.46
+Aganorsa Leaf Aniversario Maduro Box-Pressed Gran Robusto            	5-PACK  	$68.98 	30.0%   	$48.29
+Aganorsa Leaf Aniversario Maduro Box-Pressed Gran Toro               	5-PACK  	$75.61 	30.0%   	$52.93
+Aganorsa Leaf Aniversario Maduro Box-Pressed Toro                    	5-PACK  	$73.43 	30.0%   	$51.40
+Aganorsa Leaf Arsenio Corona                                         	5-PACK  	$66.71 	30.0%   	$46.70
+Aganorsa Leaf Arsenio Toro                                           	5-PACK  	$75.61 	30.0%   	$52.93
+Aganorsa Leaf La Validacion Connecticut Box-Pressed Gran Robusto     	5-PACK  	$41.17 	30.0%   	$28.82
+Aganorsa Leaf La Validacion Connecticut Box-Pressed Toro             	5-PACK  	$44.46 	30.0%   	$31.12
+Aganorsa Leaf La Validacion Connecticut Box-Pressed Gran Toro        	5-PACK  	$46.73 	30.0%   	$32.71
+Aganorsa Leaf La Validacion Corojo Box-Pressed Gran Robusto          	5-PACK  	$42.28 	30.0%   	$29.60
+Aganorsa Leaf La Validacion Corojo Box-Pressed Toro                  	5-PACK  	$45.61 	30.0%   	$31.93
+Aganorsa Leaf La Validacion Corojo BP Gran Toro 5pk                  	5-PACK  	$47.84 	30.0%   	$33.49
+Aganorsa Leaf La Validacion Habano Gran Robusto                      	5-PACK  	$41.17 	30.0%   	$28.82
+Aganorsa Leaf La Validacion Hab. Toro 5pk                            	5-PACK  	$44.46 	30.0%   	$31.12
+Aganorsa Leaf La Validacion Habano Gran Toro                         	5-PACK  	$45.62 	30.0%   	$31.93
+Aganorsa Leaf La Validacion Maduro Box-Pressed Gran Robusto          	5-PACK  	$48.91 	30.0%   	$34.24
+Aganorsa Leaf La Validacion Maduro Box-Pressed Toro                  	5-PACK  	$50.06 	30.0%   	$35.04
+Aganorsa Leaf La Validacion Maduro Box-Pressed Gran Toro             	5-PACK  	$52.29 	30.0%   	$36.60
+Aganorsa Leaf Rare Leaf Maduro Robusto                               	5-PACK  	$59.45 	30.0%   	$41.61
+Aganorsa Leaf Rare Leaf Maduro Toro                                  	5-PACK  	$62.68 	30.0%   	$43.88
+Aganorsa Leaf Rare Leaf Robusto                                      	5-PACK  	$53.36 	30.0%   	$37.35
+Aganorsa Leaf Signature Selection Robusto                            	5-PACK  	$52.29 	30.0%   	$36.60
+Aganorsa Leaf Signature Selection Toro                               	5-PACK  	$53.36 	30.0%   	$37.35
+Aganorsa Leaf Signature Selection Maduro Robusto                     	5-PACK  	$55.58 	30.0%   	$38.91
+Aganorsa Leaf Signature Selection Maduro Toro                        	5-PACK  	$57.81 	30.0%   	$40.47
+Aging Room La Boheme by AJ Fernandez Pittore                         	5-PACK  	$107.04	30.0%   	$74.93
+Aging Room La Boheme by AJ Fernandez Poeta                           	5-PACK  	$109.72	30.0%   	$76.80
+Aging Room La Boheme by AJ Fernandez Musico                          	5-PACK  	$111.42	30.0%   	$77.99
+Aging Room Quattro Nicaragua Espressivo                              	5-PACK  	$66.78 	30.0%   	$46.75
+Aging Room Quattro Nicaragua Vibrato                                 	5-PACK  	$67.86 	30.0%   	$47.50
+Aging Room Quattro Nicaragua Grande                                  	5-PACK  	$69.44 	30.0%   	$48.61
+Aging Room Quattro Nicaragua Impromptu Figurado                      	5-PACK  	$76.86 	30.0%   	$53.80
+Aging Room Quattro Nicaragua Concerto                                	5-PACK  	$68.54 	30.0%   	$47.98
+Aging Room Quattro Nicaragua Sonata Espressivo                       	5-PACK  	$66.78 	30.0%   	$46.75
+Aging Room Quattro Nicaragua Sonata Maestro                          	5-PACK  	$67.28 	30.0%   	$47.10
+Aging Room Quattro Nicaragua Sonata Vibrato                          	5-PACK  	$67.86 	30.0%   	$47.50
+Aging Room Quattro Nicaragua Sonata Grande                           	5-PACK  	$69.44 	30.0%   	$48.61
+Aging Room Quattro Nicaragua Sonata Figurado                         	5-PACK  	$76.86 	30.0%   	$53.80
+Aging Room Quattro Nicaragua Sonata Concerto                         	5-PACK  	$62.83 	30.0%   	$43.98
+Aging Room Quattro Nicaragua Concerto Espressivo                     	5-PACK  	$66.41 	30.0%   	$46.49
+Aging Room Quattro Nicaragua Concerto Maestro                        	5-PACK  	$67.28 	30.0%   	$47.10
+Aging Room Quattro Nicaragua Concerto Vibrato                        	5-PACK  	$67.86 	30.0%   	$47.50
+Aging Room Quattro Nicaragua Concerto Grande                         	5-PACK  	$69.09 	30.0%   	$48.36
+Aging Room Quattro Nicaragua Concerto Impromptu                      	5-PACK  	$76.86 	30.0%   	$53.80
+Asylum 12 770                                                        	5-PACK  	$126.27	25.0%   	$94.70
+Asylum 13 Connecticut 550 Robusto                                    	5-PACK  	$44.37 	25.0%   	$33.28
+Asylum 13 Connecticut 652 Toro                                       	5-PACK  	$46.62 	25.0%   	$34.96
+Asylum 13 Connecticut 660 Gordo                                      	5-PACK  	$49.77 	25.0%   	$37.33
+Asylum 13 Corojo 550                                                 	5-PACK  	$44.37 	25.0%   	$33.28
+Asylum 13 Corojo 652                                                 	5-PACK  	$46.62 	25.0%   	$34.96
+Asylum 13 Corojo 660                                                 	5-PACK  	$49.77 	25.0%   	$37.33
+Asylum 13 Corojo 680                                                 	5-PACK  	$62.82 	25.0%   	$47.11
+Asylum 13 Corojo 770                                                 	5-PACK  	$54.27 	25.0%   	$40.70
+Asylum 13 Corojo 880                                                 	5-PACK  	$65.52 	25.0%   	$49.14
+Asylum 13 Medulla 550 Maduro                                         	5-PACK  	$47.97 	25.0%   	$35.98
+Asylum 13 Medulla 652 Maduro                                         	5-PACK  	$50.22 	25.0%   	$37.66
+Asylum 13 Medulla 660 Maduro                                         	5-PACK  	$53.37 	25.0%   	$40.03
+Asylum 13 Medulla 680 Maduro                                         	5-PACK  	$66.87 	25.0%   	$50.15
+Asylum 13 Medulla 770 Maduro                                         	5-PACK  	$65.52 	25.0%   	$49.14
+Asylum 13 Medulla 550                                                	5-PACK  	$47.97 	25.0%   	$35.98
+Asylum 13 Medulla 652                                                	5-PACK  	$50.22 	25.0%   	$37.66
+Asylum 13 Medulla 660                                                	5-PACK  	$53.37 	25.0%   	$40.03
+Asylum 13 Medulla 680                                                	5-PACK  	$66.87 	25.0%   	$50.15
+Asylum 13 Medulla 770                                                	5-PACK  	$65.52 	25.0%   	$49.14
+Asylum 13 Nica 550                                                   	5-PACK  	$44.37 	25.0%   	$33.28
+Asylum 13 Nica 652                                                   	5-PACK  	$46.62 	25.0%   	$34.96
+Asylum 13 Nica 11/18                                                 	5-PACK  	$51.57 	25.0%   	$38.68
+Asylum 13 Nica 770 Box-Pressed                                       	5-PACK  	$54.27 	25.0%   	$40.70
+Asylum 13 Nica 770                                                   	5-PACK  	$54.27 	25.0%   	$40.70
+Asylum 13 Nica 880                                                   	5-PACK  	$65.52 	25.0%   	$49.14
+Asylum 13 Oblongata 680 Maduro                                       	5-PACK  	$66.87 	25.0%   	$50.15
+Asylum 13 Oblongata Maduro 770                                       	5-PACK  	$65.52 	25.0%   	$49.14
+Asylum 13 Oblongata 550                                              	5-PACK  	$47.97 	25.0%   	$35.98
+Asylum 13 Oblongata 660                                              	5-PACK  	$53.37 	25.0%   	$40.03
+Asylum 13 Ogre 652                                                   	5-PACK  	$51.12 	25.0%   	$38.34
+Asylum 13 Ogre 660                                                   	5-PACK  	$54.27 	25.0%   	$40.70
+Asylum 13 Ogre 680                                                   	5-PACK  	$67.32 	25.0%   	$50.49
+Asylum 13 Split Personality 50x5                                     	5-PACK  	$49.05 	25.0%   	$36.79
+Asylum 13 Split Personality 54x6                                     	5-PACK  	$54.45 	25.0%   	$40.84
+Asylum 13 Split Personality 60x6                                     	5-PACK  	$58.95 	25.0%   	$44.21
+Asylum 13 Split Personality 70x7                                     	5-PACK  	$65.70 	25.0%   	$49.27
+Asylum 867 Auntie Corona                                             	5-PACK  	$46.80 	25.0%   	$35.10
+Asylum 867 Auntie Lancero                                            	5-PACK  	$53.55 	25.0%   	$40.16
+Asylum 867 Midnight Oil The 60                                       	5-PACK  	$61.20 	25.0%   	$45.90
+Asylum 867 Midnight Oil The 70                                       	5-PACK  	$67.95 	25.0%   	$50.96
+Asylum Cool Brew Robusto                                             	5-PACK  	$49.05 	25.0%   	$36.79
+Asylum Cool Brew Toro                                                	5-PACK  	$54.45 	25.0%   	$40.84
+Asylum Cool Brew 660                                                 	5-PACK  	$58.95 	25.0%   	$44.21
+Asylum Cool Brew 770                                                 	5-PACK  	$65.70 	25.0%   	$49.27
+Asylum Insanity Later 550 Maduro                                     	5-PACK  	$40.05 	25.0%   	$30.04
+Asylum Insanity Later 660 Maduro                                     	5-PACK  	$48.40 	25.0%   	$36.30
+Asylum Insidious Connecticut 550 Robusto                             	5-PACK  	$40.77 	25.0%   	$30.58
+Asylum Insidious Connecticut 652 Toro                                	5-PACK  	$41.67 	25.0%   	$31.25
+Asylum Insidious Connecticut 748 Churchill                           	5-PACK  	$42.57 	25.0%   	$31.93
+Asylum Insidious Connecticut 764 Super Gordo                         	5-PACK  	$44.37 	25.0%   	$33.28
+Asylum Insidious Maduro 550 Robusto                                  	5-PACK  	$40.77 	25.0%   	$30.58
