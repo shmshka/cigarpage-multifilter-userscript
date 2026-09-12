@@ -63,6 +63,6 @@ capture date in `#` header comments.
 
 </details>
    
-## Buy Me A ~~Coffee~~ <bold>Smoke</bold> *<sup>(only if you feel like it)</sup>*
+## Buy Me A ~~Coffee~~ <bold>Smoke</bold>
 [![Donate](https://img.shields.io/badge/Donate-PayPal-00457C?logo=paypal&logoColor=white&style=for-the-badge)](https://www.paypal.me/shmshka)  
 <sub>*[paypal.me/shmshka](https://www.paypal.me/shmshka)*</sub>
