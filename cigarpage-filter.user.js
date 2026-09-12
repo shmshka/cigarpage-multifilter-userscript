@@ -1,16 +1,38 @@
 // ==UserScript==
 // @name         CigarPage Multi-Filter
 // @namespace    cigarpage-filter
-// @version      1.8.0
+// @version      1.8.2
 // @description  Floating filter panel for cigarpage.com (grid tables + grouped deal items) — filter by price, gauge, length, Brand, and Pack; brands fold to their parent house so each product belongs to exactly one brand (title first, description as fallback); right-click a brand to preview or permanently purge it; swap secret-sale prices for verified cart-discounted prices from the decoded/ folder on GitHub
 // @author       Shmshka
 // @match        https://www.cigarpage.com/*
+// @match        https://cigarpage.com/*
+// @match        http://www.cigarpage.com/*
+// @match        http://cigarpage.com/*
+// @homepageURL  https://github.com/shmshka/cigarpage-multifilter-userscript
+// @supportURL   https://github.com/shmshka/cigarpage-multifilter-userscript/issues
+// @downloadURL  https://github.com/shmshka/cigarpage-multifilter-userscript/raw/main/cigarpage-filter.user.js
+// @updateURL    https://github.com/shmshka/cigarpage-multifilter-userscript/raw/main/cigarpage-filter.user.js
+// @noframes
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
 
 (function () {
   'use strict';
+
+  // @noframes covers compliant managers; guard the rest so the panel and
+  // observers never attach inside a subframe. Accessing window.top throws in
+  // a cross-origin subframe — the one place a non-compliant manager could
+  // leak the script in — so bail there too.
+  try { if (window.top !== window) return; } catch (_) { return; }
+
+  // @grant none keeps this script in the PAGE context, so it shares the page's
+  // globals. cigarpage.com ships Prototype 1.7, which replaces
+  // Array.prototype.find/filter/map/some/every with its own implementations;
+  // those throw "this.each is not a function" unless the receiver is a genuine
+  // Array, so every call site here must stay on real arrays (never a NodeList
+  // or other array-like).
+  console.log('[CigarPage Filter] v1.8.2 loaded');
 
   const STORAGE_KEY = 'cigarpage-filter-state';
 
@@ -54,6 +76,15 @@
   ];
 
   const CHECKBOX_TABS = TAB_CONFIG.filter(tab => tab.type === 'checkbox');
+
+  // Built with a plain loop rather than Object.fromEntries (ES2019). The
+  // script's effective floor is ES2017 (async/await in the decoded-price
+  // loader), so helpers newer than that are skipped on principle.
+  function freshUnchecked() {
+    const unchecked = {};
+    for (const tab of CHECKBOX_TABS) unchecked[tab.id] = [];
+    return unchecked;
+  }
 
   const KNOWN_BRANDS = [
     '1875 Romeo y Julieta',
@@ -296,7 +327,7 @@
     pos: { x: null, y: null },
     collapsed: false,
     activeTab: 'general',
-    unchecked: Object.fromEntries(CHECKBOX_TABS.map(t => [t.id, []])),
+    unchecked: freshUnchecked(),
     purgedBrands: [],
     ignoredBrands: [],
     priceRange: { min: null, max: null },
@@ -322,7 +353,7 @@
   let detailsExpanded = false;
   let detailsTimer = null;
 
-  state.unchecked = Object.fromEntries(CHECKBOX_TABS.map(t => [t.id, []]));
+  state.unchecked = freshUnchecked();
   if (!Array.isArray(state.purgedBrands)) state.purgedBrands = [];
   if (!Array.isArray(state.ignoredBrands)) state.ignoredBrands = [];
   state.priceRange = { min: null, max: null };
@@ -949,15 +980,10 @@
   const decodedState = {
     status: 'idle', // idle | loading | none | ready | error
     entries: [],
-    captured: null,
     active: false,
-    matched: 0,
-    stale: 0,
-    total: 0,
     error: null,
   };
   let decodedButtonEl = null;
-  let decodedStatusEl = null;
 
   function getDecodedBase() {
     try {
@@ -1009,15 +1035,10 @@
   // are trimmed after splitting.
   function parseDecodedFile(text) {
     const entries = [];
-    let captured = null;
     for (const rawLine of text.split('\n')) {
       const line = rawLine.trim();
       if (!line) continue;
-      if (line.startsWith('#')) {
-        const capturedMatch = /^#\s*captured:\s*(\S+)/i.exec(line);
-        if (capturedMatch) captured = capturedMatch[1];
-        continue;
-      }
+      if (line.startsWith('#')) continue;
       const cells = line.split('\t').map(cell => cell.trim());
       if (cells.length < 5) continue;
       const name = cells[0];
@@ -1031,7 +1052,7 @@
         cartPrice,
       });
     }
-    return { entries, captured };
+    return entries;
   }
 
   async function loadDecodedPrices() {
@@ -1040,9 +1061,10 @@
     decodedState.status = 'loading';
     decodedState.error = null;
     renderDecodedUi();
+    const base = getDecodedBase();
+    const manifestUrl = base + '/index.json?v=' + Date.now();
     try {
-      const base = getDecodedBase();
-      const manifestText = await requestText(base + '/index.json?v=' + Date.now());
+      const manifestText = await requestText(manifestUrl);
       const manifest = JSON.parse(manifestText);
       const files = Array.isArray(manifest.files) ? manifest.files : [];
       const slugLower = slug.toLowerCase();
@@ -1053,14 +1075,12 @@
         return;
       }
       const fileText = await requestText(base + '/' + entry.file + '?v=' + Date.now());
-      const parsed = parseDecodedFile(fileText);
-      decodedState.entries = parsed.entries;
-      decodedState.captured = entry.captured || parsed.captured || null;
-      decodedState.status = parsed.entries.length ? 'ready' : 'none';
+      decodedState.entries = parseDecodedFile(fileText);
+      decodedState.status = decodedState.entries.length ? 'ready' : 'none';
     } catch (error) {
       decodedState.status = 'error';
       decodedState.error = String((error && error.message) || error);
-      console.log('[CigarPage Filter] decoded prices unavailable:', decodedState.error);
+      console.log('[CigarPage Filter] decoded prices unavailable:', decodedState.error, manifestUrl);
     }
     renderDecodedUi();
     if (decodedState.active) applyDecodedPrices();
@@ -1118,8 +1138,6 @@
     for (const node of document.querySelectorAll('.cp-price-original')) {
       node.classList.remove('cp-price-original');
     }
-    decodedState.matched = 0;
-    decodedState.stale = 0;
   }
 
   function applyDecodedPrices() {
@@ -1129,20 +1147,16 @@
       return;
     }
     const map = buildDecodedMap();
-    let matched = 0;
-    let stale = 0;
     for (const [el, entry] of rowData) {
       const found = findDecodedEntry(map, entry.data);
       if (!found) continue;
       const livePrice = entry.data.price;
       // A decoded row whose recorded page price no longer matches the live
-      // page is stale (the sale changed); leave that row alone and report it.
+      // page is stale (the sale changed); leave that row alone.
       if (Number.isFinite(livePrice) && Number.isFinite(found.pagePrice) &&
           Math.abs(livePrice - found.pagePrice) > 0.01) {
-        stale++;
         continue;
       }
-      let applied = false;
       for (const priceNode of el.querySelectorAll('span.price')) {
         if (!priceNode.parentNode) continue;
         priceNode.classList.add('cp-price-original');
@@ -1152,13 +1166,8 @@
         decodedPrice.title = (Number.isFinite(found.discount) ? found.discount.toFixed(1) + '% off' : '') ||
           'cart price';
         priceNode.parentNode.insertBefore(decodedPrice, priceNode.nextSibling);
-        applied = true;
       }
-      if (applied) matched++;
     }
-    decodedState.matched = matched;
-    decodedState.stale = stale;
-    decodedState.total = rowData.size;
     renderDecodedUi();
   }
 
@@ -1178,23 +1187,6 @@
     const show = decodedState.status === 'ready';
     decodedButtonEl.style.display = show ? '' : 'none';
     decodedButtonEl.classList.toggle('cp-active', decodedState.active);
-    if (!decodedStatusEl) return;
-    if (!show) {
-      decodedStatusEl.style.display = 'none';
-      return;
-    }
-    let text;
-    if (decodedState.active) {
-      const parts = ['Decoded ' + decodedState.matched + '/' + decodedState.total + ' items'];
-      if (decodedState.stale > 0) parts.push(decodedState.stale + ' changed (not replaced)');
-      if (decodedState.captured) parts.push('captured ' + decodedState.captured);
-      text = parts.join(' \u00B7 ');
-    } else {
-      text = 'Ready: ' + decodedState.entries.length + ' decoded prices' +
-        (decodedState.captured ? ' \u00B7 captured ' + decodedState.captured : '');
-    }
-    decodedStatusEl.textContent = text;
-    decodedStatusEl.style.display = '';
   }
 
   function buildDecodedUi(container, afterNode) {
@@ -1204,15 +1196,10 @@
     decodedButtonEl.title = 'Swap listed prices for the verified cart prices in the decoded/ folder (click again to restore)';
     decodedButtonEl.style.display = 'none';
     decodedButtonEl.addEventListener('click', toggleDecodedPrices);
-    decodedStatusEl = document.createElement('div');
-    decodedStatusEl.className = 'cp-decoded-status';
-    decodedStatusEl.style.display = 'none';
     if (afterNode.nextSibling) {
       container.insertBefore(decodedButtonEl, afterNode.nextSibling);
-      container.insertBefore(decodedStatusEl, decodedButtonEl.nextSibling);
     } else {
       container.appendChild(decodedButtonEl);
-      container.appendChild(decodedStatusEl);
     }
   }
 
@@ -1237,6 +1224,7 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  -webkit-user-select: none;
   user-select: none;
 }
 #cp-filter-panel.cp-collapsed {
@@ -1248,11 +1236,13 @@
 #cp-filter-panel.cp-collapsed .cp-actions,
 #cp-filter-panel.cp-collapsed .cp-controls,
 #cp-filter-panel.cp-collapsed .cp-tab-content,
-#cp-filter-panel.cp-collapsed .cp-footer {
+#cp-filter-panel.cp-collapsed .cp-footer,
+#cp-filter-panel.cp-collapsed .cp-decoded-btn {
   display: none;
 }
 #cp-filter-panel .cp-drag-handle {
   cursor: move;
+  touch-action: none;
   display: flex;
   align-items: center;
   padding: 6px 8px;
@@ -1496,6 +1486,7 @@
   font-size: 12px;
   color: #333;
   overflow: hidden;
+  -webkit-user-select: none;
   user-select: none;
 }
 #cp-context-menu .cp-context-item {
@@ -1651,15 +1642,46 @@ span.cp-decoded-price {
 #cp-filter-panel .cp-decoded-btn.cp-active:hover {
   background: #6a1b9a;
 }
-#cp-filter-panel .cp-decoded-status {
-  padding: 3px 8px;
-  font-size: 10px;
-  color: #666;
-  background: #faf5ff;
-  border-bottom: 1px solid #eee;
-}
 `;
-    document.head.appendChild(style);
+    (document.head || document.documentElement).appendChild(style);
+  }
+
+  // Safari (desktop and iOS) rejects the async Clipboard API outside a user
+  // gesture, and a .catch() continuation has already lost that activation —
+  // so there the synchronous execCommand path must run inside the click
+  // handler itself. Everyone else keeps the modern API, with the textarea +
+  // execCommand fallback as a last resort for non-secure contexts.
+  const IS_SAFARI_LIKE = (() => {
+    const ua = navigator.userAgent || '';
+    return /safari/i.test(ua) && !/chrome|chromium|crios|fxios|android/i.test(ua);
+  })();
+
+  function copyTextToClipboard(text) {
+    if (IS_SAFARI_LIKE) {
+      fallbackCopyText(text);
+      return;
+    }
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).catch(() => fallbackCopyText(text));
+        return;
+      }
+    } catch (_) {}
+    fallbackCopyText(text);
+  }
+
+  function fallbackCopyText(text) {
+    try {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.setAttribute('readonly', '');
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      (document.body || document.documentElement).appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      ta.remove();
+    } catch (_) {}
   }
 
   function buildFooterLinks() {
@@ -1692,18 +1714,21 @@ span.cp-decoded-price {
 
     const dragHandle = document.createElement('div');
     dragHandle.className = 'cp-drag-handle';
-    // "Filters" title is replaced by font-size controls (🗚 increases, 🗛
-    // decreases) that scale the whole overlay by 5% per click.
+    // "Filters" title is replaced by font-size controls that scale the whole
+    // overlay by 5% per click. Plain text labels, not the U+1F5DA/U+1F5DB
+    // pictographs: those two code points are missing from Segoe UI Emoji and
+    // from most Linux symbol fonts, so they rendered as monochrome outlines
+    // or tofu depending on the OS.
     const fontControls = document.createElement('span');
     fontControls.className = 'cp-font-controls';
     const increaseBtn = document.createElement('button');
     increaseBtn.className = 'cp-font-btn';
-    increaseBtn.textContent = '\u{1F5DA}';
+    increaseBtn.textContent = 'A+';
     increaseBtn.title = 'Increase font size';
     increaseBtn.addEventListener('click', () => adjustFontSize(1.05));
     const decreaseBtn = document.createElement('button');
     decreaseBtn.className = 'cp-font-btn';
-    decreaseBtn.textContent = '\u{1F5DB}';
+    decreaseBtn.textContent = 'A-';
     decreaseBtn.title = 'Decrease font size';
     decreaseBtn.addEventListener('click', () => adjustFontSize(1 / 1.05));
     fontControls.appendChild(increaseBtn);
@@ -1826,13 +1851,17 @@ span.cp-decoded-price {
     container.appendChild(buildFooterLinks());
 
     if (state.pos.x !== null && state.pos.y !== null) {
-      container.style.left = state.pos.x + 'px';
-      container.style.top = state.pos.y + 'px';
+      // Clamp to the current viewport so a position saved on a larger window
+      // or a different display still leaves the panel reachable.
+      const x = Math.max(0, Math.min(state.pos.x, window.innerWidth - 40));
+      const y = Math.max(0, Math.min(state.pos.y, window.innerHeight - 32));
+      container.style.left = x + 'px';
+      container.style.top = y + 'px';
       container.style.right = 'auto';
       container.style.bottom = 'auto';
     }
 
-    document.body.appendChild(container);
+    (document.body || document.documentElement).appendChild(container);
     panel = container;
 
     setupDrag(dragHandle, container);
@@ -1849,8 +1878,11 @@ span.cp-decoded-price {
 
     copyBtn.addEventListener('click', () => {
       const lines = [];
-      for (const [el] of rowData) {
-        if (el.style.display === 'none') continue;
+      for (const [el, entry] of rowData) {
+        // Visibility lives on hideTarget: grid rows hide themselves, but
+        // grouped deal items hide through their wrapping column. Checking el
+        // alone would copy filtered-out deal items.
+        if (entry.hideTarget.style.display === 'none') continue;
         let name = '';
         let size = '';
         if (el.tagName === 'TR') {
@@ -1874,7 +1906,7 @@ span.cp-decoded-price {
         lines.push(name + '\t' + size);
       }
       if (lines.length) {
-        navigator.clipboard.writeText(lines.join('\n')).catch(() => {});
+        copyTextToClipboard(lines.join('\n'));
       }
     });
 
@@ -1906,6 +1938,7 @@ span.cp-decoded-price {
 
   function onPanelContextMenu(e) {
     if (state.activeTab !== 'brand') return;
+    if (!e.target || !e.target.closest) return;
     const item = e.target.closest('.cp-checkbox-item');
     if (!item) return;
     // Managed (purged/ignored) rows carry their brand in data-brand.
@@ -1957,7 +1990,7 @@ span.cp-decoded-price {
     contextMenu.appendChild(previewItem);
     contextMenu.appendChild(ignoreItem);
     contextMenu.appendChild(purgeItem);
-    document.body.appendChild(contextMenu);
+    (document.body || document.documentElement).appendChild(contextMenu);
     return contextMenu;
   }
 
@@ -2005,7 +2038,12 @@ span.cp-decoded-price {
     }
 
     function onMouseDown(e) {
-      if (e.target.tagName === 'BUTTON' || e.target.tagName === 'INPUT') return;
+      // closest() survives nested markup inside buttons/inputs (SVG, spans).
+      const t = e.target;
+      if (t && t.closest && t.closest('button, input')) return;
+      if (t && (t.tagName === 'BUTTON' || t.tagName === 'INPUT')) return;
+      // Ignore secondary touches so a second finger can't hijack the drag.
+      if (e.isPrimary === false) return;
       dragging = true;
       const rect = container.getBoundingClientRect();
       startX = e.clientX;
@@ -2038,9 +2076,13 @@ span.cp-decoded-price {
       saveState();
     }
 
-    handle.addEventListener('mousedown', onMouseDown);
-    document.addEventListener('mousemove', onMouseMove);
-    document.addEventListener('mouseup', onMouseUp);
+    // Pointer events cover mouse, pen, and touch input; engines without them
+    // keep the mouse fallback. touch-action: none on the handle (see CSS)
+    // stops touch drags from being interpreted as page scrolls.
+    const supportsPointer = typeof window.PointerEvent === 'function';
+    handle.addEventListener(supportsPointer ? 'pointerdown' : 'mousedown', onMouseDown);
+    document.addEventListener(supportsPointer ? 'pointermove' : 'mousemove', onMouseMove);
+    document.addEventListener(supportsPointer ? 'pointerup' : 'mouseup', onMouseUp);
   }
 
   function renderAllTabs() {
@@ -2355,12 +2397,43 @@ span.cp-decoded-price {
     }
   }
 
+  // Whether the CSS zoom property is usable. Firefox only gained it in 126;
+  // older Gecko engines silently ignore it, which would leave the font-size
+  // buttons doing nothing.
+  const ZOOM_SUPPORTED = (() => {
+    try {
+      return typeof CSS !== 'undefined' && !!CSS.supports && CSS.supports('zoom', '1');
+    } catch (_) {
+      return false;
+    }
+  })();
+
   // Scale every control in the floating overlay by changing the panel's zoom,
   // which scales text and layout proportionally. fontSize is stored as a
-  // percentage so it persists between sessions.
+  // percentage so it persists between sessions. Where zoom is unavailable, an
+  // equivalent transform scale is used instead; the panel is first pinned to
+  // explicit coordinates so it scales from its visible top-left instead of
+  // drifting away from its corner anchor.
   function applyFontSize() {
     if (!panel) return;
-    panel.style.zoom = String(state.fontSize / 100);
+    const scale = state.fontSize / 100;
+    if (ZOOM_SUPPORTED) {
+      panel.style.zoom = String(scale);
+      return;
+    }
+    if (scale === 1) {
+      panel.style.transform = '';
+      return;
+    }
+    if (!panel.style.left && !panel.style.top) {
+      const rect = panel.getBoundingClientRect();
+      panel.style.left = Math.max(0, rect.left) + 'px';
+      panel.style.top = Math.max(0, rect.top) + 'px';
+      panel.style.right = 'auto';
+      panel.style.bottom = 'auto';
+    }
+    panel.style.transformOrigin = '0 0';
+    panel.style.transform = 'scale(' + scale + ')';
   }
 
   function adjustFontSize(factor) {
@@ -2457,7 +2530,14 @@ span.cp-decoded-price {
   }
 
   function decodeHtml(html) {
-    return html
+    // textarea decodes the full entity set (&nbsp;, &#x27;, etc.) on every
+    // engine; the chained replaces below are fallback only.
+    try {
+      const txt = document.createElement('textarea');
+      txt.innerHTML = html;
+      return txt.value;
+    } catch (_) {}
+    return String(html == null ? '' : html)
       .replace(/&lt;/g, '<')
       .replace(/&gt;/g, '>')
       .replace(/&amp;/g, '&')
@@ -2579,6 +2659,12 @@ span.cp-decoded-price {
         if (needsRescan) break;
       }
       if (needsRescan) {
+        // Rows can also arrive after the initial polling window gave up;
+        // bootstrap first so the rescan below has a panel to refresh. A fresh
+        // bootstrap already applied everything, so skip the rescan then.
+        const hadPanel = panel !== null;
+        bootstrapPanel();
+        if (!hadPanel) return;
         extractRowData();
         refreshSorting();
         renderAllTabs();
@@ -2588,7 +2674,7 @@ span.cp-decoded-price {
         if (decodedState.active) applyDecodedPrices();
       }
     });
-    observer.observe(document.body, { childList: true, subtree: true });
+    observer.observe(document.body || document.documentElement, { childList: true, subtree: true });
   }
 
   function waitForTables(maxAttempts, interval, callback) {
@@ -2610,30 +2696,40 @@ span.cp-decoded-price {
     check();
   }
 
+  // Bring the panel up once product rows exist. Safe to call repeatedly: it
+  // no-ops while the panel is live and bails while the page has no rows yet.
+  function bootstrapPanel() {
+    if (panel) return;
+    if (!extractRowData()) return;
+    buildPanel();
+    applyFilters();
+    updateAllCheckboxCounts();
+    updateBadgeText();
+    loadDecodedPrices();
+    window.addEventListener('resize', () => relayoutInjectedDetails());
+  }
+
   function init() {
     injectStyles();
+
+    // Armed before any rows exist: a grid that hydrates after the polling
+    // window (slow connection, bot challenge, late AJAX container) is picked
+    // up by the observer and bootstrapped on its first real rows.
+    setupObserver();
 
     // Grouped deal pages load their items via AJAX after page load,
     // so allow a longer wait there before giving up.
     const isGroupedPage = document.querySelector('#grouped-items-container') !== null;
     waitForTables(isGroupedPage ? 120 : 40, 250, function (found) {
       if (!found) {
-        console.log('[CigarPage Filter] No product tables found on this page.');
+        // Not terminal: the observer above stays armed and bootstraps the
+        // panel if rows hydrate late (slow connection, bot challenge, AJAX).
+        if (!panel) console.log('[CigarPage Filter] No product tables found yet; still watching for late rows.');
         return;
       }
 
-      if (!extractRowData()) {
-        console.log('[CigarPage Filter] No product rows found.');
-        return;
-      }
-
-      buildPanel();
-      applyFilters();
-      updateAllCheckboxCounts();
-      updateBadgeText();
-      setupObserver();
-      loadDecodedPrices();
-      window.addEventListener('resize', () => relayoutInjectedDetails());
+      bootstrapPanel();
+      if (!panel) console.log('[CigarPage Filter] No product rows found.');
     });
   }
 
