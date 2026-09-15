@@ -1,0 +1,8 @@
+# CigarPage decoded cart prices
+# page:     https://www.cigarpage.com/tenskis-on-tuesdays.html
+# captured: 2026-09-15
+# columns:  Name | Pack | Page $ | Discount % | Cart $ (tab-separated)
+Liga Privada H99 Corona Doble	10 CIGARS	$197.03	20.0%   	$157.62
+Liga Privada No. 9 Belicoso  	10 CIGARS	$187.58	20.0%   	$150.06
+Liga Privada T52 Toro        	10 CIGARS	$178.13	20.0%   	$142.50
+Liga Privada T52 Corona Doble	10 CIGARS	$197.03	20.0%   	$157.62
