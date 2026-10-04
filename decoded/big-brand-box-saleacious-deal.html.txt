@@ -1,0 +1,727 @@
+# CigarPage decoded cart prices
+# page:     https://www.cigarpage.com/big-brand-box-saleacious-deal.html
+# captured: 2026-10-03
+# columns:  Name | Pack | Page $ | Discount % | Cart $ (tab-separated)
+Drew Estate 20 Acre Farm Toro                                        	BOX OF 20 	$262.43	30.0%   	$183.70
+Drew Estate 20 Acre Farm Gordito                                     	BOX OF 20 	$278.53	30.0%   	$194.97
+ACID 1400cc Tubos                                                    	BOX OF 18 	$198.51	30.0%   	$138.96
+ACID Blondie Belicoso                                                	BOX OF 24 	$212.52	30.0%   	$148.76
+ACID Blondie Candela                                                 	BOX OF 40 	$222.18	30.0%   	$155.53
+ACID Blondie Gold                                                    	BOX OF 40 	$222.18	30.0%   	$155.53
+ACID Blondie Maduro                                                  	BOX OF 40 	$222.18	30.0%   	$155.53
+ACID C-Notes                                                         	BOX OF 100	$148.93	25.0%   	$111.70
+ACID Cold Infusion                                                   	BOX OF 24 	$212.52	30.0%   	$148.76
+ACID Deep Dish                                                       	BOX OF 24 	$246.33	30.0%   	$172.43
+ACID Extra Ordinary Larry                                            	BOX OF 10 	$120.75	30.0%   	$84.52
+ACID Kuba Grande                                                     	BOX OF 10 	$120.75	30.0%   	$84.52
+ACID Kuba Kuba Candela                                               	BOX OF 24 	$227.98	30.0%   	$159.59
+ACID Kuba Kuba Deluxe Tubos                                          	BOX OF 10 	$118.34	30.0%   	$82.84
+ACID Kuba Kuba Maduro                                                	BOX OF 24 	$227.98	30.0%   	$159.59
+ACID Plush                                                           	BOX OF 24 	$226.04	30.0%   	$158.23
+ACID Toast                                                           	BOX OF 24 	$231.84	30.0%   	$162.29
+ACID Twenty Connecticut Toro                                         	BOX OF 20 	$197.23	30.0%   	$138.06
+ACID Twenty Robusto                                                  	BOX OF 24 	$231.84	30.0%   	$162.29
+ACID Twenty Toro                                                     	BOX OF 24 	$236.67	30.0%   	$165.67
+Blackened by Drew Estate M81 Flying Pig                              	BOX OF 12 	$160.26	25.0%   	$120.19
+Blackened by Drew Estate M81 Corona                                  	BOX OF 20 	$169.05	25.0%   	$126.79
+Blackened by Drew Estate M81 Robusto                                 	BOX OF 20 	$173.08	25.0%   	$129.81
+Blackened by Drew Estate M81 Corona Doble                            	BOX OF 20 	$189.18	20.0%   	$151.34
+Blackened by Drew Estate S84 Corona                                  	BOX OF 20 	$169.05	25.0%   	$126.79
+Blackened by Drew Estate S84 Robusto                                 	BOX OF 20 	$173.08	25.0%   	$129.81
+Blackened by Drew Estate S84 Toro                                    	BOX OF 20 	$181.13	25.0%   	$135.85
+Blackened by Drew Estate S84 Corona Doble                            	BOX OF 20 	$189.18	25.0%   	$141.88
+Deadwood C-Notes                                                     	BOX OF 100	$144.90	20.0%   	$115.92
+Deadwood Sweet Jane Corona                                           	BOX OF 24 	$202.86	30.0%   	$142.00
+Deadwood Leather Rose Torpedo                                        	BOX OF 24 	$217.35	30.0%   	$152.14
+Deadwood Dominicana Pequena                                          	BOX OF 20 	$105.46	30.0%   	$73.82
+Deadwood Dominicana Buenas Noches Robusto                            	BOX OF 10 	$95.80 	30.0%   	$67.06
+Deadwood Dominicana Buenas Noches Toro                               	BOX OF 10 	$101.83	30.0%   	$71.28
+Deadwood Dominicana Buenas Noches Gordo                              	BOX OF 10 	$109.88	30.0%   	$76.92
+Herrera Esteli Brazilian Maduro Robusto Grande                       	BOX OF 25 	$225.40	30.0%   	$157.78
+Herrera Esteli Brazilian Maduro Lonsdale Deluxe                      	BOX OF 25 	$235.46	30.0%   	$164.82
+Herrera Esteli Robusto Grande                                        	BOX OF 25 	$225.40	30.0%   	$157.78
+Herrera Esteli Lonsdale Deluxe                                       	BOX OF 25 	$235.46	30.0%   	$164.82
+Herrera Esteli Toro Especial                                         	BOX OF 25 	$245.53	30.0%   	$171.87
+Java Latte Corona                                                    	BOX OF 24 	$240.58	35.0%   	$156.38
+Java Latte Robusto                                                   	BOX OF 24 	$264.20	35.0%   	$171.73
+Java Latte The 58                                                    	BOX OF 24 	$300.72	35.0%   	$195.47
+Java Latte Petite Corona                                             	BOX OF 40 	$336.52	35.0%   	$218.74
+Java Maduro Corona                                                   	BOX OF 24 	$240.58	35.0%   	$156.38
+Java Maduro Robusto                                                  	BOX OF 24 	$264.20	35.0%   	$171.73
+Java Maduro The 58                                                   	BOX OF 24 	$300.72	35.0%   	$195.47
+Java Maduro Petite Corona                                            	BOX OF 40 	$343.68	35.0%   	$223.39
+Java Mint Corona                                                     	BOX OF 24 	$240.58	35.0%   	$156.38
+Java Mint Robusto                                                    	BOX OF 24 	$264.20	35.0%   	$171.73
+Java Mint The 58                                                     	BOX OF 24 	$300.72	35.0%   	$195.47
+Java Mint Petite Corona                                              	BOX OF 40 	$343.68	35.0%   	$223.39
+Java Red 58                                                          	BOX OF 24 	$300.72	35.0%   	$195.47
+Java Red Corona                                                      	BOX OF 24 	$240.58	35.0%   	$156.38
+Java Red Robusto                                                     	BOX OF 24 	$264.20	35.0%   	$171.73
+Java Red Petite Corona                                               	BOX OF 40 	$343.68	35.0%   	$223.39
+Drew Estate MUWAT Kentucky Fire Cured Flying Pig                     	BOX OF 12 	$134.76	20.0%   	$107.81
+Nica Rustica by Drew Estate Adobe Robusto                            	BOX OF 25 	$151.13	20.0%   	$120.90
+Nica Rustica by Drew Estate Adobe Toro                               	BOX OF 25 	$162.75	20.0%   	$130.20
+Nica Rustica by Drew Estate Adobe Gordo                              	BOX OF 25 	$168.56	20.0%   	$134.85
+Nica Rustica by Drew Estate Broadleaf Short Robusto                  	BOX OF 25 	$145.31	20.0%   	$116.25
+Nica Rustica by Drew Estate Broadleaf Gordo                          	BOX OF 25 	$168.56	25.0%   	$126.42
+Nica Rustica by Drew Estate Shade Toro                               	BOX OF 25 	$162.75	30.0%   	$113.92
+Nica Rustica by Drew Estate Shade Gordo                              	BOX OF 25 	$168.56	30.0%   	$117.99
+Liga Undercrown 10 Corona Viva                                       	BOX OF 20 	$201.25	30.0%   	$140.87
+Liga Undercrown 10 Robusto                                           	BOX OF 20 	$221.38	30.0%   	$154.97
+Liga Undercrown 10 Corona Doble                                      	BOX OF 20 	$249.55	30.0%   	$174.68
+Undercrown El Tigre Dominicano Viva                                  	BOX OF 20 	$185.15	30.0%   	$129.60
+Undercrown El Tigre Dominicano Robusto                               	BOX OF 20 	$205.28	30.0%   	$143.70
+Undercrown El Tigre Dominicano Toro                                  	BOX OF 20 	$209.30	30.0%   	$146.51
+Undercrown El Tigre Dominicano Gordo                                 	BOX OF 20 	$233.45	30.0%   	$163.41
+Undercrown Maduro Flying Pig                                         	BOX OF 12 	$154.08	20.0%   	$123.26
+Liga Undercrown Maduro Gran Toro                                     	BOX OF 25 	$221.38	30.0%   	$154.97
+Liga Undercrown Maduro Corona Doble                                  	BOX OF 25 	$251.56	30.0%   	$176.09
+Liga Undercrown Maduro Gordito                                       	BOX OF 25 	$265.65	30.0%   	$185.95
+Undercrown Shade Flying Pig                                          	BOX OF 12 	$154.08	20.0%   	$123.26
+Liga Undercrown Shade Robusto                                        	BOX OF 25 	$205.28	30.0%   	$143.70
+Liga Undercrown Shade Gran Toro                                      	BOX OF 25 	$221.38	30.0%   	$154.97
+Liga Undercrown Shade Corona Doble                                   	BOX OF 25 	$251.56	30.0%   	$176.09
+Liga Undercrown Shade Gordito                                        	BOX OF 25 	$265.65	30.0%   	$185.95
+Aganorsa Leaf Aniversario Connecticut Box-Pressed Toro               	BOX OF 10 	$138.72	30.0%   	$97.10
+Aganorsa Leaf Aniversario Maduro Box-Pressed Gran Robusto            	BOX OF 10 	$137.95	30.0%   	$96.56
+Aganorsa Leaf Aniversario Maduro Box-Pressed Toro                    	BOX OF 10 	$146.85	30.0%   	$102.79
+Aganorsa Leaf Aniversario Maduro Box-Pressed Gran Toro               	BOX OF 10 	$151.21	30.0%   	$105.85
+Aganorsa Leaf Arsenio Corona                                         	BOX OF 15 	$200.12	30.0%   	$140.08
+Aganorsa Leaf Arsenio Robusto                                        	BOX OF 15 	$213.47	30.0%   	$149.43
+Aganorsa Leaf Arsenio Toro                                           	BOX OF 15 	$226.82	30.0%   	$158.77
+Aganorsa Leaf La Validacion Connecticut Box-Pressed Robusto          	BOX OF 15 	$123.48	30.0%   	$86.44
+Aganorsa Leaf La Validacion Connecticut Box-Pressed Toro             	BOX OF 15 	$133.37	30.0%   	$93.36
+Aganorsa Leaf La Validacion Connecticut Box-Pressed Gran Toro        	BOX OF 15 	$140.12	30.0%   	$98.08
+Aganorsa Leaf La Validacion Corojo Box-Pressed Gran Robusto          	BOX OF 15 	$124.31	30.0%   	$87.02
+Aganorsa Leaf La Validacion Corojo Box-Pressed Toro                  	BOX OF 15 	$133.88	30.0%   	$93.72
+Aganorsa Leaf La Validacion Corojo Box-Pressed Gran Toro             	BOX OF 15 	$140.12	30.0%   	$98.08
+Aganorsa Leaf La Validacion Habano Gran Robusto                      	BOX OF 15 	$123.48	30.0%   	$86.44
+Aganorsa Leaf La Validacion Habano Toro                              	BOX OF 15 	$130.69	30.0%   	$91.48
+Aganorsa Leaf La Validacion Habano Gran Toro                         	BOX OF 15 	$133.88	30.0%   	$93.72
+Aganorsa Leaf La Validacion Maduro Box-Pressed Gran Robusto          	BOX OF 15 	$143.44	30.0%   	$100.41
+Aganorsa Leaf La Validacion Maduro Box-Pressed Toro                  	BOX OF 15 	$150.19	30.0%   	$105.13
+Aganorsa Leaf La Validacion Maduro Box-Pressed Gran Toro             	BOX OF 15 	$156.86	30.0%   	$109.80
+Aganorsa Leaf Rare Leaf Robusto                                      	BOX OF 15 	$156.83	30.0%   	$109.78
+Aganorsa Leaf Rare Leaf Toro                                         	BOX OF 15 	$169.58	30.0%   	$118.71
+Aganorsa Leaf Rare Leaf Maduro Robusto                               	BOX OF 15 	$178.37	30.0%   	$124.86
+Aganorsa Leaf Rare Leaf Maduro Toro                                  	BOX OF 15 	$188.05	30.0%   	$131.63
+Aganorsa Leaf Signature Selection Robusto                            	BOX OF 20 	$208.25	30.0%   	$145.77
+Aganorsa Leaf Signature Selection Toro                               	BOX OF 20 	$211.65	30.0%   	$148.15
+Aganorsa Leaf Signature Selection Maduro Robusto                     	BOX OF 20 	$220.83	30.0%   	$154.58
+Aganorsa Leaf Signature Selection Maduro Toro                        	BOX OF 20 	$231.22	30.0%   	$161.85
+Asylum 12 770                                                        	BOX OF 20 	$505.08	40.0%   	$303.05
+Asylum 13 Medulla 550                                                	BOX OF 25 	$239.85	35.0%   	$155.90
+Asylum 13 Oblongata 550                                              	25 CIGARS 	$239.85	35.0%   	$155.90
+Asylum 13 Medulla Natural 652                                        	BOX OF 25 	$251.10	35.0%   	$163.21
+Asylum 13 Medulla 770                                                	BOX OF 20 	$262.08	35.0%   	$170.35
+Asylum 13 Medulla 680                                                	BOX OF 20 	$267.48	35.0%   	$173.86
+Asylum 13 Medulla 660                                                	BOX OF 25 	$266.85	35.0%   	$173.45
+Asylum 13 Medulla 550 Maduro                                         	BOX OF 25 	$239.85	35.0%   	$155.90
+Asylum 13 Oblongata 550 Maduro                                       	BOX OF 25 	$239.85	35.0%   	$155.90
+Asylum 13 Medulla 652 Maduro                                         	BOX OF 25 	$251.10	35.0%   	$163.21
+Asylum 13 Medulla 770 Maduro                                         	BOX OF 20 	$262.08	35.0%   	$170.35
+Asylum 13 Oblongata Maduro 770                                       	BOX OF 20 	$262.08	35.0%   	$170.35
+Asylum 13 Oblongata 680 Maduro                                       	BOX OF 20 	$267.48	35.0%   	$173.86
+Asylum 13 Medulla 660 Maduro                                         	BOX OF 25 	$266.85	35.0%   	$173.45
+Asylum 13 Connecticut 550 Robusto                                    	BOX OF 25 	$221.85	35.0%   	$144.20
+Asylum 13 Connecticut 652 Toro                                       	BOX OF 25 	$233.10	35.0%   	$151.51
+Asylum 13 Connecticut 660 Gordo                                      	BOX OF 25 	$248.85	35.0%   	$161.75
+Asylum 13 Corojo 770                                                 	BOX OF 20 	$217.08	35.0%   	$141.10
+Asylum 13 Corojo 550                                                 	BOX OF 25 	$221.85	35.0%   	$144.20
+Asylum 13 Corojo 652                                                 	BOX OF 25 	$233.10	35.0%   	$151.51
+Asylum 13 Corojo 680                                                 	BOX OF 20 	$251.28	35.0%   	$163.33
+Asylum 13 Corojo 880                                                 	BOX OF 20 	$262.08	35.0%   	$170.35
+Asylum 13 Nica 770                                                   	BOX OF 20 	$217.08	35.0%   	$141.10
+Asylum 13 Nica 770 Box-Pressed                                       	BOX OF 20 	$217.08	35.0%   	$141.10
+Asylum 13 Nica 550                                                   	BOX OF 25 	$221.85	35.0%   	$144.20
+Asylum 13 Nica 652                                                   	BOX OF 25 	$233.10	35.0%   	$151.51
+Asylum 13 Nica 660                                                   	BOX OF 25 	$248.85	35.0%   	$161.75
+Asylum 13 Nica 11/18                                                 	BOX OF 25 	$257.85	35.0%   	$167.60
+Asylum 13 Ogre 652                                                   	BOX OF 25 	$255.60	35.0%   	$166.14
+Asylum 13 Ogre 680                                                   	BOX OF 20 	$269.28	35.0%   	$175.03
+Asylum 13 Ogre 660                                                   	BOX OF 25 	$271.35	35.0%   	$176.38
+Asylum 13 Pandemonium 8.5x52                                         	BOX OF 20 	$244.08	35.0%   	$158.65
+Asylum 13 Pandemonium 8.5x60                                         	BOX OF 20 	$265.68	35.0%   	$172.69
+Asylum 13 Pandemonium 8.5x70                                         	BOX OF 20 	$283.68	35.0%   	$184.39
+Asylum 13 Split Personality 50x5                                     	BOX OF 25 	$245.25	35.0%   	$159.41
+Asylum 13 Split Personality 70x7                                     	BOX OF 20 	$262.80	35.0%   	$170.82
+Asylum 13 Split Personality 60x6                                     	BOX OF 25 	$294.75	35.0%   	$191.59
+Asylum 867 Auntie Corona                                             	BOX OF 20 	$187.20	35.0%   	$121.68
+Asylum 867 Auntie Lancero                                            	BOX OF 20 	$214.20	35.0%   	$139.23
+Asylum 867 Midnight Oil The 60                                       	BOX OF 20 	$244.80	35.0%   	$159.12
+Asylum 867 Midnight Oil The 70                                       	BOX OF 20 	$271.80	35.0%   	$176.67
+Asylum 867 Zero Robusto                                              	BOX OF 20 	$205.20	35.0%   	$133.38
+Asylum 867 Zero Toro                                                 	BOX OF 20 	$214.20	35.0%   	$139.23
+Asylum April Fools 2026 Year of The Horse                            	BOX OF 6  	$243.93	35.0%   	$158.55
+Asylum Arabian Nights 50x5                                           	BOX OF 10 	$129.75	30.0%   	$90.82
+Asylum Arabian Nights 54x6 Belicoso                                  	BOX OF 10 	$138.40	30.0%   	$96.88
+Asylum Arabian Nights 60x6                                           	BOX OF 10 	$147.05	30.0%   	$102.93
+Asylum Arabian Nights 70x7                                           	BOX OF 10 	$155.70	30.0%   	$108.99
+Asylum Cool Brew 770                                                 	BOX OF 20 	$262.80	35.0%   	$170.82
+Asylum Cool Brew Toro                                                	BOX OF 25 	$272.25	35.0%   	$176.96
+Asylum Cool Brew 660                                                 	BOX OF 25 	$294.75	35.0%   	$191.59
+Asylum Nyctophilia Super Gordo                                       	BOX OF 20 	$231.48	35.0%   	$150.46
+Asylum Nyctophilia Toro                                              	BOX OF 25 	$266.85	35.0%   	$173.45
+Asylum Nyctophilia Gordo                                             	BOX OF 20 	$266.85	35.0%   	$173.45
+Asylum Signature Series by Tom Lazuka 46x6                           	BOX OF 10 	$150.45	35.0%   	$97.79
+Avo Classic No 9 Corona Extra                                        	BOX OF 20 	$190.75	30.0%   	$133.52
+Avo Classic Robusto                                                  	BOX OF 20 	$201.25	30.0%   	$140.87
+Avo Classic Robusto Tubo                                             	BOX OF 20 	$213.50	30.0%   	$149.45
+Avo Classic No 2 Toro                                                	BOX OF 20 	$225.75	30.0%   	$158.02
+Avo Classic No. 2 Toro Tubo                                          	BOX OF 20 	$234.50	35.0%   	$152.42
+Avo Classic No 6 Gordo                                               	BOX OF 20 	$234.50	30.0%   	$164.15
+Avo Classic No.3 Double Corona                                       	BOX OF 20 	$234.50	30.0%   	$164.15
+Avo Maduro Robusto                                                   	BOX OF 25 	$251.56	30.0%   	$176.09
+Avo Maduro #3 Churchill                                              	BOX OF 25 	$293.13	30.0%   	$205.19
+Avo Expresivo Robusto                                                	BOX OF 20 	$280.00	30.0%   	$196.00
+Avo Expresivo Toro                                                   	BOX OF 20 	$311.50	30.0%   	$218.05
+Avo Heritage Robusto                                                 	BOX OF 20 	$201.25	32.0%   	$136.85
+Avo Heritage Toro                                                    	BOX OF 20 	$218.75	32.0%   	$148.75
+Avo Syncro Nicaragua Fogata Robusto                                  	BOX OF 20 	$213.50	32.0%   	$145.18
+Avo Syncro Caribe Toro                                               	BOX OF 20 	$257.25	32.0%   	$174.93
+Avo Syncro Caribe Special Toro                                       	BOX OF 20 	$278.25	32.0%   	$189.21
+Avo Syncro Nicaragua Robusto                                         	BOX OF 20 	$213.50	32.0%   	$145.18
+Avo Syncro Nicaragua Toro                                            	BOX OF 20 	$236.25	32.0%   	$160.65
+Avo Syncro Nicaragua Special Toro                                    	BOX OF 20 	$257.25	32.0%   	$174.93
+Avo Syncro South America Ritmo Robusto                               	BOX OF 20 	$236.25	32.0%   	$160.65
+Avo Syncro South America Ritmo Toro                                  	BOX OF 20 	$257.25	32.0%   	$174.93
+Avo Syncro South America Ritmo Special Toro                          	BOX OF 20 	$278.25	32.0%   	$189.21
+Avo Syncro South America Ritmo Torpedo Largo                         	BOX OF 20 	$299.25	32.0%   	$203.49
+Avo XO Intermezzo                                                    	BOX OF 20 	$234.50	32.0%   	$159.46
+Avo XO Maestoso                                                      	BOX OF 20 	$260.75	32.0%   	$177.31
+Caldwell 22 Minutes to Midnight RC Edition Habano Corona Gorda       	BOX OF 10 	$143.20	40.0%   	$85.92
+Caldwell 22 Minutes to Midnight RC Edition Connecticut Corona Gorda  	BOX OF 20 	$286.40	40.0%   	$171.84
+Caldwell 22 Minutes to Midnight RC Edition Habano Corona Gorda       	BOX OF 20 	$286.40	40.0%   	$171.84
+Caldwell 22 Minutes to Midnight San Andres Robusto                   	BOX OF 20 	$349.05	40.0%   	$209.43
+Caldwell 22 Minutes to Midnight Connecticut Radiante Robusto         	BOX OF 20 	$375.90	40.0%   	$225.54
+Caldwell Anastasia 2022 Kartel                                       	BOX OF 25 	$525.81	40.0%   	$315.49
+Caldwell Blind Man's Bluff Connecticut Robusto                       	BOX OF 20 	$197.44	40.0%   	$118.46
+Caldwell Blind Man's Bluff Connecticut Toro                          	BOX OF 20 	$220.89	40.0%   	$132.53
+Caldwell Blind Man's Bluff Connecticut Magnum                        	BOX OF 20 	$244.34	40.0%   	$146.60
+Caldwell Blind Man's Bluff Maduro Robusto                            	BOX OF 20 	$197.44	40.0%   	$118.46
+Caldwell Blind Man's Bluff Maduro Toro                               	BOX OF 20 	$220.89	40.0%   	$132.53
+Caldwell Blind Man's Bluff Maduro Magnum                             	BOX OF 20 	$244.34	40.0%   	$146.60
+Caldwell Blind Man's Bluff Robusto                                   	BOX OF 20 	$197.44	40.0%   	$118.46
+Caldwell Blind Man's Bluff Toro                                      	BOX OF 20 	$220.89	40.0%   	$132.53
+Caldwell Blind Man's Bluff Magnum                                    	BOX OF 20 	$244.34	40.0%   	$146.60
+Caldwell Eastern Standard Euro Express                               	BOX OF 24 	$277.31	40.0%   	$166.39
+Caldwell Eastern Standard Corretto                                   	BOX OF 24 	$305.45	40.0%   	$183.27
+Caldwell Eastern Std Cream Crush                                     	BOX OF 24 	$324.13	40.0%   	$194.48
+Caldwell Eastern Standard Cypress Room Super Toro                    	BOX OF 24 	$375.90	40.0%   	$225.54
+Caldwell Eastern Standard Cakewalk Torpedo                           	BOX OF 24 	$399.31	40.0%   	$239.59
+Caldwell King is Dead Premier                                        	BOX OF 24 	$277.31	40.0%   	$166.39
+Caldwell King Is Dead Diamond Girl                                   	BOX OF 24 	$319.62	40.0%   	$191.77
+Caldwell King is Dead Last Payday                                    	BOX OF 24 	$319.62	40.0%   	$191.77
+Caldwell King is Dead Toro                                           	BOX OF 24 	$338.31	40.0%   	$202.99
+Caldwell Long Live The King The Heater                               	BOX OF 24 	$277.31	40.0%   	$166.39
+Caldwell Long Live The King My Style is Jalapeno                     	BOX OF 24 	$305.45	40.0%   	$183.27
+Caldwell Long Live The King Petit Double Wide Short Churchill        	BOX OF 24 	$328.86	40.0%   	$197.32
+Caldwell Long Live The King Lock Stock                               	BOX OF 24 	$352.49	40.0%   	$211.49
+Caldwell Long Live The King Marquis                                  	BOX OF 24 	$352.49	40.0%   	$211.49
+Caldwell Long Live The King Mad MoFo Corona Maduro                   	BOX OF 10 	$131.57	40.0%   	$78.94
+Caldwell Long Live The King Mad MoFo Super Toro Maduro               	BOX OF 10 	$140.96	40.0%   	$84.58
+Caldwell Long Live The King Mad MoFo Belicoso Maduro                 	BOX OF 10 	$148.03	40.0%   	$88.82
+Caldwell Long Live The King Mad MoFo Magnum Maduro                   	BOX OF 10 	$153.22	40.0%   	$91.93
+Caldwell Long Live the Queen Queen's Court                           	BOX OF 10 	$154.12	40.0%   	$92.47
+Caldwell Long Live the Queen Queen's Sword                           	BOX OF 10 	$159.76	40.0%   	$95.86
+Caldwell Long Live the Queen Queen's Crown                           	BOX OF 10 	$164.50	40.0%   	$98.70
+Caldwell Long Live the Queen Queen's Club                            	BOX OF 10 	$173.90	40.0%   	$104.34
+Caldwell Long Live the Queen Ace of Hearts Box-Pressed               	BOX OF 10 	$197.35	40.0%   	$118.41
+Caldwell Long Live the Queen Maduro Queen's Crest                    	BOX OF 10 	$138.64	40.0%   	$83.18
+Caldwell Long Live the Queen Maduro Queen's Coronet                  	BOX OF 10 	$145.71	40.0%   	$87.43
+Caldwell Long Live the Queen Maduro Queen's Chalice                  	BOX OF 10 	$164.50	40.0%   	$98.70
+Caldwell Long Live the Queen Maduro Queen's Charge                   	BOX OF 10 	$176.23	40.0%   	$105.74
+Camacho Broadleaf Robusto                                            	BOX OF 20 	$171.50	30.0%   	$120.05
+Camacho Broadleaf Gordo                                              	BOX OF 20 	$194.25	30.0%   	$135.97
+Camacho Connecticut Robusto                                          	BOX OF 20 	$171.50	30.0%   	$120.05
+Camacho Connecticut Robusto Tubos                                    	BOX OF 20 	$180.25	30.0%   	$126.17
+Camacho Connecticut Toro                                             	BOX OF 20 	$180.25	30.0%   	$126.17
+Camacho Connecticut Churchill                                        	BOX OF 20 	$183.75	30.0%   	$128.62
+Camacho Connecticut 60/6                                             	BOX OF 20 	$194.25	30.0%   	$135.97
+Camacho Corojo Robusto                                               	BOX OF 20 	$171.50	30.0%   	$120.05
+Camacho Corojo Robusto Tubos                                         	BOX OF 20 	$180.25	30.0%   	$126.17
+Camacho Corojo Toro                                                  	BOX OF 20 	$180.25	30.0%   	$126.17
+Camacho Corojo Churchill                                             	BOX OF 20 	$183.75	30.0%   	$128.62
+Camacho Ecuador Robusto                                              	BOX OF 20 	$171.50	30.0%   	$120.05
+Camacho Ecuador Churchill                                            	BOX OF 20 	$183.75	30.0%   	$128.62
+Camacho Nicaragua Robusto                                            	BOX OF 20 	$171.50	30.0%   	$120.05
+Camacho Nicaragua Toro                                               	BOX OF 20 	$180.25	30.0%   	$126.17
+Camacho Nicaragua Churchill                                          	BOX OF 20 	$189.00	30.0%   	$132.30
+Camacho Triple Maduro Robusto                                        	BOX OF 20 	$213.50	30.0%   	$149.45
+Camacho Triple Maduro Toro                                           	BOX OF 20 	$229.25	30.0%   	$160.47
+Camacho Triple Maduro 6X60                                           	BOX OF 20 	$243.25	30.0%   	$170.27
+CLE 25th Anniversary Robusto                                         	BOX OF 20 	$332.28	35.0%   	$215.98
+CLE 25th Anniversary Toro                                            	BOX OF 20 	$353.88	35.0%   	$230.02
+CLE 25th Anniversary 11/18                                           	BOX OF 20 	$371.88	35.0%   	$241.72
+CLE 25th Anniversary Gordo                                           	BOX OF 20 	$371.88	35.0%   	$241.72
+CLE Connecticut Robusto                                              	BOX OF 25 	$248.85	35.0%   	$161.75
+CLE Connecticut Toro                                                 	BOX OF 25 	$269.10	35.0%   	$174.91
+CLE Connecticut Gordo                                                	BOX OF 25 	$275.85	35.0%   	$179.30
+CLE Corojo 11/18                                                     	BOX OF 25 	$264.60	35.0%   	$171.99
+CLE Habano Robusto                                                   	BOX OF 25 	$248.85	35.0%   	$161.75
+CLE Habano 11/18                                                     	BOX OF 25 	$264.60	35.0%   	$171.99
+CLE Habano 654 Toro                                                  	BOX OF 25 	$269.10	35.0%   	$174.91
+CLE Habano Gordo                                                     	BOX OF 25 	$275.85	35.0%   	$179.30
+CLE Maduro Robusto                                                   	BOX OF 25 	$247.47	30.0%   	$173.23
+CLE Maduro 11/18                                                     	BOX OF 25 	$263.13	35.0%   	$171.03
+CLE Maduro Toro                                                      	BOX OF 25 	$267.61	30.0%   	$187.33
+Crowned Heads Tennessee Waltz Corona Gorda                           	BOX OF 21 	$172.46	20.0%   	$137.97
+Crowned Heads Tennessee Waltz OG                                     	BOX OF 21 	$188.21	20.0%   	$150.57
+Crowned Heads Tennessee Waltz Toro                                   	BOX OF 21 	$203.96	20.0%   	$163.17
+Crowned Heads Broadway Robusto Extra                                 	BOX OF 21 	$188.21	20.0%   	$150.57
+Crowned Heads Broadway Epicure                                       	BOX OF 21 	$200.81	20.0%   	$160.65
+Crowned Heads Broadway Toro                                          	BOX OF 21 	$203.96	20.0%   	$163.17
+Crowned Heads Jericho Hill Willy Lee                                 	BOX OF 21 	$181.13	20.0%   	$144.90
+Crowned Heads Juarez OBS                                             	BOX OF 20 	$104.25	20.0%   	$83.40
+Crowned Heads Juarez Jack Brown                                      	BOX OF 20 	$119.25	20.0%   	$95.40
+Crowned Heads Juarez Wlly Lee                                        	BOX OF 20 	$134.25	20.0%   	$107.40
+Crowned Heads La Imperiosa Corona Gorda                              	BOX OF 21 	$161.44	20.0%   	$129.15
+Crowned Heads La Imperiosa Double Robusto                            	BOX OF 21 	$177.19	20.0%   	$141.75
+Crowned Heads Mil Dias Corona Gorda                                  	BOX OF 21 	$156.71	20.0%   	$125.37
+Crowned Heads Mil Dias Edmundo                                       	BOX OF 21 	$172.46	20.0%   	$137.97
+Crowned Heads Mil Dias Double Robusto                                	BOX OF 20 	$176.25	20.0%   	$141.00
+Crowned Heads Mil Dias Maduro Topes Pigtail                          	BOX OF 21 	$192.93	20.0%   	$154.34
+Eiroa CBT 550                                                        	BOX OF 10 	$133.74	35.0%   	$86.93
+Eiroa CBT 660                                                        	BOX OF 10 	$153.54	35.0%   	$99.80
+Eiroa Classic 550                                                    	BOX OF 10 	$133.74	35.0%   	$86.93
+Eiroa Classic 660                                                    	BOX OF 10 	$153.54	35.0%   	$99.80
+Eiroa The First 20 Years 660                                         	BOX OF 10 	$164.34	35.0%   	$106.82
+El Mago Disco Tubos                                                  	BOX OF 10 	$141.41	35.0%   	$91.92
+El Mago El Cubano Tubos                                              	BOX OF 10 	$114.56	35.0%   	$74.46
+El Mago James Avenue Habano                                          	BOX OF 20 	$196.90	35.0%   	$127.98
+El Mago James Avenue Sumatra                                         	BOX OF 20 	$196.90	35.0%   	$127.98
+El Mago James Avenue Connecticut                                     	BOX OF 20 	$196.90	35.0%   	$127.98
+El Mago Lotus Tubos Lancero                                          	BOX OF 10 	$121.72	35.0%   	$79.12
+El Mago Miami Art Deco Edition Tubos                                 	BOX OF 10 	$121.72	35.0%   	$79.12
+El Mago Miami Maduro Tubos                                           	BOX OF 10 	$121.72	35.0%   	$79.12
+El Mago Pepe Tubos                                                   	BOX OF 12 	$177.21	35.0%   	$115.19
+El Mago Renegade Maduro Tubos                                        	BOX OF 8  	$125.30	35.0%   	$81.44
+El Mago Triunfante Connecticut Tubos                                 	BOX OF 10 	$121.72	35.0%   	$79.12
+601 Blue Label Maduro Robusto                                        	BOX OF 20 	$156.10	20.0%   	$124.88
+601 Blue Label Maduro Torpedo                                        	BOX OF 20 	$172.90	20.0%   	$138.32
+601 Green Label Oscuro Corona                                        	BOX OF 20 	$128.10	20.0%   	$102.48
+601 Green Label Oscuro Tronco                                        	BOX OF 20 	$156.10	20.0%   	$124.88
+601 Green Label Oscuro La Fuerza                                     	BOX OF 20 	$169.26	20.0%   	$135.41
+601 Green Label Oscuro La Punta                                      	BOX OF 20 	$169.26	20.0%   	$135.41
+601 Green Label Oscuro Trabuco                                       	BOX OF 20 	$175.00	20.0%   	$140.00
+601 La Bomba F-BOMB                                                  	BOX OF 10 	$89.25 	15.0%   	$75.86
+601 Red Label Habano Robusto                                         	BOX OF 20 	$142.66	20.0%   	$114.13
+601 Red Label Habano Toro                                            	BOX OF 20 	$146.86	20.0%   	$117.49
+601 Red Label Habano Trabuco                                         	BOX OF 20 	$161.00	20.0%   	$128.80
+Espinosa Crema Rabito                                                	BOX OF 10 	$78.33 	20.0%   	$62.66
+Espinosa Crema No.4 Robusto                                          	BOX OF 20 	$163.10	20.0%   	$130.48
+Espinosa Crema Toro Box-Pressed                                      	BOX OF 20 	$171.50	20.0%   	$137.20
+Espinosa Crema Toro Grande No.5                                      	BOX OF 20 	$178.50	20.0%   	$142.80
+Espinosa Habano No. 4 Robusto                                        	BOX OF 20 	$149.10	25.0%   	$111.82
+Espinosa Habano No. 5 Toro                                           	BOX OF 20 	$155.26	25.0%   	$116.44
+Espinosa Habano No. 8 Gordo                                          	BOX OF 20 	$162.26	25.0%   	$121.69
+Espinosa Habano Toro Box-Press                                       	BOX OF 20 	$165.06	25.0%   	$123.79
+Espinosa Knuckle Sandwich Maduro Toro H                              	BOX OF 20 	$246.75	20.0%   	$197.40
+Espinosa Knuckle Sandwich Puro Nicaragua Habano Robusto              	BOX OF 20 	$214.50	20.0%   	$171.60
+Espinosa Knuckle Sandwich Habano Robusto J                           	BOX OF 20 	$222.75	20.0%   	$178.20
+Espinosa Knuckle Sandwich CT Robusto J                               	BOX OF 20 	$222.75	20.0%   	$178.20
+Espinosa Knuckle Sandwich CT Short Churchill G                       	BOX OF 20 	$228.75	20.0%   	$183.00
+Espinosa Knuckle Sandwich Maduro Robusto J                           	BOX OF 20 	$230.25	20.0%   	$184.20
+Espinosa Knuckle Sandwich Puro Nicaragua Habano Toro                 	BOX OF 20 	$230.85	20.0%   	$184.68
+Espinosa Knuckle Sandwich Habano Toro H                              	BOX OF 20 	$238.35	20.0%   	$190.68
+Espinosa Knuckle Sandwich CT Toro H                                  	BOX OF 20 	$238.35	20.0%   	$190.68
+Espinosa Knuckle Sandwich Habano Gordo                               	BOX OF 20 	$246.00	20.0%   	$196.80
+Espinosa Laranja Azulejo Corona Gorda                                	BOX OF 20 	$185.50	20.0%   	$148.40
+Espinosa Laranja Azulejo Robusto Extra                               	BOX OF 20 	$200.90	20.0%   	$160.72
+Espinosa Laranja Azulejo Toro                                        	BOX OF 20 	$207.90	20.0%   	$166.32
+Espinosa Laranja Azulejo Gordo                                       	BOX OF 20 	$219.10	20.0%   	$175.28
+Espinosa Laranja Reserva Escuro Gordo                                	BOX OF 10 	$109.55	20.0%   	$87.64
+Espinosa Sumatra Robusto                                             	BOX OF 20 	$167.86	20.0%   	$134.29
+Espinosa Sumatra Toro                                                	BOX OF 20 	$177.10	20.0%   	$141.68
+Espinosa Sumatra Gordo                                               	BOX OF 20 	$184.10	20.0%   	$147.28
+Ferio Tego Metropolitan Connecticut Union                            	BOX OF 18 	$139.37	35.0%   	$90.59
+Ferio Tego Metropolitan Connecticut University                       	BOX OF 18 	$155.39	35.0%   	$101.00
+Ferio Tego Metropolitan Connecticut Metropolitan                     	BOX OF 18 	$174.62	35.0%   	$113.50
+Ferio Tego Metropolitan Connecticut Gordo                            	BOX OF 18 	$190.64	35.0%   	$123.92
+Ferio Tego Metropolitan Habano Gordito                               	BOX OF 18 	$168.21	35.0%   	$109.34
+Ferio Tego Metropolitan Habano Robusto                               	BOX OF 18 	$168.21	35.0%   	$109.34
+Ferio Tego Metropolitan Habano Toro                                  	BOX OF 18 	$174.62	35.0%   	$113.50
+Ferio Tego Metropolitan Habano Gordo                                 	BOX OF 18 	$190.64	35.0%   	$123.92
+Ferio Tego Metropolitan Maduro Union                                 	BOX OF 18 	$139.37	35.0%   	$90.59
+Ferio Tego Metropolitan Maduro University                            	BOX OF 18 	$155.39	35.0%   	$101.00
+Ferio Tego Metropolitan Maduro Metropolitan                          	BOX OF 18 	$174.62	35.0%   	$113.50
+Ferio Tego Metropolitan Maduro Gordo                                 	BOX OF 18 	$190.64	35.0%   	$123.92
+Ferio Tego Timeless Panamericana Epicure                             	BOX OF 10 	$136.17	35.0%   	$88.51
+Ferio Tego Timeless Panamericana Magnum                              	BOX OF 10 	$143.29	35.0%   	$93.14
+Ferio Tego Timeless Panamericana Gordo                               	BOX OF 10 	$145.07	35.0%   	$94.30
+Ferio Tego Timeless Prestige Hermoso                                 	BOX OF 20 	$217.16	35.0%   	$141.15
+Ferio Tego Timeless Prestige Toro                                    	BOX OF 20 	$229.62	35.0%   	$149.25
+Ferio Tego Timeless Prestige Gordo                                   	BOX OF 20 	$250.98	35.0%   	$163.14
+Ferio Tego Timeless Sterling Delias                                  	BOX OF 10 	$133.50	35.0%   	$86.77
+Ferio Tego Timeless Sterling Robusto                                 	BOX OF 10 	$136.17	35.0%   	$88.51
+Aksum Claro Corona Gorda                                             	BOX OF 10 	$138.06	30.0%   	$96.64
+Aksum Claro Robusto                                                  	BOX OF 10 	$147.24	30.0%   	$103.07
+Aksum Maduro Robusto                                                 	BOX OF 10 	$147.24	30.0%   	$103.07
+Aksum Claro Toro                                                     	BOX OF 10 	$156.24	30.0%   	$109.37
+Aksum Maduro Toro                                                    	BOX OF 10 	$156.24	30.0%   	$109.37
+Aksum Claro Double Corona                                            	BOX OF 10 	$169.92	30.0%   	$118.94
+Aksum Maduro Double Corona                                           	BOX OF 10 	$169.92	30.0%   	$118.94
+Charter Oak Connecticut Broadleaf Maduro Petite Corona               	BOX OF 20 	$126.36	30.0%   	$88.45
+Charter Oak Habano Petite Corona                                     	BOX OF 20 	$126.36	30.0%   	$88.45
+Charter Oak Connecticut Broadleaf Maduro Lonsdale                    	BOX OF 20 	$137.16	30.0%   	$96.01
+Charter Oak Habano Lonsdale                                          	BOX OF 20 	$137.16	30.0%   	$96.01
+Charter Oak Connecticut Broadleaf Maduro Grande                      	BOX OF 20 	$146.52	30.0%   	$102.56
+Charter Oak Habano Grande                                            	BOX OF 20 	$146.52	30.0%   	$102.56
+Charter Oak Especiales Connecticut Broadleaf Maduro Pasquale         	BOX OF 12 	$149.04	30.0%   	$104.33
+Charter Oak Especiales Connecticut Shade Pegnataro                   	BOX OF 12 	$149.04	30.0%   	$104.33
+Foundation Highclere Castle Edwardian Petite Corona                  	BOX OF 20 	$252.36	30.0%   	$176.65
+Foundation Highclere Castle Edwardian Corona                         	BOX OF 20 	$272.88	30.0%   	$191.02
+Highclere Castle Edwardian Shade Robusto                             	BOX OF 20 	$294.84	30.0%   	$206.39
+Highclere Castle Edwardian Shade Toro                                	BOX OF 20 	$313.20	30.0%   	$219.24
+Foundation Highclere Castle Edwardian Churchill                      	BOX OF 24 	$331.20	30.0%   	$231.84
+Foundation Highclere Castle Victorian Petite Corona                  	BOX OF 20 	$252.36	30.0%   	$176.65
+Foundation Highclere Castle Victorian Corona                         	BOX OF 20 	$272.88	30.0%   	$191.02
+Foundation Highclere Castle Victorian Robusto                        	BOX OF 20 	$294.84	30.0%   	$206.39
+Highclere Castle Victorian Churchill                                 	BOX OF 20 	$331.20	30.0%   	$231.84
+Olmec Claro Corona Gorda                                             	BOX OF 12 	$155.74	30.0%   	$109.02
+Olmec Maduro Corona Gorda                                            	BOX OF 12 	$155.74	30.0%   	$109.02
+Olmec Claro Robusto                                                  	BOX OF 12 	$166.54	30.0%   	$116.58
+Olmec Maduro Robusto                                                 	BOX OF 12 	$166.54	30.0%   	$116.58
+Olmec Claro Toro                                                     	BOX OF 12 	$177.55	30.0%   	$124.28
+Olmec Maduro Toro                                                    	BOX OF 12 	$177.55	30.0%   	$124.28
+Olmec Claro Grande                                                   	BOX OF 12 	$190.73	30.0%   	$133.51
+Olmec Maduro Grande                                                  	BOX OF 12 	$190.73	30.0%   	$133.51
+Olmec Claro Doble Corona                                             	BOX OF 12 	$196.13	30.0%   	$137.29
+The Tabernacle Broadleaf Maduro Torpedo                              	BOX OF 24 	$311.04	25.0%   	$233.28
+The Tabernacle Broadleaf Maduro Robusto                              	BOX OF 24 	$311.90	25.0%   	$233.92
+The Tabernacle Broadleaf Maduro Toro                                 	BOX OF 24 	$336.53	25.0%   	$252.40
+The Tabernacle Broadleaf Maduro Lancero                              	BOX OF 24 	$358.56	25.0%   	$268.92
+The Tabernacle Hav. Seed CT #142 Corona                              	BOX OF 24 	$273.46	25.0%   	$205.09
+The Tabernacle Hav. Seed CT #142 Robusto                             	BOX OF 24 	$311.90	25.0%   	$233.92
+The Tabernacle Hav. Seed CT #142 Toro                                	BOX OF 24 	$336.53	25.0%   	$252.40
+The Tabernacle Havana Seed CT #142 David                             	BOX OF 25 	$346.05	25.0%   	$259.54
+The Tabernacle Havana Seed CT #142 Lancero                           	24 CIGARS 	$358.56	25.0%   	$268.92
+The Upsetters The Skipper                                            	BOX OF 20 	$135.68	30.0%   	$94.98
+The Upsetters Small Axe                                              	BOX OF 30 	$152.64	30.0%   	$106.85
+The Upsetters Rock Steady                                            	BOX OF 20 	$215.36	30.0%   	$150.75
+The Upsetters Original Rude Boy                                      	BOX OF 20 	$250.24	30.0%   	$175.17
+Foundation The Wise Man Maduro Corona                                	BOX OF 20 	$200.16	30.0%   	$140.11
+Foundation The Wise Man Corojo Robusto                               	BOX OF 20 	$218.16	30.0%   	$152.71
+Foundation The Wise Man Maduro Robusto                               	BOX OF 20 	$218.16	30.0%   	$152.71
+Foundation The Wise Man Corojo Toro                                  	BOX OF 20 	$236.88	30.0%   	$165.82
+Foundation The Wise Man Maduro Toro                                  	BOX OF 20 	$236.88	30.0%   	$165.82
+Foundation The Wise Man Corojo Doble Corona                          	BOX OF 20 	$255.24	30.0%   	$178.67
+Foundation The Wise Man Maduro Doble Corona                          	BOX OF 20 	$255.24	30.0%   	$178.67
+Foundation The Wise Man Corojo Lancero                               	BOX OF 20 	$274.32	30.0%   	$192.02
+Foundation The Wise Man Maduro Lancero                               	BOX OF 20 	$274.32	30.0%   	$192.02
+H. Upmann Nicaragua Heritage by AJ Fernandez Robusto                 	BOX OF 20 	$206.46	35.0%   	$134.20
+H. Upmann Nicaragua Heritage by AJ Fernandez Toro                    	BOX OF 20 	$215.82	35.0%   	$140.28
+H. Upmann Nicaragua Heritage by AJ Fernandez Torpedo                 	BOX OF 20 	$218.88	35.0%   	$142.27
+H. Upmann Nicaragua Heritage by AJ Fernandez Churchill               	BOX OF 20 	$224.82	35.0%   	$146.13
+H. Upmann by AJ Fernandez Heritage Finca Providencia LE Toro Grande  	BOX OF 20 	$360.00	35.0%   	$234.00
+H. Upmann by AJ Fernandez Robusto                                    	BOX OF 20 	$206.46	35.0%   	$134.20
+H. Upmann by AJ Fernandez Churchill                                  	BOX OF 20 	$224.82	35.0%   	$146.13
+H. Upmann Nicaragua by AJ Fernandez Sunrise Robusto                  	BOX OF 20 	$233.82	35.0%   	$151.98
+H. Upmann Nicaragua by AJ Fernandez Sunrise Magnum                   	BOX OF 20 	$261.00	35.0%   	$169.65
+JFR 20th Anniversary Maduro Box Pressed Super Toro                   	BOX OF 21 	$177.56	35.0%   	$115.41
+JFR 20th Anniversary Maduro Box Pressed 4.75'x70                     	BOX OF 21 	$200.92	35.0%   	$130.60
+JFR 20th Anniversary Maduro Box Pressed Titan                        	BOX OF 21 	$205.59	35.0%   	$133.63
+JFR 20th Anniversary Maduro Box Pressed 7x70                         	BOX OF 21 	$233.63	35.0%   	$151.86
+JFR Lunatic Habano Short Robusto                                     	BOX OF 28 	$186.90	40.0%   	$112.14
+JFR Lunatic Habano Short Titan                                       	BOX OF 28 	$199.11	30.0%   	$139.38
+JFR Lunatic Habano El Chiquito                                       	BOX OF 28 	$236.74	30.0%   	$165.72
+JFR Lunatic Habano Belicoso                                          	BOX OF 24 	$256.11	30.0%   	$179.28
+JFR Lunatic Loco Maduro El Loquito Perfecto                          	BOX OF 10 	$93.45 	35.0%   	$60.74
+JFR Lunatic Maduro Short Robusto                                     	28 CIGARS 	$186.90	35.0%   	$121.48
+JFR Lunatic Maduro Short Titan                                       	BOX OF 28 	$199.11	35.0%   	$129.42
+JFR Lunatic Maduro El Chiquito                                       	BOX OF 28 	$242.97	35.0%   	$157.93
+JFR Lunatic Maduro Lunatic Belicoso                                  	BOX OF 24 	$277.47	35.0%   	$180.36
+JFR Lunatic Maduro Jackhammer                                        	BOX OF 35 	$350.44	35.0%   	$227.79
+Joya de Nicaragua Antano 1970 Consul                                 	BOX OF 20 	$174.23	30.0%   	$121.96
+Joya de Nicaragua Antano 1970 Robusto Grande                         	BOX OF 20 	$190.59	30.0%   	$133.41
+Joya de Nicaragua Antano 1970 Gran Consul                            	BOX OF 20 	$194.68	30.0%   	$136.28
+Joya de Nicaragua Antano 1970 Alisado                                	BOX OF 20 	$206.95	30.0%   	$144.86
+Joya de Nicaragua Antano 1970 Belicoso                               	BOX OF 20 	$211.04	30.0%   	$147.73
+Joya de Nicaragua Antano 1970 Churchill                              	BOX OF 20 	$211.04	30.0%   	$147.73
+Joya de Nicaragua Antano 1970 Magnum                                 	BOX OF 20 	$219.39	30.0%   	$153.57
+Joya de Nicaragua Antano 1970 Big Bull 760                           	BOX OF 20 	$227.40	30.0%   	$159.18
+Joya de Nicaragua Antano Connecticut Corona Gorda                    	BOX OF 20 	$170.14	30.0%   	$119.10
+Joya de Nicaragua Antano Connecticut Robusto                         	BOX OF 20 	$190.59	30.0%   	$133.41
+Joya de Nicaragua Antano Connecticut Toro                            	BOX OF 20 	$206.95	30.0%   	$144.86
+Joya de Nicaragua Antano Dark Corojo El Martill                      	BOX OF 20 	$190.59	30.0%   	$133.41
+Joya de Nicaragua Antano Dark Corojo Pesadilla Belicoso              	BOX OF 20 	$194.68	30.0%   	$136.28
+Joya de Nicaragua Antano Dark Corojo La Niveladora                   	BOX OF 20 	$206.95	30.0%   	$144.86
+Joya de Nicaragua Antano Dark Corojo Poderoso Torpedo                	BOX OF 20 	$211.04	30.0%   	$147.73
+Joya de Nicaragua Antano Gran Reserva Robusto Grande                 	BOX OF 20 	$202.86	30.0%   	$142.00
+Joya de Nicaragua Antano Gran Reserva Gran Consul                    	BOX OF 20 	$210.23	30.0%   	$147.16
+Joya de Nicaragua Cinco de Cinco Corona Extra                        	BOX OF 10 	$134.97	30.0%   	$94.48
+Joya de Nicaragua Cinco de Cinco Robusto Gordo                       	BOX OF 10 	$151.33	30.0%   	$105.93
+Joya de Nicaragua Cinco de Cinco Corona Doble                        	BOX OF 10 	$179.88	30.0%   	$125.92
+Joya de Nicaragua Cinco Decadas El Cumiche                           	BOX OF 10 	$175.87	30.0%   	$123.11
+Joya de Nicaragua Cinco Decadas Fundador                             	BOX OF 10 	$200.41	30.0%   	$140.29
+Joya de Nicaragua Cinco Decadas Diadema                              	BOX OF 10 	$208.59	30.0%   	$146.01
+Joya de Nicaragua Clasico Robusto                                    	BOX OF 25 	$194.28	30.0%   	$136.00
+Joya de Nicaragua Clasico Toro                                       	BOX OF 25 	$204.50	30.0%   	$143.15
+Joya de Nicaragua Clasico Churchill                                  	BOX OF 25 	$208.59	30.0%   	$146.01
+Joya de Nicaragua Clasico Torpedo                                    	BOX OF 25 	$214.73	30.0%   	$150.31
+Joya de Nicaragua Clasico Green Room LE Diadema                      	BOX OF 20 	$220.86	25.0%   	$165.64
+Joya de Nicaragua Clasico Medio Siglo Numero 6                       	BOX OF 25 	$184.05	30.0%   	$128.83
+Joya de Nicaragua Clasico Medio Siglo Robusto                        	BOX OF 25 	$194.28	30.0%   	$136.00
+Joya de Nicaragua Clasico Medio Siglo Gordo                          	BOX OF 25 	$235.17	30.0%   	$164.62
+Joya de Nicaragua Cuatro Cinco Petit Corona                          	BOX OF 10 	$93.25 	30.0%   	$65.27
+Joya de Nicaragua Cuatro Cinco Doble Robusto                         	BOX OF 10 	$123.52	30.0%   	$86.46
+Joya de Nicaragua Cuatro Cinco Torpedo                               	BOX OF 10 	$139.88	30.0%   	$97.92
+Joya de Nicaragua Joya Black Toro                                    	BOX OF 20 	$161.96	30.0%   	$113.37
+Joya de Nicaragua Joya Cabinetta Robusto                             	BOX OF 20 	$152.97	30.0%   	$107.08
+Joya de Nicaragua Joya Cabinetta Toro                                	BOX OF 20 	$161.96	30.0%   	$113.37
+Joya de Nicaragua Joya Red Robusto                                   	BOX OF 20 	$152.97	30.0%   	$107.08
+Joya de Nicaragua Joya Red Toro                                      	BOX OF 20 	$161.96	30.0%   	$113.37
+Joya de Nicaragua Joya Red, White, and Blue LE Toro                  	BOX OF 10 	$110.43	20.0%   	$88.34
+Joya de Nicaragua Joya Silver Corona                                 	BOX OF 20 	$132.52	30.0%   	$92.76
+Joya de Nicaragua Joya Silver Robusto                                	BOX OF 20 	$152.97	30.0%   	$107.08
+Joya de Nicaragua Joya Silver Toro                                   	BOX OF 20 	$161.96	30.0%   	$113.37
+Kristoff 685 Woodlawn Perfecto                                       	BOX OF 10 	$123.25	20.0%   	$98.60
+Kristoff Cameroon Figurado                                           	BOX OF 20 	$130.50	20.0%   	$104.40
+Kristoff Cameroon Robusto                                            	BOX OF 20 	$152.25	20.0%   	$121.80
+Kristoff Cameroon Matador                                            	BOX OF 20 	$170.38	20.0%   	$136.30
+Kristoff Connecticut Robusto                                         	BOX OF 20 	$152.25	20.0%   	$121.80
+Kristoff Connecticut Churchill                                       	BOX OF 20 	$166.75	20.0%   	$133.40
+Kristoff Connecticut 660                                             	BOX OF 20 	$170.38	20.0%   	$136.30
+Kristoff Connecticut Matador                                         	BOX OF 20 	$170.38	20.0%   	$136.30
+Kristoff Corojo Limitada Robusto                                     	BOX OF 20 	$152.25	20.0%   	$121.80
+Kristoff Corojo Limitada Churchill                                   	BOX OF 20 	$166.75	20.0%   	$133.40
+Kristoff GC Signature Series Robusto                                 	BOX OF 20 	$152.25	20.0%   	$121.80
+Kristoff GC Signature Series Torpedo                                 	BOX OF 20 	$159.50	20.0%   	$127.60
+Kristoff GC Signature Series Churchill                               	BOX OF 20 	$166.75	20.0%   	$133.40
+Kristoff GC Signature Series 660                                     	BOX OF 20 	$170.38	20.0%   	$136.30
+Kristoff Guardrail Robusto                                           	BOX OF 20 	$152.25	20.0%   	$121.80
+Kristoff Guardrail Matador                                           	BOX OF 20 	$170.38	20.0%   	$136.30
+Kristoff Habano Robusto                                              	BOX OF 20 	$152.25	20.0%   	$121.80
+Kristoff Habano Matador                                              	BOX OF 20 	$170.38	20.0%   	$136.30
+Kristoff Kristania Robusto                                           	BOX OF 20 	$116.00	20.0%   	$92.80
+Kristoff Kristania Maduro Robusto                                    	BOX OF 20 	$116.00	20.0%   	$92.80
+Kristoff Kristania Maduro Toro                                       	BOX OF 20 	$123.25	20.0%   	$98.60
+Kristoff Kristania Maduro 70                                         	BOX OF 20 	$137.75	20.0%   	$110.20
+Kristoff Ligero Criollo Matador                                      	BOX OF 20 	$170.38	20.0%   	$136.30
+Kristoff Ligero Maduro Robusto                                       	BOX OF 20 	$152.25	20.0%   	$121.80
+Kristoff Ligero Maduro Lancero                                       	BOX OF 20 	$159.50	20.0%   	$127.60
+Kristoff Ligero Maduro Torpedo                                       	BOX OF 20 	$159.50	20.0%   	$127.60
+Kristoff Ligero Maduro Churchill                                     	BOX OF 20 	$166.75	20.0%   	$133.40
+Kristoff Ligero Maduro Matador                                       	BOX OF 20 	$170.38	20.0%   	$136.30
+Kristoff Nicaragua                                                   	BOX OF 20 	$152.25	20.0%   	$121.80
+Kristoff Nicaragua Toro                                              	BOX OF 20 	$166.75	20.0%   	$133.40
+Kristoff Nicaragua 660                                               	BOX OF 20 	$170.38	20.0%   	$136.30
+Kristoff Original Criollo Robusto                                    	BOX OF 20 	$152.25	25.0%   	$114.19
+Kristoff Original Criollo Churchill                                  	BOX OF 20 	$166.75	25.0%   	$125.06
+Kristoff Original Criollo Matador                                    	BOX OF 20 	$170.38	25.0%   	$127.78
+Kristoff Original Maduro Robusto                                     	BOX OF 20 	$152.25	20.0%   	$121.80
+Kristoff Original Maduro Churchill                                   	BOX OF 20 	$166.75	20.0%   	$133.40
+Kristoff Original Maduro Matador                                     	BOX OF 20 	$170.38	20.0%   	$136.30
+Kristoff Pistoff Kristoff Lil                                        	BOX OF 20 	$130.50	20.0%   	$104.40
+Kristoff Pistoff Kristoff Robusto                                    	BOX OF 20 	$152.25	20.0%   	$121.80
+Kristoff Pistoff Kristoff Corona Gorda                               	BOX OF 20 	$159.50	15.0%   	$135.57
+Kristoff Pistoff Kristoff Churchill                                  	BOX OF 20 	$166.75	20.0%   	$133.40
+Kristoff Pistoff Kristoff 660                                        	BOX OF 20 	$170.38	20.0%   	$136.30
+Kristoff Pistoff Kristoff Extremely                                  	BOX OF 20 	$181.25	20.0%   	$145.00
+Kristoff San Andres Robusto                                          	BOX OF 20 	$152.25	20.0%   	$121.80
+Kristoff San Andres 660                                              	BOX OF 20 	$170.38	20.0%   	$136.30
+Kristoff Shade Grown Robusto                                         	BOX OF 20 	$152.25	20.0%   	$121.80
+Kristoff Sumatra Robusto                                             	BOX OF 20 	$152.25	20.0%   	$121.80
+Kristoff Sumatra Lancero                                             	BOX OF 20 	$159.50	20.0%   	$127.60
+Kristoff Sumatra Churchill                                           	BOX OF 20 	$166.75	20.0%   	$133.40
+Kristoff Sumatra Matador                                             	BOX OF 20 	$170.38	20.0%   	$136.30
+Kristoff Tres Compadres Robusto                                      	BOX OF 20 	$152.25	20.0%   	$121.80
+Kristoff Tres Compadres Toro                                         	BOX OF 20 	$166.75	20.0%   	$133.40
+Kristoff Tres Compadres 660                                          	BOX OF 20 	$170.38	20.0%   	$136.30
+Kristoff Veinte 20th Anniversary Toro                                	BOX OF 20 	$210.25	20.0%   	$168.20
+Kristoff Veinte 20th Anniversary 660                                 	BOX OF 20 	$217.50	20.0%   	$174.00
+Kristoff Vengeance Robusto                                           	BOX OF 20 	$152.25	20.0%   	$121.80
+Kristoff Vengeance Toro                                              	BOX OF 20 	$166.75	20.0%   	$133.40
+Kristoff Vengeance 660                                               	BOX OF 20 	$170.38	20.0%   	$136.30
+La Aurora 100 Anos Corojo Churchill                                  	BOX OF 20 	$310.05	30.0%   	$217.03
+La Aurora 107 Ecuador Robusto                                        	BOX OF 20 	$151.05	30.0%   	$105.73
+La Aurora 107 USA Robusto                                            	BOX OF 20 	$151.05	30.0%   	$105.73
+La Aurora 107 Ecuador Toro                                           	BOX OF 20 	$182.85	35.0%   	$118.85
+La Aurora 107 USA Toro                                               	BOX OF 20 	$182.85	30.0%   	$127.99
+La Aurora 107 Ecuador Gran Toro                                      	BOX OF 20 	$190.80	35.0%   	$124.02
+La Aurora 107 Maduro USA Gran Toro                                   	BOX OF 20 	$190.80	30.0%   	$133.56
+La Aurora 107 Nicaragua Robusto                                      	BOX OF 20 	$114.00	15.0%   	$96.90
+La Aurora 107 Nicaragua Toro                                         	BOX OF 20 	$135.00	15.0%   	$114.75
+La Aurora 115 Aniversario Robusto                                    	BOX OF 20 	$166.95	30.0%   	$116.86
+La Aurora 115 Aniversario Toro                                       	BOX OF 20 	$174.90	30.0%   	$122.43
+La Aurora 115 Aniversario Gran Toro                                  	BOX OF 20 	$190.80	30.0%   	$133.56
+La Aurora 120th Anniversary Churchill                                	BOX OF 20 	$266.33	30.0%   	$186.43
+La Aurora 120th Anniversary Toro                                     	BOX OF 20 	$266.33	30.0%   	$186.43
+La Aurora 120th Anniversary Lancero                                  	BOX OF 20 	$286.20	30.0%   	$200.34
+La Aurora ADN Dominicano DNA Robusto                                 	BOX OF 20 	$135.15	30.0%   	$94.60
+La Aurora ADN Dominicano DNA Toro                                    	BOX OF 20 	$151.05	30.0%   	$105.73
+La Aurora Barrel Aged by Karl Malone Sumo Toro                       	BOX OF 20 	$198.75	30.0%   	$139.12
+La Aurora Barrel Aged by Karl Malone Robusto                         	BOX OF 25 	$208.69	30.0%   	$146.08
+La Aurora Cameroon 1903 Robusto                                      	BOX OF 20 	$119.25	25.0%   	$89.44
+La Aurora Cameroon 1903 Toro                                         	BOX OF 20 	$127.20	25.0%   	$95.40
+La Aurora Cameroon 1903 Gran Toro                                    	BOX OF 20 	$135.15	25.0%   	$101.36
+La Aurora Connecticut 1987 Robusto                                   	BOX OF 20 	$119.25	30.0%   	$83.47
+La Aurora Corojo 1962 Robusto                                        	BOX OF 20 	$119.25	30.0%   	$83.47
+La Aurora Corojo 1962 Toro                                           	BOX OF 20 	$127.20	30.0%   	$89.04
+La Aurora Family Creed Fuerte Sol Box Pressed Robusto                	BOX OF 20 	$246.45	30.0%   	$172.51
+La Aurora Family Creed Fuerte Sol Box Pressed Toro                   	BOX OF 20 	$286.20	30.0%   	$200.34
+La Aurora Family Creed Fuerte Sol Box-Pressed Gran Toro              	BOX OF 20 	$294.15	30.0%   	$205.90
+La Aurora Family Creed Perseverancia Robusto                         	BOX OF 20 	$254.40	30.0%   	$178.08
+La Aurora Family Creed Perseverancia Toro                            	BOX OF 20 	$294.15	30.0%   	$205.90
+La Aurora Family Creed Perseverancia Gran Toro                       	BOX OF 20 	$302.10	30.0%   	$211.47
+La Aurora Maduro 1985 Robusto                                        	BOX OF 20 	$126.75	30.0%   	$88.72
+La Aurora Maduro 1985 Toro                                           	BOX OF 20 	$127.20	30.0%   	$89.04
+La Aurora Maduro 1985 Gran Toro                                      	BOX OF 20 	$135.15	30.0%   	$94.60
+La Aurora Preferidos 1903 Emerald Doble Figurado Tubos (Ecuador)     	BOX OF 8  	$184.21	30.0%   	$128.95
+La Aurora Preferidos 1903 Platinum Doble Figurado Tubos (Cameroon)   	BOX OF 8  	$184.21	30.0%   	$128.95
+La Aurora Preferidos 1903 Ruby Doble Figurado Tubos (Maduro)         	BOX OF 8  	$184.21	30.0%   	$128.95
+La Aurora Preferidos 1903 Sapphire Connecticut Doble Figurado Tubos  	BOX OF 8  	$184.21	30.0%   	$128.95
+La Aurora Preferidos 1903 Broadleaf Toro                             	BOX OF 18 	$200.34	30.0%   	$140.24
+La Aurora Preferidos 1903 Cameroon Toro                              	BOX OF 18 	$200.34	30.0%   	$140.24
+La Aurora Preferidos 1903 Connecticut Toro                           	BOX OF 18 	$200.34	30.0%   	$140.24
+La Aurora Preferidos 1903 Ecuador Toro                               	BOX OF 18 	$200.34	30.0%   	$140.24
+La Aurora Preferidos 1903 Maduro Toro                                	BOX OF 18 	$200.34	30.0%   	$140.24
+La Palina 125th Anniversary Gran Robusto                             	BOX OF 10 	$192.00	30.0%   	$134.40
+La Palina 125th Anniversary Toro                                     	BOX OF 10 	$206.96	30.0%   	$144.87
+La Palina 1948 Diadema                                               	BOX OF 10 	$195.50	25.0%   	$146.62
+La Palina 1948 Toro                                                  	BOX OF 10 	$204.00	25.0%   	$153.00
+La Palina Goldie Churchhill                                          	BOX OF 10 	$283.20	30.0%   	$198.24
+Montecristo 1935 Anniversary Nicaragua Robusto                       	BOX OF 10 	$160.29	40.0%   	$96.17
+Montecristo 1935 Anniversary Nicaragua Toro                          	BOX OF 10 	$185.76	40.0%   	$111.46
+Montecristo 1935 Anniversary Nicaragua Churchill                     	BOX OF 10 	$203.94	40.0%   	$122.36
+Montecristo 1935 Anniversary Edicion Nicaragua Diamante Robusto      	BOX OF 10 	$209.88	40.0%   	$125.93
+Montecristo 1935 Anniversary Edicion Nicaragua Diamante No.2 Belicoso	BOX OF 10 	$227.52	35.0%   	$147.89
+Montecristo 1935 Anniversary Edicion Nicaragua Diamante Grande       	BOX OF 10 	$230.94	40.0%   	$138.56
+Montecristo 1935 Anniversary Edicion Nicaragua Diamante Churchill    	BOX OF 10 	$239.40	40.0%   	$143.64
+Montecristo No. 3                                                    	BOX OF 25 	$279.09	15.0%   	$237.23
+Montecristo No. 1                                                    	BOX OF 25 	$320.04	15.0%   	$272.03
+Montecristo Robusto                                                  	BOX OF 25 	$347.92	30.0%   	$243.54
+Montecristo Double Corona                                            	BOX OF 25 	$371.54	15.0%   	$315.81
+Montecristo Churchill                                                	BOX OF 25 	$391.23	15.0%   	$332.55
+Montecristo No.2 Torpedo                                             	BOX OF 25 	$470.45	15.0%   	$399.88
+Montecristo Classic El Conde en Tubos                                	BOX OF 15 	$256.23	40.0%   	$153.74
+Montecristo Classic No. 3                                            	BOX OF 20 	$266.76	40.0%   	$160.06
+Montecristo Classic No. 1                                            	BOX OF 20 	$279.00	40.0%   	$167.40
+Montecristo Classic Robusto                                          	BOX OF 20 	$309.60	35.0%   	$201.24
+Montecristo Classic No. 2 Torpedo                                    	BOX OF 20 	$415.08	40.0%   	$249.05
+Montecristo Espada Conquistador Ricasso                              	BOX OF 10 	$179.55	40.0%   	$107.73
+Montecristo Espada Conquistador Guard                                	BOX OF 10 	$188.55	40.0%   	$113.13
+Montecristo Espada Conquistador Quillion                             	BOX OF 10 	$197.55	40.0%   	$118.53
+Montecristo Espada Conquistador Magnum                               	BOX OF 10 	$202.50	40.0%   	$121.50
+Montecristo Espada Guard                                             	BOX OF 10 	$161.19	40.0%   	$96.71
+Montecristo Espada Quillon                                           	BOX OF 10 	$171.45	40.0%   	$102.87
+Montecristo Espada Magnum Especial                                   	BOX OF 10 	$180.27	40.0%   	$108.16
+Montecristo Espada Oscuro Ricasso                                    	BOX OF 10 	$166.05	40.0%   	$99.63
+Montecristo Espada Oscuro Guard                                      	BOX OF 10 	$169.38	40.0%   	$101.63
+Montecristo Espada Oscuro Magnum                                     	BOX OF 10 	$178.56	40.0%   	$107.14
+Montecristo Nicaragua by AJ Fernandez Robusto                        	BOX OF 20 	$284.94	40.0%   	$170.96
+Montecristo Nicaragua by AJ Fernandez Toro                           	BOX OF 20 	$296.82	40.0%   	$178.09
+Montecristo Nicaragua by AJ Fernandez Churchill                      	BOX OF 20 	$333.90	40.0%   	$200.34
+Montecristo Platinum Toro                                            	BOX OF 27 	$368.87	35.0%   	$239.77
+Montecristo Platinum Habano No. 2 Belicoso                           	BOX OF 27 	$463.89	40.0%   	$278.33
+Montecristo White Rothchilde                                         	BOX OF 10 	$143.28	40.0%   	$85.97
+Montecristo White Montecristo Court en Tubo                          	BOX OF 15 	$191.30	40.0%   	$114.78
+Montecristo White No. 3 Especial                                     	BOX OF 27 	$319.55	40.0%   	$191.73
+Montecristo White Magnum Especial                                    	BOX OF 20 	$347.22	40.0%   	$208.33
+Montecristo White No. 1 Especial                                     	BOX OF 27 	$354.29	40.0%   	$212.57
+Montecristo White Rothschild                                         	BOX OF 27 	$386.86	40.0%   	$232.12
+Montecristo White Toro                                               	BOX OF 27 	$412.86	40.0%   	$247.72
+Montecristo White Churchill                                          	BOX OF 27 	$450.04	40.0%   	$270.02
+Montecristo White No. 2 Belicoso                                     	BOX OF 27 	$519.29	40.0%   	$311.57
+Oscar 2012 Barberpole Lancero                                        	BOX OF 10 	$94.78 	35.0%   	$61.61
+2012 by Oscar Corojo Short Robusto                                   	BOX OF 20 	$143.20	35.0%   	$93.08
+2012 by Oscar Maduro Short Robusto                                   	BOX OF 20 	$143.20	35.0%   	$93.08
+2012 by Oscar Connecticut Toro                                       	BOX OF 20 	$196.01	35.0%   	$127.41
+2012 by Oscar Corojo Toro                                            	BOX OF 20 	$196.01	35.0%   	$127.41
+2012 by Oscar Maduro Toro                                            	BOX OF 20 	$196.01	35.0%   	$127.41
+2012 by Oscar Corojo Sixty                                           	BOX OF 20 	$214.98	35.0%   	$139.74
+2012 by Oscar Maduro Sixty                                           	BOX OF 20 	$214.98	35.0%   	$139.74
+Big Johnny by Oscar                                                  	BOX OF 16 	$235.99	35.0%   	$153.39
+Oscar Colaboraciones LE by Casa Carrillo Toro                        	BOX OF 20 	$322.20	30.0%   	$225.54
+Oscar Colaboraciones LE by Oliva Toro                                	BOX OF 20 	$322.20	30.0%   	$225.54
+Oscar Colaboraciones LE by Oscar Toro                                	BOX OF 20 	$322.20	30.0%   	$225.54
+Island Jim by Oscar Torpedo Natural                                  	BOX OF 21 	$272.15	30.0%   	$190.50
+Leaf by Oscar 10th Anniversary Toro                                  	BOX OF 20 	$242.37	30.0%   	$169.66
+Leaf by Oscar 10th Anniversary Sixty                                 	BOX OF 20 	$263.31	30.0%   	$184.32
+Oscar Valladares Super Fly Connecticut Super Corona                  	BOX OF 10 	$105.34	30.0%   	$73.74
+Oscar Valladares Super Fly Connecticut Toro Grande                   	BOX OF 20 	$242.37	30.0%   	$169.66
+The Oscar Robusto Connecticut                                        	BOX OF 11 	$136.94	30.0%   	$95.86
+The Oscar Robusto Maduro                                             	BOX OF 11 	$136.94	30.0%   	$95.86
+The Oscar Toro Maduro                                                	BOX OF 11 	$149.45	30.0%   	$104.61
+The Oscar Sixty Habano                                               	BOX OF 11 	$162.25	30.0%   	$113.57
+Oscar Valladares 10th Anniversary Toro                               	BOX OF 10 	$179.67	30.0%   	$125.77
+Oscar Valladares 10th Anniversary Sixty                              	BOX OF 10 	$200.26	30.0%   	$140.18
+Oscar Valladares 10th Anniversary Salomon                            	BOX OF 10 	$230.15	30.0%   	$161.10
+Oscar Valladares Ciseron Edition Blue Toro                           	BOX OF 20 	$210.68	30.0%   	$147.48
+Oscar Valladares McFly Natural Toro                                  	BOX OF 20 	$261.16	30.0%   	$182.81
+Wild Hunter by Oscar Toro Oscuro                                     	BOX OF 20 	$210.68	25.0%   	$158.01
+OZ Family Cigars Karatoba Robusto                                    	BOX OF 21 	$207.90	30.0%   	$145.53
+OZ Family Cigars Karatoba Toro                                       	BOX OF 21 	$212.23	30.0%   	$148.56
+OZ Family Cigars Karatoba Gordo                                      	BOX OF 21 	$225.23	30.0%   	$157.66
+Ozgener Family Cigar Maracana Robusto                                	BOX OF 21 	$200.81	25.0%   	$150.61
+OZ Family Cigars Maracana Robusto Extra                              	BOX OF 21 	$212.63	25.0%   	$159.47
+OZ Family Cigars Maracana Gordo                                      	BOX OF 21 	$216.56	25.0%   	$162.42
+Perdomo 20th Anniversary Maduro Epicure                              	BOX OF 24 	$225.00	20.0%   	$180.00
+Perdomo 20th Anniversary Sun Grown Gordo                             	BOX OF 24 	$243.00	20.0%   	$194.40
+Perdomo 30th Anniversary Maduro Epicure                              	BOX OF 30 	$315.00	20.0%   	$252.00
+Perdomo Habano Bourbon Barrel-Aged Connecticut Robusto               	BOX OF 24 	$202.50	20.0%   	$162.00
+Perdomo Habano Bourbon Barrel-Aged Maduro Epicure                    	BOX OF 24 	$211.50	20.0%   	$169.20
+Perdomo Habano Bourbon Barrel-Aged Connecticut Torpedo               	BOX OF 24 	$216.00	20.0%   	$172.80
+Perdomo Habano Bourbon Barrel-Aged Churchill Sungrown                	BOX OF 24 	$220.50	20.0%   	$176.40
+Perdomo Legacy Connecticut Robusto                                   	BOX OF 24 	$252.00	20.0%   	$201.60
+Perdomo Legacy Maduro Epicure                                        	BOX OF 24 	$261.00	25.0%   	$195.75
+Perdomo Lot 23 Connecticut Robusto                                   	BOX OF 24 	$171.00	20.0%   	$136.80
+Perdomo Reserve 10th Anniversary Box-Pressed Robusto Sun Grown       	BOX OF 25 	$210.94	20.0%   	$168.75
+Romeo y Julieta 150th Anniversary Prologue                           	BOX OF 16 	$360.00	35.0%   	$234.00
+Romeo y Julieta 150th Anniversary Balconet                           	BOX OF 16 	$388.80	35.0%   	$252.72
+Saint Luis Rey Rothchilde                                            	BOX OF 25 	$122.97	15.0%   	$104.52
+Saint Luis Rey Toro                                                  	BOX OF 25 	$136.88	15.0%   	$116.35
+Saint Luis Rey Titan                                                 	BOX OF 25 	$152.97	15.0%   	$130.02
+Tatiana Classic Amaretto                                             	BOX OF 25 	$87.41 	15.0%   	$74.30
+Tatiana Classic Cappuccino                                           	BOX OF 25 	$87.41 	15.0%   	$74.30
+Tatiana Classic Caribbean Chill                                      	BOX OF 25 	$87.41 	15.0%   	$74.30
+Tatiana Classic Cherry                                               	BOX OF 25 	$87.41 	15.0%   	$74.30
+Tatiana Classic Chocolate                                            	BOX OF 25 	$87.41 	15.0%   	$74.30
+Tatiana Classic Cinnamon                                             	BOX OF 25 	$87.41 	15.0%   	$74.30
+Tatiana Classic Cognac                                               	BOX OF 25 	$87.41 	15.0%   	$74.30
+Tatiana Classic Fusion Frenzy                                        	BOX OF 25 	$87.41 	15.0%   	$74.30
+Tatiana Classic Harvest Moon                                         	BOX OF 25 	$87.41 	15.0%   	$74.30
+Tatiana Classic Honey                                                	BOX OF 25 	$87.41 	15.0%   	$74.30
+Tatiana Classic Night Cap                                            	BOX OF 25 	$87.41 	15.0%   	$74.30
+Tatiana Classic Rum                                                  	BOX OF 25 	$87.41 	15.0%   	$74.30
+Tatiana Classic Sweet Euphoria                                       	BOX OF 25 	$87.41 	15.0%   	$74.30
+Tatiana Classic Vanilla                                              	BOX OF 25 	$87.41 	15.0%   	$74.30
+Tatiana Classic Waking Dream                                         	BOX OF 25 	$87.41 	15.0%   	$74.30
+Tatiana Robusto Cherry                                               	BOX OF 25 	$112.39	15.0%   	$95.53
+Tatiana Robusto Chocolate                                            	BOX OF 25 	$112.39	15.0%   	$95.53
+Tatiana Robusto Groovy Blue                                          	BOX OF 25 	$112.39	15.0%   	$95.53
+Tatiana Robusto Rum                                                  	BOX OF 25 	$112.39	15.0%   	$95.53
+Tatiana Robusto Vanilla                                              	BOX OF 25 	$112.39	15.0%   	$95.53
+Tatiana Toro 6x54 Chocolate                                          	BOX OF 20 	$116.55	15.0%   	$99.07
+Tatiana Toro Groovy Blue                                             	BOX OF 20 	$116.55	15.0%   	$99.07
+Tatiana Toro Vanilla                                                 	BOX OF 20 	$116.55	15.0%   	$99.07
+Te Amo The Original San Andres Robusto                               	BOX OF 20 	$121.45	20.0%   	$97.16
+Te Amo The Original San Andres Toro                                  	BOX OF 20 	$131.27	20.0%   	$105.02
+Te Amo The Original San Andres Magnum                                	BOX OF 20 	$148.59	20.0%   	$118.87
+The Griffin's Classic Robusto                                        	BOX OF 25 	$266.00	30.0%   	$186.20
+The Griffin's Classic Toro                                           	BOX OF 25 	$297.50	25.0%   	$223.12
+The Griffin's Classic Prestige                                       	BOX OF 25 	$334.25	25.0%   	$250.69
+West Tampa Tobacco Co. Black Robusto                                 	BOX OF 20 	$183.58	30.0%   	$128.51
+West Tampa Tobacco Co. Black Toro                                    	BOX OF 20 	$201.08	30.0%   	$140.76
+West Tampa Tobacco Co. Black Gigante                                 	BOX OF 20 	$218.58	30.0%   	$153.01
+West Tampa Tobacco Co. Chef Rick Toro                                	BOX OF 50 	$568.31	30.0%   	$397.82
+West Tampa Tobacco Co. Circle of Life Robusto                        	BOX OF 20 	$236.08	30.0%   	$165.26
+West Tampa Tobacco Co. Circle of Life Toro                           	BOX OF 20 	$253.58	30.0%   	$177.51
+West Tampa Tobacco Co. Circle of Life Gigante                        	BOX OF 20 	$271.08	30.0%   	$189.76
+West Tampa Tobacco Co. Red Robusto                                   	BOX OF 20 	$183.58	30.0%   	$128.51
+West Tampa Tobacco Co. Red Toro                                      	BOX OF 20 	$201.08	30.0%   	$140.76
+West Tampa Tobacco Co. Red Gigante                                   	BOX OF 20 	$218.58	30.0%   	$153.01
+West Tampa Tobacco Co. White Robusto                                 	BOX OF 20 	$183.58	30.0%   	$128.51
+West Tampa Tobacco Co. White Toro                                    	BOX OF 20 	$201.08	30.0%   	$140.76
+West Tampa Tobacco Co. White Gigante                                 	BOX OF 20 	$218.58	30.0%   	$153.01
+Zino Honduras Robusto                                                	BOX OF 25 	$164.06	35.0%   	$106.64
+Zino Nicaragua Short Torpedo                                         	BOX OF 25 	$150.94	35.0%   	$98.11
+Zino Nicaragua Toro                                                  	BOX OF 25 	$175.00	35.0%   	$113.75
+Zino Nicaragua Gordo                                                 	BOX OF 25 	$190.31	35.0%   	$123.70
+Zino Platinum Crown Barrel Tubos                                     	BOX OF 10 	$443.63	35.0%   	$288.36
+Zino Platinum Crown Rocket Tubos                                     	BOX OF 10 	$470.75	35.0%   	$305.99
+Zino Platinum Crown Chubby Especial                                  	BOX OF 10 	$565.25	35.0%   	$367.41
+Zino Platinum Scepter Series Grand Master                            	BOX OF 12 	$219.45	35.0%   	$142.64
+Zino Platinum Scepter Series Chubby                                  	BOX OF 12 	$223.65	35.0%   	$145.37
+Zino Platinum Scepter Series Grand Master Tubos                      	BOX OF 20 	$378.00	40.0%   	$226.80
+Zino Platinum Scepter Series Chubby Tubos                            	BOX OF 20 	$381.50	40.0%   	$228.90
